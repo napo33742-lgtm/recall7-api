@@ -30,6 +30,13 @@
                          "id":  5,
                          "filename":  "chapter_5.json",
                          "version":  1
+                     },
+        
+                     {
+                         "title":  "Manufacturing Industries",
+                         "id":  6,
+                         "filename":  "chapter_6.json",
+                         "version":  1
                      }
                  ]
 }
