@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "MFG_IND_001",
+    "category": "Economic Geography & Sectoral Foundations",
+    "topic": "Definition of Manufacturing and Secondary Economic Sector",
+    "anchor_sentence": "Manufacturing comprises processing raw materials into higher-value finished commodities in large quantities, engaging secondary sector workers across paper mills, sugar refineries, car manufacturing, and steel fabrication.",
+    "pass1": {
+      "prompt": "Manufacturing comprises processing raw materials into higher-value finished commodities in large quantities, engaging [BLANK_1] sector workers across paper mills, [BLANK_2] refineries, and steel fabrication.",
+      "inputs": ["secondary", "sugar"]
+    },
+    "pass2": {
+      "prompt": "Manufacturing transforms primary resources into finished goods, providing employment in [BLANK_1] industries that determine a nation's overall [BLANK_2] strength.",
+      "inputs": ["secondary", "economic"]
+    },
+    "pass3": {
+      "prompt": "Manufacturing activities belong to the [BLANK_1] economic sector, directly processing primary inputs into consumable assets.",
+      "inputs": ["secondary"]
+    },
+    "pass4": {
+      "prompt": "The conversion of bulk primary matter into refined commercial items using machinery is officially designated as [BLANK_1].",
+      "inputs": ["manufacturing"]
+    },
+    "pass5": {
+      "prompt": "Manufacturing comprises dismantling finished commodities into raw materials in minute portions, engaging primary sector farmers across untamed pastures.",
+      "corrections": [
+        {"wrong": "dismantling finished commodities into raw materials", "right": "processing raw materials into higher-value finished commodities"},
+        {"wrong": "primary sector farmers across untamed pastures", "right": "secondary sector workers across paper mills, sugar refineries, car manufacturing, and steel fabrication"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Manufacturing comprises processing raw materials",
+        "into higher-value finished commodities in large quantities,",
+        "engaging secondary sector workers across paper mills,",
+        "sugar refineries, car manufacturing, and steel fabrication."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "{1} consists of converting bulk raw materials into valuable goods, employing workers in the {2} sector across {3} production and metallurgical processing.",
+      "keys": [
+        "Manufacturing",
+        "secondary",
+        "textile"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_002",
+    "category": "Developmental Economics",
+    "topic": "Socio-Economic Importance of Manufacturing",
+    "anchor_sentence": "Manufacturing serves as the backbone of economic development by modernizing agricultural productivity, generating employment across secondary and tertiary sectors, mitigating poverty, and earning foreign exchange through manufactured exports.",
+    "pass1": {
+      "prompt": "Manufacturing serves as the backbone of economic development by modernizing [BLANK_1], mitigating poverty, and earning [BLANK_2] exchange through exports.",
+      "inputs": ["agriculture", "foreign"]
+    },
+    "pass2": {
+      "prompt": "Industrial growth functions as a historical prerequisite to eradicate [BLANK_1] and reduce dependency on agricultural [BLANK_2].",
+      "inputs": ["unemployment", "income"]
+    },
+    "pass3": {
+      "prompt": "Manufacturing shifts labor from farming into [BLANK_1] distinct alternate avenues: secondary factories and tertiary service systems.",
+      "inputs": ["two"]
+    },
+    "pass4": {
+      "prompt": "By providing industrial machinery, fertilizers, and irrigation hardware, secondary processing accelerates [BLANK_1] modernization.",
+      "inputs": ["agricultural"]
+    },
+    "pass5": {
+      "prompt": "Manufacturing serves as the ruin of economic development by destroying agricultural productivity, creating universal unemployment, and expelling foreign exchange through import bans.",
+      "corrections": [
+        {"wrong": "ruin of economic development", "right": "backbone of economic development"},
+        {"wrong": "destroying agricultural productivity, creating universal unemployment", "right": "modernizing agricultural productivity, generating employment across secondary and tertiary sectors"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Manufacturing serves as the backbone of economic development",
+        "by modernizing agricultural productivity,",
+        "generating employment across secondary and tertiary sectors,",
+        "mitigating poverty, and earning foreign exchange through manufactured exports."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Industrialization drives {1} growth by modernizing {2}, absorbing redundant rural labor into {3} jobs, and generating international {4}.",
+      "keys": [
+        "economic",
+        "agriculture",
+        "factory",
+        "revenue"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_003",
+    "category": "Industrial Location Economics",
+    "topic": "Industrial Location Factors and Agglomeration Economies",
+    "anchor_sentence": "Industrial locations are determined by the availability of raw materials, labor, capital, power, and market connectivity, frequently concentrating near cities to exploit agglomeration economies.",
+    "pass1": {
+      "prompt": "Industrial locations depend on raw materials, power, and market access, frequently concentrating near cities to exploit [BLANK_1] [BLANK_2].",
+      "inputs": ["agglomeration", "economies"]
+    },
+    "pass2": {
+      "prompt": "Enterprises converge within urban perimeters to access [BLANK_1], financial services, and shared municipal [BLANK_2].",
+      "inputs": ["banking", "infrastructure"]
+    },
+    "pass3": {
+      "prompt": "Industrial location decisions seek to identify points where cumulative production and distribution expenses reach an absolute [BLANK_1].",
+      "inputs": ["minimum"]
+    },
+    "pass4": {
+      "prompt": "The structural cost benefits derived when multiple industrial plants co-locate within urban centers are designated as [BLANK_1].",
+      "inputs": ["agglomeration economies"]
+    },
+    "pass5": {
+      "prompt": "Industrial locations are determined by total isolation from raw materials, labor, capital, and markets, deliberately avoiding cities to escape agglomeration economies.",
+      "corrections": [
+        {"wrong": "total isolation from", "right": "availability of"},
+        {"wrong": "deliberately avoiding cities to escape", "right": "frequently concentrating near cities to exploit"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Industrial locations are determined by the availability of raw materials,",
+        "labor, capital, power, and market connectivity,",
+        "frequently concentrating near cities",
+        "to exploit agglomeration economies."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Factory positioning hinges on low {1} costs and access to {2}, clustering around urban centers to leverage {3} economies.",
+      "keys": [
+        "input",
+        "markets",
+        "agglomeration"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_004",
+    "category": "Industrial Classification & Taxonomy",
+    "topic": "Raw Material Based Classification",
+    "anchor_sentence": "Industries are classified by raw material origins into agro-based enterprises utilizing natural biological products like cotton, jute, and sugar, and mineral-based plants processing geological ores like iron, limestone, and bauxite.",
+    "pass1": {
+      "prompt": "Industries are categorized into [BLANK_1] units processing crops and [BLANK_2] units smelting metal ores and cement minerals.",
+      "inputs": ["agro-based", "mineral-based"]
+    },
+    "pass2": {
+      "prompt": "Textiles and edible oils represent [BLANK_1] enterprises, whereas petrochemicals and steel smelting constitute [BLANK_2] enterprises.",
+      "inputs": ["agro-based", "mineral-based"]
+    },
+    "pass3": {
+      "prompt": "Based on input sources, manufacturing operations are partitioned into [BLANK_1] primary taxonomic divisions: agro-based and mineral-based.",
+      "inputs": ["two"]
+    },
+    "pass4": {
+      "prompt": "Manufacturing plants that consume metallic and non-metallic minerals mined from geological strata are officially designated as [BLANK_1] industries.",
+      "inputs": ["mineral-based"]
+    },
+    "pass5": {
+      "prompt": "Industries are classified by raw material origins into agro-based enterprises processing geological iron ore, and mineral-based plants harvesting fresh cotton bolls.",
+      "corrections": [
+        {"wrong": "agro-based enterprises processing geological iron ore", "right": "agro-based enterprises utilizing natural biological products like cotton, jute, and sugar"},
+        {"wrong": "mineral-based plants harvesting fresh cotton bolls", "right": "mineral-based plants processing geological ores like iron, limestone, and bauxite"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Industries are classified by raw material origins",
+        "into agro-based enterprises utilizing natural biological products like cotton, jute, and sugar,",
+        "and mineral-based plants processing geological ores like iron, limestone, and bauxite."
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7": {
+      "template": "Input sources divide manufacturing into {1} industries reliant on farm produce, and {2} industries reliant on extracted ores and {3}.",
+      "keys": [
+        "agro-based",
+        "mineral-based",
+        "quarrying"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_005",
+    "category": "Functional Role Classification",
+    "topic": "Basic Key Industries versus Consumer Industries",
+    "anchor_sentence": "According to their operational role, basic or key industries manufacture essential supplies and metals used as raw materials by secondary producers, whereas consumer industries yield finished end-products directly for public consumption.",
+    "pass1": {
+      "prompt": "According to functional roles, [BLANK_1] industries provide raw inputs for other factories, while [BLANK_2] industries manufacture direct end-user items.",
+      "inputs": ["basic", "consumer"]
+    },
+    "pass2": {
+      "prompt": "Iron smelting and copper refining function as [BLANK_1] industries, while paper, toothpaste, and fans represent [BLANK_2] goods.",
+      "inputs": ["basic", "consumer"]
+    },
+    "pass3": {
+      "prompt": "Functional taxonomy bifurcates secondary production into [BLANK_1] primary structural roles: basic intermediate refining and final consumer manufacturing.",
+      "inputs": ["two"]
+    },
+    "pass4": {
+      "prompt": "Smelting and machine tool installations that furnish intermediate capital inputs to other manufacturers are categorized as [BLANK_1] industries.",
+      "inputs": ["basic or key"]
+    },
+    "pass5": {
+      "prompt": "Basic key industries yield finished cosmetic toothpastes for individual home use, whereas consumer industries produce pig iron exclusively for industrial foundries.",
+      "corrections": [
+        {"wrong": "Basic key industries yield finished cosmetic toothpastes", "right": "Basic or key industries manufacture essential supplies and metals used as raw materials"},
+        {"wrong": "consumer industries produce pig iron exclusively", "right": "consumer industries yield finished end-products directly"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "According to their operational role,",
+        "basic or key industries manufacture essential supplies and metals",
+        "used as raw materials by secondary producers,",
+        "whereas consumer industries yield finished end-products directly for public consumption."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Enterprises like copper smelters represent {1} industries feeding other factories, while baking and paper manufacturing operate as {2} industries.",
+      "keys": [
+        "basic",
+        "consumer"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_006",
+    "category": "Enterprise Scale & Investment Ceilings",
+    "topic": "Small Scale Industry Capital Thresholds",
+    "anchor_sentence": "A small scale industrial unit is statutorily defined with reference to the maximum permissible capital investment on plant assets, holding an upper ceiling limit of rupees one crore.",
+    "pass1": {
+      "prompt": "A small scale industrial unit is defined by capital limits on assets, currently capped at an upper threshold of rupees [BLANK_1] [BLANK_2].",
+      "inputs": ["one", "crore"]
+    },
+    "pass2": {
+      "prompt": "Statutory definitions identify [BLANK_1] enterprises by benchmarking the gross capital invested in machinery and unit [BLANK_2].",
+      "inputs": ["small scale", "assets"]
+    },
+    "pass3": {
+      "prompt": "The maximum permissible investment threshold for qualifying as a small-scale industrial unit in the curriculum is rupees [BLANK_1] crore.",
+      "inputs": ["1"]
+    },
+    "pass4": {
+      "prompt": "The monetary benchmarking index used by economic authorities to classify enterprise scale is [BLANK_1].",
+      "inputs": ["capital investment"]
+    },
+    "pass5": {
+      "prompt": "A small scale industrial unit is statutorily defined with reference to the zero permissible capital investment on plant assets, holding an upper ceiling limit of five hundred rupees.",
+      "corrections": [
+        {"wrong": "zero permissible", "right": "maximum permissible"},
+        {"wrong": "five hundred rupees", "right": "rupees one crore"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "A small scale industrial unit is statutorily defined",
+        "with reference to the maximum permissible capital investment on plant assets,",
+        "holding an upper ceiling limit of rupees one crore."
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7": {
+      "template": "The legal categorization of a {1} industry depends on fixed asset ceilings, capped at rupees {2} {3}.",
+      "keys": [
+        "small scale",
+        "one",
+        "crore"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_007",
+    "category": "Ownership Models & Public Finance",
+    "topic": "Public, Private, Joint, and Cooperative Ownership Sectors",
+    "anchor_sentence": "Industrial ownership spans public entities like BHEL and SAIL, private firms like TISCO, joint ventures like Oil India Limited, and cooperative models where agricultural raw-material producers pool resources, exemplified by Maharashtra sugar mills and Kerala coir units.",
+    "pass1": {
+      "prompt": "Industrial ownership includes public bodies like SAIL, private firms like TISCO, joint firms like [BLANK_1] India Limited, and [BLANK_2] units pooling resources.",
+      "inputs": ["Oil", "cooperative"]
+    },
+    "pass2": {
+      "prompt": "Joint sector ventures are run jointly by the [BLANK_1] and private individuals, while cooperative sugar factories dominate in [BLANK_2].",
+      "inputs": ["state", "Maharashtra"]
+    },
+    "pass3": {
+      "prompt": "Industrial enterprises in India are partitioned into [BLANK_1] distinct ownership categories based on legal proprietary frameworks.",
+      "inputs": ["four"]
+    },
+    "pass4": {
+      "prompt": "Enterprises owned, financed, and operated collectively by primary producers who share returns proportionately are termed [BLANK_1] industries.",
+      "inputs": ["cooperative sector"]
+    },
+    "pass5": {
+      "prompt": "Industrial ownership is restricted entirely to foreign cartels, outlawing public entities like BHEL and SAIL and banning cooperative sugar mills in Maharashtra.",
+      "corrections": [
+        {"wrong": "restricted entirely to foreign cartels", "right": "spans public, private, joint, and cooperative sectors"},
+        {"wrong": "banning cooperative sugar mills in Maharashtra", "right": "exemplified by Maharashtra sugar mills and Kerala coir units"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Industrial ownership spans public entities like BHEL and SAIL,",
+        "private firms like TISCO, joint ventures like Oil India Limited,",
+        "and cooperative models where agricultural raw-material producers pool resources,",
+        "exemplified by Maharashtra sugar mills and Kerala coir units."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "State agencies govern {1} companies like SAIL, individuals control {2} firms like TISCO, while {3} setups unite producers in regional agro-processing.",
+      "keys": [
+        "public sector",
+        "private",
+        "cooperative"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_008",
+    "category": "Physical Weight Metrics",
+    "topic": "Heavy versus Light Industrial Classification",
+    "anchor_sentence": "Differentiated by the physical mass of inputs and finished products, heavy industries handle bulky, dense matter like iron smelting, whereas light industries utilize lower-weight materials to produce compact commodities like electrical equipment.",
+    "pass1": {
+      "prompt": "Based on bulk and weight, [BLANK_1] industries process high-mass steel inputs, while [BLANK_2] industries assemble compact consumer electronics.",
+      "inputs": ["heavy", "light"]
+    },
+    "pass2": {
+      "prompt": "Freight expenses dictate that [BLANK_1] metallurgy establishes near bulk resources, while [BLANK_2] goods industries deploy flexible logistics.",
+      "inputs": ["heavy", "electrical"]
+    },
+    "pass3": {
+      "prompt": "Weight taxonomy separates physical production into [BLANK_1] broad volumetric categories: heavy fabrication and light manufacturing.",
+      "inputs": ["two"]
+    },
+    "pass4": {
+      "prompt": "Enterprises consuming voluminous raw materials and yielding heavy finished cargo with extensive freight costs are classified as [BLANK_1] industries.",
+      "inputs": ["heavy"]
+    },
+    "pass5": {
+      "prompt": "Heavy industries manufacture miniature watches and fuse wires using weightless cotton, whereas light industries melt thousands of tonnes of iron ore to build railway engines.",
+      "corrections": [
+        {"wrong": "Heavy industries manufacture miniature watches and fuse wires", "right": "heavy industries handle bulky, dense matter like iron smelting"},
+        {"wrong": "light industries melt thousands of tonnes of iron ore", "right": "light industries utilize lower-weight materials to produce compact commodities"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Differentiated by the physical mass of inputs and finished products,",
+        "heavy industries handle bulky, dense matter like iron smelting,",
+        "whereas light industries utilize lower-weight materials",
+        "to produce compact commodities like electrical equipment."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Based on freight tonnage, {1} plants process massive ores and structural girders, while {2} plants assemble lightweight components like {3} fixtures.",
+      "keys": [
+        "heavy",
+        "light",
+        "electrical"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_009",
+    "category": "Agro-Textile Integration",
+    "topic": "Self-Reliance and Value Chain Completeness in Textiles",
+    "anchor_sentence": "Holding a unique position in the Indian economy through massive employment generation and foreign export earnings, the textile industry is the only domestic manufacturing sector that is self-reliant and complete across every value-addition stage.",
+    "pass1": {
+      "prompt": "The textile sector holds a unique economic status, operating as the sole domestic industry that is [BLANK_1] and complete across its entire [BLANK_2] chain.",
+      "inputs": ["self-reliant", "value"]
+    },
+    "pass2": {
+      "prompt": "From harvesting raw fiber to retailing manufactured garments, the [BLANK_1] sector generates widespread [BLANK_2] without foreign component reliance.",
+      "inputs": ["textile", "employment"]
+    },
+    "pass3": {
+      "prompt": "The domestic textile value network integrates [BLANK_1] sequential phases: fiber cultivation, yarn spinning, fabric weaving, wet dyeing, and finished garment fabrication.",
+      "inputs": ["five"]
+    },
+    "pass4": {
+      "prompt": "The industrial attribute wherein an entire production sequence from raw matter to final luxury garment occurs entirely within domestic borders is termed [BLANK_1].",
+      "inputs": ["self-reliance"]
+    },
+    "pass5": {
+      "prompt": "Holding zero position in the Indian economy, the textile industry is the only domestic manufacturing sector that is completely dependent on foreign fiber imports for every single stage.",
+      "corrections": [
+        {"wrong": "zero position", "right": "a unique position"},
+        {"wrong": "completely dependent on foreign fiber imports", "right": "self-reliant and complete across every value-addition stage"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Holding a unique position in the Indian economy",
+        "through massive employment generation and foreign export earnings,",
+        "the textile industry is the only domestic manufacturing sector",
+        "that is self-reliant and complete across every value-addition stage."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "India's {1} industry retains a complete domestic {2} chain, transforming primary {3} into finished garments while generating significant {4} revenue.",
+      "keys": [
+        "textile",
+        "value",
+        "fiber",
+        "export"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_010",
+    "category": "Textile History & Industrial Clusters",
+    "topic": "Evolution and Colonial Retardation of the Cotton Textile Industry",
+    "anchor_sentence": "While ancient Indian handloom weaving suffered major colonial setbacks against cheap mill-made cloth imported from England, the first successful modern power-driven cotton mill was established at Mumbai in 1854.",
+    "pass1": {
+      "prompt": "Ancient handlooms suffered colonial setbacks against English imports, until India's first modern cotton textile mill was set up at [BLANK_1] in [BLANK_2].",
+      "inputs": ["Mumbai", "1854"]
+    },
+    "pass2": {
+      "prompt": "Indigenous [BLANK_1] suffered declines under British trade policy until mechanized mills expanded in western India under domestic [BLANK_2] leadership.",
+      "inputs": ["weavers", "textile"]
+    },
+    "pass3": {
+      "prompt": "The foundational mechanization of India's modern commercial cotton textile industry dates back to the year [BLANK_1].",
+      "inputs": ["1854"]
+    },
+    "pass4": {
+      "prompt": "Traditional manual fabric production using wooden charkhas and pit looms is classified historically as [BLANK_1] weaving.",
+      "inputs": ["handloom"]
+    },
+    "pass5": {
+      "prompt": "Ancient Indian handloom weaving prospered by crushing English factory mills, leading the British Crown to build the first modern mill at Srinagar in 1702.",
+      "corrections": [
+        {"wrong": "prospered by crushing English factory mills", "right": "suffered major colonial setbacks against cheap mill-made cloth imported from England"},
+        {"wrong": "Srinagar in 1702", "right": "Mumbai in 1854"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "While ancient Indian handloom weaving suffered major colonial setbacks",
+        "against cheap mill-made cloth imported from England,",
+        "the first successful modern power-driven cotton mill",
+        "was established at Mumbai in 1854."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Traditional cloth manufacturing declined under British tariffs, but modern mechanization commenced when {1} opened its premier mill in {2}.",
+      "keys": [
+        "Mumbai",
+        "1854"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_011",
+    "category": "Industrial Spatial Geography",
+    "topic": "Early Concentration of Cotton Mills in Maharashtra and Gujarat",
+    "anchor_sentence": "The early cotton textile industry localized within Maharashtra and Gujarat due to the ready availability of raw black-soil cotton, humid port climates, transport links, accessible coastal harbors, and abundant manual labor.",
+    "pass1": {
+      "prompt": "Early cotton mills concentrated in Maharashtra and [BLANK_1] because of black-soil lint, accessible ports, and [BLANK_2] atmospheric conditions.",
+      "inputs": ["Gujarat", "humid"]
+    },
+    "pass2": {
+      "prompt": "The agrarian cotton belt provided immediate lint inputs to industrial [BLANK_1], whose maritime trade was facilitated through coastal [BLANK_2] facilities.",
+      "inputs": ["mills", "port"]
+    },
+    "pass3": {
+      "prompt": "The initial localization of Indian cotton spinning rested upon [BLANK_1] primary western commercial states bordering the Arabian Sea.",
+      "inputs": ["two"]
+    },
+    "pass4": {
+      "prompt": "The geographical clustering of manufacturing units driven by physical and logistical resource proximity is designated as industrial [BLANK_1].",
+      "inputs": ["localization"]
+    },
+    "pass5": {
+      "prompt": "The early cotton textile industry localized within the Thar desert due to the complete absence of raw cotton, freezing polar winds, and zero port facilities.",
+      "corrections": [
+        {"wrong": "Thar desert", "right": "Maharashtra and Gujarat"},
+        {"wrong": "complete absence of raw cotton, freezing polar winds", "right": "ready availability of raw black-soil cotton, humid port climates"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "The early cotton textile industry localized within Maharashtra and Gujarat",
+        "due to the ready availability of raw black-soil cotton,",
+        "humid port climates, transport links,",
+        "accessible coastal harbors, and abundant manual labor."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Proximity to {1} crops, humid marine air, and {2} infrastructure established the primary cotton manufacturing cluster across {3} and Gujarat.",
+      "keys": [
+        "raw cotton",
+        "port",
+        "Maharashtra"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_012",
+    "category": "Agro-Textile Production Architecture",
+    "topic": "Divergence between Spinning Centralization and Weaving Decentralization",
+    "anchor_sentence": "While spinning infrastructure remains centralized across world-class mills in Maharashtra, Gujarat, and Tamil Nadu, fabric weaving is widely decentralized into small powerlooms, handlooms, and cottage units to preserve regional artisan embroidery and design traditions.",
+    "pass1": {
+      "prompt": "Yarn spinning is centralized in states like Tamil Nadu, whereas [BLANK_1] is widely [BLANK_2] to preserve traditional cottage artisan skills.",
+      "inputs": ["weaving", "decentralized"]
+    },
+    "pass2": {
+      "prompt": "High-speed spinning mills produce international-grade [BLANK_1], whereas decentralized handloom [BLANK_2] incorporate zari and regional embroidery.",
+      "inputs": ["yarn", "weavers"]
+    },
+    "pass3": {
+      "prompt": "India's modern cotton processing chain is split geographically between [BLANK_1] centralized spinning states and thousands of dispersed regional weaving pockets.",
+      "inputs": ["three"]
+    },
+    "pass4": {
+      "prompt": "The domestic cottage practice of manufacturing handspun, hand-woven yarn and cloth celebrated by Mahatma Gandhi is designated as [BLANK_1].",
+      "inputs": ["khadi"]
+    },
+    "pass5": {
+      "prompt": "Spinning infrastructure remains completely decentralized across remote desert tents, while weaving is legally restricted to a single centralized corporate mill in Kolkata.",
+      "corrections": [
+        {"wrong": "decentralized across remote desert tents", "right": "centralized across world-class mills in Maharashtra, Gujarat, and Tamil Nadu"},
+        {"wrong": "weaving is legally restricted to a single centralized corporate mill", "right": "fabric weaving is widely decentralized into small powerlooms, handlooms, and cottage units"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "While spinning infrastructure remains centralized",
+        "across world-class mills in Maharashtra, Gujarat, and Tamil Nadu,",
+        "fabric weaving is widely decentralized into small powerlooms, handlooms, and cottage units",
+        "to preserve regional artisan embroidery and design traditions."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "India produces premium {1} in large mechanized plants, but {2} remains dispersed across {3} and cottage units to sustain local crafts.",
+      "keys": [
+        "yarn",
+        "weaving",
+        "handloom"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_013",
+    "category": "Agro-Industrial Fluvial Belts",
+    "topic": "Spatial Economics of the Hugli River Jute Basin",
+    "anchor_sentence": "Holding top global standing in raw jute output and ranking second to Bangladesh in finished exports, India's jute industry concentrates along West Bengal's Hugli river, anchored by cheap water transport, abundant processing water, nearby coal, and inexpensive immigrant labor.",
+    "pass1": {
+      "prompt": "India leads raw jute production and ranks second in exports to [BLANK_1], with mills concentrating along the [BLANK_2] river in West Bengal.",
+      "inputs": ["Bangladesh", "Hugli"]
+    },
+    "pass2": {
+      "prompt": "Jute processing plants require large volumes of fresh [BLANK_1], drawing migrant factory [BLANK_2] from adjoining Bihar, Odisha, and Uttar Pradesh.",
+      "inputs": ["water", "labor"]
+    },
+    "pass3": {
+      "prompt": "Following the 1947 Partition, India retained almost all processing mills, while [BLANK_1] of the prime jute cultivation acreage went to East Pakistan.",
+      "inputs": ["three-fourths"]
+    },
+    "pass4": {
+      "prompt": "The historical riverside manufacturing corridor in Bengal dedicated to spinning and weaving coarse bast fiber is the [BLANK_1] jute belt.",
+      "inputs": ["Hugli"]
+    },
+    "pass5": {
+      "prompt": "Holding zero global standing in raw jute output, India's jute industry concentrates on mountain peaks in Ladakh, completely isolated from water supplies or human labor.",
+      "corrections": [
+        {"wrong": "zero global standing in raw jute output", "right": "top global standing in raw jute output and ranking second to Bangladesh in finished exports"},
+        {"wrong": "mountain peaks in Ladakh, completely isolated from water supplies", "right": "West Bengal's Hugli river, anchored by cheap water transport, abundant processing water"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Holding top global standing in raw jute output and ranking second to Bangladesh in finished exports,",
+        "India's jute industry concentrates along West Bengal's Hugli river,",
+        "anchored by cheap water transport, abundant processing water,",
+        "nearby coal, and inexpensive immigrant labor."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Operating near Kolkata, the {1} river basin hosts the bulk of {2} mills, supported by inexpensive {3} shipping and water for retting.",
+      "keys": [
+        "Hugli",
+        "jute",
+        "inland"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_014",
+    "category": "Historical Industrial Disruption",
+    "topic": "The Inception of Rishra Jute Mill and the 1947 Partition Shock",
+    "anchor_sentence": "Established initially at Rishra near Kolkata in 1855, the Indian jute processing sector suffered a severe structural disruption during the 1947 Partition when three-fourths of prime jute farmland went to East Pakistan while the manufacturing mills remained in India.",
+    "pass1": {
+      "prompt": "The first jute mill was established at [BLANK_1] in 1855, but the 1947 Partition transferred [BLANK_2] of raw growing tracts to East Pakistan.",
+      "inputs": ["Rishra", "three-fourths"]
+    },
+    "pass2": {
+      "prompt": "The border demarcation separated Indian [BLANK_1] owners from their primary agricultural [BLANK_2] growers in East Bengal.",
+      "inputs": ["mill", "jute"]
+    },
+    "pass3": {
+      "prompt": "The first modern mechanized jute mill in the subcontinent was set up near Kolkata in the year [BLANK_1].",
+      "inputs": ["1855"]
+    },
+    "pass4": {
+      "prompt": "The historical geopolitical event that triggered an immediate shortage of raw agricultural fiber for domestic mills is known as the [BLANK_1].",
+      "inputs": ["1947 Partition"]
+    },
+    "pass5": {
+      "prompt": "Established initially at Rishra in 1999, the Indian jute sector suffered when all manufacturing mills moved to London while India kept all farms.",
+      "corrections": [
+        {"wrong": "1999", "right": "1855"},
+        {"wrong": "all manufacturing mills moved to London while India kept all farms", "right": "three-fourths of prime jute farmland went to East Pakistan while the manufacturing mills remained in India"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Established initially at Rishra near Kolkata in 1855,",
+        "the Indian jute processing sector suffered a severe structural disruption",
+        "during the 1947 Partition when three-fourths of prime jute farmland went to East Pakistan",
+        "while the manufacturing mills remained in India."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Subcontinental jute milling began at {1} in {2}, but borders drawn in {3} isolated the factories from {4} of their agricultural base.",
+      "keys": [
+        "Rishra",
+        "1855",
+        "1947",
+        "three-fourths"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_015",
+    "category": "Agro-Industrial Dynamics",
+    "topic": "Agronomic Bulking and Seasonal Cooperatives in the Sugar Industry",
+    "anchor_sentence": "Because harvested sugarcane is bulky and undergoes rapid sucrose loss during transport, processing mills are localized near cane belts across Uttar Pradesh and Bihar, adopting cooperative structures to manage the seasonal nature of harvesting.",
+    "pass1": {
+      "prompt": "Sugarcane is bulky and loses [BLANK_1] during transit, making processing highly seasonal and ideally organized under [BLANK_2] societies.",
+      "inputs": ["sucrose", "cooperative"]
+    },
+    "pass2": {
+      "prompt": "Over sixty percent of northern processing mills operate in [BLANK_1] and Bihar, reliant on cane transported directly from [BLANK_2].",
+      "inputs": ["Uttar Pradesh", "farmers"]
+    },
+    "pass3": {
+      "prompt": "Approximately [BLANK_1] percent of all operational domestic sugar mills remain concentrated within Uttar Pradesh and Bihar.",
+      "inputs": ["sixty"]
+    },
+    "pass4": {
+      "prompt": "The biochemical process wherein cane stalks lose internal sugar concentrations due to haulage delays is known as [BLANK_1] depletion.",
+      "inputs": ["sucrose"]
+    },
+    "pass5": {
+      "prompt": "Because harvested sugarcane gains sucrose when left standing in transit for years, processing mills are built in deserts, adopting multinational monopolies to eliminate harvesting.",
+      "corrections": [
+        {"wrong": "gains sucrose when left standing in transit for years", "right": "is bulky and undergoes rapid sucrose loss during transport"},
+        {"wrong": "adopting multinational monopolies to eliminate harvesting", "right": "adopting cooperative structures to manage the seasonal nature of harvesting"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Because harvested sugarcane is bulky and undergoes rapid sucrose loss during transport,",
+        "processing mills are localized near cane belts across Uttar Pradesh and Bihar,",
+        "adopting cooperative structures",
+        "to manage the seasonal nature of harvesting."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Due to hauling limits and {1} loss, {2} mills operate near farms in northern belts, using {3} structures to handle short crushing months.",
+      "keys": [
+        "sucrose",
+        "sugar",
+        "cooperative"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_016",
+    "category": "Agro-Industrial Spatial Shifts",
+    "topic": "Geographic Migration of the Sugar Industry to Maharashtra and South India",
+    "anchor_sentence": "In recent decades, the sugar industry has shifted toward Maharashtra and the southern states because coastal maritime climates extend the crushing season, local cane yields higher sucrose percentages, and cooperative societies perform with higher financial efficiency.",
+    "pass1": {
+      "prompt": "Sugar processing is migrating toward [BLANK_1] and southern states due to higher [BLANK_2] content and cooler crushing seasons.",
+      "inputs": ["Maharashtra", "sucrose"]
+    },
+    "pass2": {
+      "prompt": "Agrarian [BLANK_1] in western and southern India run profitable enterprises due to superior cane varieties and supportive [BLANK_2] management.",
+      "inputs": ["cooperatives", "institutional"]
+    },
+    "pass3": {
+      "prompt": "India stands [BLANK_1] globally in total sugar production, while retaining the foremost position in gur and khandsari manufacturing.",
+      "inputs": ["second"]
+    },
+    "pass4": {
+      "prompt": "The extended calendar window during which refineries crush fresh harvested cane stalks without heat-induced drying is the [BLANK_1].",
+      "inputs": ["crushing season"]
+    },
+    "pass5": {
+      "prompt": "In recent decades, the sugar industry has abandoned Maharashtra to concentrate exclusively in polar mountains because freezing climates destroy sucrose and cooperatives went extinct.",
+      "corrections": [
+        {"wrong": "abandoned Maharashtra to concentrate exclusively in polar mountains", "right": "shifted toward Maharashtra and the southern states"},
+        {"wrong": "freezing climates destroy sucrose and cooperatives went extinct", "right": "cooler climate ensures a longer crushing season, cane has higher sucrose, and cooperatives succeed"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "In recent decades, the sugar industry has shifted toward Maharashtra and the southern states",
+        "because coastal maritime climates extend the crushing season,",
+        "local cane yields higher sucrose percentages,",
+        "and cooperative societies perform with higher financial efficiency."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "A maritime climate lengthens the {1} season in {2}, where rich {3} yields and strong cooperatives attract modern sugar mills.",
+      "keys": [
+        "crushing",
+        "Maharashtra",
+        "sucrose"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_017",
+    "category": "Mineral-Based Metallurgy",
+    "topic": "The Foundational Role and Material Inputs of the Iron and Steel Industry",
+    "anchor_sentence": "As the basic heavy industry upon which all manufacturing sectors depend, iron and steel production entails heavy transportation costs to smelt iron ore, coking coal, and limestone in an approximate ratio of 4:2:1, alongside hardening manganese additions.",
+    "pass1": {
+      "prompt": "Steel smelting requires raw inputs of iron ore, coking coal, and limestone mixed in a weight proportion of [BLANK_1] to 2 to [BLANK_2].",
+      "inputs": ["4", "1"]
+    },
+    "pass2": {
+      "prompt": "Modern manufacturing and national defense depend upon [BLANK_1] mills, which add [BLANK_2] to harden the molten metal.",
+      "inputs": ["steel", "manganese"]
+    },
+    "pass3": {
+      "prompt": "Smelting iron requires proportional weight charges consisting of four parts iron ore, two parts coking coal, and [BLANK_1] part limestone flux.",
+      "inputs": ["one"]
+    },
+    "pass4": {
+      "prompt": "Because steel provides tools and structural components for heavy, medium, and light factories, it is classified as a [BLANK_1] industry.",
+      "inputs": ["basic or key"]
+    },
+    "pass5": {
+      "prompt": "Iron and steel production entails zero transportation costs to smelt timber, plastic, and sea sand in an approximate ratio of 40:20:10, using zero manganese.",
+      "corrections": [
+        {"wrong": "zero transportation costs to smelt timber, plastic, and sea sand", "right": "heavy transportation costs to smelt iron ore, coking coal, and limestone"},
+        {"wrong": "ratio of 40:20:10, using zero manganese", "right": "ratio of 4:2:1, alongside hardening manganese additions"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "As the basic heavy industry upon which all manufacturing sectors depend,",
+        "iron and steel production entails heavy transportation costs",
+        "to smelt iron ore, coking coal, and limestone in an approximate ratio of 4:2:1,",
+        "alongside hardening manganese additions."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "A nation's development index is tied to its {1} output, requiring bulk {2}, metallurgical coal, and limestone mixed at a {3} ratio.",
+      "keys": [
+        "steel",
+        "iron ore",
+        "4:2:1"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_018",
+    "category": "Mineral-Based Metallurgy",
+    "topic": "The Sequential Stages of Steel Smelting",
+    "anchor_sentence": "Steel manufacture proceeds through feeding iron ore, limestone flux, and coke into a blast furnace, casting the intermediate molten output into pig iron molds, and oxidizing impurities in steelmaking converters before shaping metal via rolling and forging.",
+    "pass1": {
+      "prompt": "In steel smelting, blast furnaces pour molten metal into molds to create [BLANK_1] iron, which is purified and shaped by [BLANK_2] and forging.",
+      "inputs": ["pig", "rolling"]
+    },
+    "pass2": {
+      "prompt": "Metallurgical workers melt raw iron ore in a [BLANK_1], adding limestone flux to remove chemical [BLANK_2].",
+      "inputs": ["blast furnace", "slag"]
+    },
+    "pass3": {
+      "prompt": "The industrial conversion sequence moves across [BLANK_1] discrete production hubs: the blast furnace, pig casting, converter purification, and rolling mills.",
+      "inputs": ["four"]
+    },
+    "pass4": {
+      "prompt": "The crude intermediate solidified metal poured directly from a blast furnace into storage molds is designated as [BLANK_1].",
+      "inputs": ["pig iron"]
+    },
+    "pass5": {
+      "prompt": "Steel manufacture proceeds through freezing iron ore in household refrigerators, discarding all limestone, and shaping cold stones via manual sandpaper grinding.",
+      "corrections": [
+        {"wrong": "freezing iron ore in household refrigerators", "right": "feeding iron ore, limestone flux, and coke into a blast furnace"},
+        {"wrong": "manual sandpaper grinding", "right": "rolling, pressing, casting, and forging"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Steel manufacture proceeds through feeding iron ore, limestone flux, and coke into a blast furnace,",
+        "casting the intermediate molten output into pig iron molds,",
+        "and oxidizing impurities in steelmaking converters",
+        "before shaping metal via rolling and forging."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Iron ore reduced inside a {1} yields {2} iron, which is treated with alloying elements like {3} and nickel before rolling into sheets.",
+      "keys": [
+        "blast furnace",
+        "pig",
+        "manganese"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_019",
+    "category": "Metallurgical Spatial Geography",
+    "topic": "Concentration of Integrated Steel Mills on the Chhotanagpur Plateau",
+    "anchor_sentence": "The Chhotanagpur plateau region holds the maximum concentration of integrated iron and steel plants due to nearby high-grade hematite deposits, contiguous coking coal fields, local limestone quarries, inexpensive tribal labor, and extensive railway connectivity.",
+    "pass1": {
+      "prompt": "The [BLANK_1] plateau holds the densest cluster of integrated steel plants due to local iron ore, [BLANK_2] coal, and cheap labor.",
+      "inputs": ["Chhotanagpur", "coking"]
+    },
+    "pass2": {
+      "prompt": "Public and private steelmakers like SAIL and [BLANK_1] located major plants in eastern states to access raw mineral [BLANK_2].",
+      "inputs": ["TISCO", "quarries"]
+    },
+    "pass3": {
+      "prompt": "The Chhotanagpur geological basin unites [BLANK_1] essential metallurgical raw materials in close physical proximity: iron ore, coking coal, and dolomite-limestone.",
+      "inputs": ["three"]
+    },
+    "pass4": {
+      "prompt": "Large consolidated production complexes that execute all processing stages from raw ore handling to final rolled steel bars are termed [BLANK_1] steel plants.",
+      "inputs": ["integrated"]
+    },
+    "pass5": {
+      "prompt": "The Chhotanagpur plateau region forbids any iron and steel plants due to total lack of minerals, forcing all steel to be smelted on floating wooden rafts in the Indian Ocean.",
+      "corrections": [
+        {"wrong": "forbids any iron and steel plants due to total lack of minerals", "right": "holds the maximum concentration of integrated iron and steel plants"},
+        {"wrong": "floating wooden rafts in the Indian Ocean", "right": "the Chhotanagpur plateau region due to nearby hematite and coking coal"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "The Chhotanagpur plateau region holds the maximum concentration",
+        "of integrated iron and steel plants",
+        "due to nearby high-grade hematite deposits, contiguous coking coal fields,",
+        "local limestone quarries, inexpensive tribal labor, and extensive railway connectivity."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Mineral concentration on the {1} plateau provides cheap {2} ore and metallurgical {3}, establishing plants like Bokaro, Jamshedpur, and Rourkela.",
+      "keys": [
+        "Chhotanagpur",
+        "iron",
+        "coking coal"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_020",
+    "category": "Non-Ferrous Metallurgy",
+    "topic": "Aluminium Smelting Mechanics, Raw Inputs, and Energy Demand",
+    "anchor_sentence": "Ranking as India's second most important metallurgical sector, aluminium smelting extracts malleable, corrosion-resistant metal from bulky dark-red bauxite, requiring 18600 kilowatt-hours of continuous electricity alongside two tonnes of intermediate alumina to produce each tonne of finished metal.",
+    "pass1": {
+      "prompt": "Aluminium smelting ranks as the second major metallurgy sector, requiring [BLANK_1] tonnes of alumina and [BLANK_2] kilowatt-hours of power per tonne of metal.",
+      "inputs": ["two", "18600"]
+    },
+    "pass2": {
+      "prompt": "Refiners crush bulky [BLANK_1] ore to dissolve alumina, delivering it to smelters that employ molten [BLANK_2] as an electrolyte.",
+      "inputs": ["bauxite", "cryolite"]
+    },
+    "pass3": {
+      "prompt": "Manufacturing a single tonne of pure aluminium requires refining four to six tonnes of bauxite ore into [BLANK_1] tonnes of alumina.",
+      "inputs": ["two"]
+    },
+    "pass4": {
+      "prompt": "The fluorine-based molten chemical compound utilized as an electrical conductor within the electrolytic smelting cell is [BLANK_1].",
+      "inputs": ["cryolite"]
+    },
+    "pass5": {
+      "prompt": "Aluminium smelting produces brittle, easily rusting metal from clear white diamonds, requiring zero electricity and zero alumina during processing.",
+      "corrections": [
+        {"wrong": "brittle, easily rusting metal from clear white diamonds", "right": "malleable, corrosion-resistant metal from bulky dark-red bauxite"},
+        {"wrong": "zero electricity and zero alumina", "right": "18600 kilowatt-hours of electricity alongside two tonnes of alumina"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Ranking as India's second most important metallurgical sector,",
+        "aluminium smelting extracts malleable, corrosion-resistant metal from bulky dark-red bauxite,",
+        "requiring 18600 kilowatt-hours of continuous electricity",
+        "alongside two tonnes of intermediate alumina to produce each tonne of finished metal."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "As a lightweight substitute for steel, {1} is refined from {2} ore using {3} as an electrolyte and massive supplies of {4}.",
+      "keys": [
+        "aluminium",
+        "bauxite",
+        "cryolite",
+        "electricity"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_021",
+    "category": "Chemical Industry Dynamics",
+    "topic": "Inorganic and Organic Sub-Sectors of the Chemical Industry",
+    "anchor_sentence": "India's chemical sector bifurcates into inorganic manufacturing producing sulfuric acid, soda ash, and caustic soda dispersed nationwide, and petrochemical organic processing located near oil refineries to yield synthetic fibers, plastics, and pharmaceuticals.",
+    "pass1": {
+      "prompt": "The chemical industry splits into [BLANK_1] manufacturing like sulfuric acid, and [BLANK_2] petrochemical synthesis located near oil refineries.",
+      "inputs": ["inorganic", "organic"]
+    },
+    "pass2": {
+      "prompt": "Petrochemical units draw hydrocarbons from petroleum [BLANK_1] to synthesize elastomers and [BLANK_2] products.",
+      "inputs": ["refineries", "pharmaceutical"]
+    },
+    "pass3": {
+      "prompt": "The chemical sector operates as its own largest consumer across [BLANK_1] distinct branches: mineral inorganic reagents and hydrocarbon organic chemistry.",
+      "inputs": ["two"]
+    },
+    "pass4": {
+      "prompt": "The industrial chemical compound consumed universally across fertilizer, dye, synthetic fiber, and paint manufacturing is [BLANK_1].",
+      "inputs": ["sulfuric acid"]
+    },
+    "pass5": {
+      "prompt": "India's chemical sector produces only pure glacier spring water, completely outlawing sulfuric acid and strictly banning any chemical plant from using oil refineries.",
+      "corrections": [
+        {"wrong": "produces only pure glacier spring water", "right": "bifurcates into inorganic manufacturing and petrochemical organic processing"},
+        {"wrong": "strictly banning any chemical plant from using oil refineries", "right": "located near oil refineries to yield synthetic fibers, plastics, and pharmaceuticals"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "India's chemical sector bifurcates into inorganic manufacturing",
+        "producing sulfuric acid, soda ash, and caustic soda dispersed nationwide,",
+        "and petrochemical organic processing located near oil refineries",
+        "to yield synthetic fibers, plastics, and pharmaceuticals."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "While {1} chemicals like soda ash are dispersed widely, {2} plants cluster near {3} to obtain naphtha and petroleum feedstock.",
+      "keys": [
+        "inorganic",
+        "organic",
+        "refineries"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_022",
+    "category": "Agrochemical Manufacturing",
+    "topic": "The Structure of Fertilizer Production and Total Potash Import Dependency",
+    "anchor_sentence": "Centered on manufacturing nitrogenous urea, phosphatic DAP, and complex NPK blends, India's fertilizer industry expanded rapidly following the Green Revolution, but remains wholly dependent on foreign imports for its entire potash requirements due to an absolute lack of commercial reserves.",
+    "pass1": {
+      "prompt": "India's fertilizer industry expanded after the Green Revolution, but is completely dependent on imports for [BLANK_1] because the country lacks commercial [BLANK_2] deposits.",
+      "inputs": ["potash", "potassium"]
+    },
+    "pass2": {
+      "prompt": "Modern farm output relies on domestic [BLANK_1] plants, while foreign mineral producers supply all imported [BLANK_2] compounds.",
+      "inputs": ["urea", "potash"]
+    },
+    "pass3": {
+      "prompt": "Commercial multi-nutrient fertilizers combine [BLANK_1] primary chemical elements in variable ratios: nitrogen, phosphorus, and potassium.",
+      "inputs": ["three"]
+    },
+    "pass4": {
+      "prompt": "The prevalent manufactured nitrogenous agricultural compound that forms the core of domestic fertilizer production is [BLANK_1].",
+      "inputs": ["urea"]
+    },
+    "pass5": {
+      "prompt": "India exports one hundred percent of the world's potash from massive domestic reserves, while importing all urea and banning fertilizers after the Green Revolution.",
+      "corrections": [
+        {"wrong": "exports one hundred percent of the world's potash", "right": "remains wholly dependent on foreign imports for its entire potash requirements"},
+        {"wrong": "importing all urea and banning fertilizers", "right": "fertilizer industry expanded rapidly following the Green Revolution"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Centered on manufacturing nitrogenous urea, phosphatic DAP, and complex NPK blends,",
+        "India's fertilizer industry expanded rapidly following the Green Revolution,",
+        "but remains wholly dependent on foreign imports for its entire potash requirements",
+        "due to an absolute lack of commercial reserves."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Producing {1} and phosphatic DAP, domestic manufacturers must import 100 percent of all {2} nutrients due to missing geological {3}.",
+      "keys": [
+        "urea",
+        "potash",
+        "reserves"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_023",
+    "category": "Mineral-Based Building Materials",
+    "topic": "Raw Materials and Coastal Export Geography of the Cement Industry",
+    "anchor_sentence": "Demanding bulky geological inputs of limestone, silica, alumina, and gypsum alongside coking coal and railway transport, the cement industry established its first manufacturing facility at Chennai in 1904, later concentrating plants in Gujarat to supply Gulf markets.",
+    "pass1": {
+      "prompt": "The cement industry opened its first plant at [BLANK_1] in 1904, consuming limestone, silica, and [BLANK_2] before expanding toward coastal Gujarat.",
+      "inputs": ["Chennai", "gypsum"]
+    },
+    "pass2": {
+      "prompt": "Civil construction depends on [BLANK_1] factories, which ship maritime building consignments from western ports to buyers across the [BLANK_2] region.",
+      "inputs": ["cement", "Gulf"]
+    },
+    "pass3": {
+      "prompt": "Commercial cement manufacturing in India originated when the first production facility was inaugurated in the year [BLANK_1].",
+      "inputs": ["1904"]
+    },
+    "pass4": {
+      "prompt": "The primary calcareous sedimentary rock that forms the essential bulk calcium source for cement manufacturing is [BLANK_1].",
+      "inputs": ["limestone"]
+    },
+    "pass5": {
+      "prompt": "The cement industry established its first manufacturing facility at Chennai in 1994, burning pure sugar without limestone to supply markets in the Arctic circle.",
+      "corrections": [
+        {"wrong": "1994", "right": "1904"},
+        {"wrong": "burning pure sugar without limestone to supply markets in the Arctic circle", "right": "consuming limestone, silica, and gypsum alongside coal to supply Gulf markets"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Demanding bulky geological inputs of limestone, silica, alumina, and gypsum",
+        "alongside coking coal and railway transport,",
+        "the cement industry established its first manufacturing facility at Chennai in 1904,",
+        "later concentrating plants in Gujarat to supply Gulf markets."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Consuming {1}, silica, and gypsum, the domestic {2} sector started at Chennai in {3} and exports heavily to the Middle East.",
+      "keys": [
+        "limestone",
+        "cement",
+        "1904"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_024",
+    "category": "Engineering & Assembled Transport",
+    "topic": "Post-Liberalization Expansion of the Automobile Industry",
+    "anchor_sentence": "Catalyzed by economic liberalization and the entry of global corporate models, India's automobile manufacturing experienced rapid growth across commercial trucks, passenger cars, and two-wheelers, establishing major manufacturing hubs around Delhi, Gurugram, Pune, Chennai, and Bengaluru.",
+    "pass1": {
+      "prompt": "Post-liberalization policies stimulated the [BLANK_1] industry, fostering multi-utility vehicle and car clusters in [BLANK_2] and Pune.",
+      "inputs": ["automobile", "Gurugram"]
+    },
+    "pass2": {
+      "prompt": "Multinational vehicle [BLANK_1] invested in advanced assembly lines, meeting rising passenger demand across urban [BLANK_2].",
+      "inputs": ["manufacturers", "markets"]
+    },
+    "pass3": {
+      "prompt": "The automobile revolution gathered momentum following the introduction of economic deregulation policies during the early [BLANK_1].",
+      "inputs": ["1990s"]
+    },
+    "pass4": {
+      "prompt": "The macro policy transition that dismantled licensing controls and invited direct foreign automotive investment is economic [BLANK_1].",
+      "inputs": ["liberalization"]
+    },
+    "pass5": {
+      "prompt": "Catalyzed by economic liberalization, India's automobile industry completely collapsed, closing every bus and motorcycle plant across Chennai and Bengaluru.",
+      "corrections": [
+        {"wrong": "completely collapsed, closing every bus and motorcycle plant", "right": "experienced rapid growth across commercial trucks, passenger cars, and two-wheelers"},
+        {"wrong": "closing", "right": "establishing major manufacturing hubs around Delhi, Gurugram, Pune, Chennai, and Bengaluru"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Catalyzed by economic liberalization and the entry of global corporate models,",
+        "India's automobile manufacturing experienced rapid growth",
+        "across commercial trucks, passenger cars, and two-wheelers,",
+        "establishing major manufacturing hubs around Delhi, Gurugram, Pune, Chennai, and Bengaluru."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Driven by market {1}, the automotive sector expanded passenger car production, forming integrated production complexes around {2} and {3}.",
+      "keys": [
+        "liberalization",
+        "Gurugram",
+        "Chennai"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_025",
+    "category": "High-Technology & Services Integration",
+    "topic": "Electronics Hardware and Bengaluru as the IT Capital",
+    "anchor_sentence": "Encompassing telecommunications hardware, consumer electronics, and software platforms, the high-technology sector has positioned Bengaluru as the electronic capital of India, stimulating widespread engineering employment alongside major hardware hubs in Noida, Mumbai, and Hyderabad.",
+    "pass1": {
+      "prompt": "Covering consumer electronics and software, the technology industry positioned [BLANK_1] as the electronic capital, alongside hubs in [BLANK_2] and Hyderabad.",
+      "inputs": ["Bengaluru", "Noida"]
+    },
+    "pass2": {
+      "prompt": "Software engineers and hardware [BLANK_1] drive foreign exchange growth within designated Software Technology [BLANK_2] of India.",
+      "inputs": ["technicians", "Parks"]
+    },
+    "pass3": {
+      "prompt": "The information technology sector provides direct, high-value technical employment to [BLANK_1] of young graduates, particularly women.",
+      "inputs": ["millions"]
+    },
+    "pass4": {
+      "prompt": "The metropolitan southern city universally recognized as the central operational hub for India's electronics hardware and software architecture is [BLANK_1].",
+      "inputs": ["Bengaluru"]
+    },
+    "pass5": {
+      "prompt": "The electronics industry is completely banned in India, with Bengaluru legally designated as an agricultural pasture devoid of computers, telephones, or software.",
+      "corrections": [
+        {"wrong": "completely banned", "right": "positioned Bengaluru as the electronic capital of India"},
+        {"wrong": "agricultural pasture devoid of computers", "right": "stimulating widespread engineering employment alongside major hardware hubs"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Encompassing telecommunications hardware, consumer electronics, and software platforms,",
+        "the high-technology sector has positioned Bengaluru as the electronic capital of India,",
+        "stimulating widespread engineering employment",
+        "alongside major hardware hubs in Noida, Mumbai, and Hyderabad."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Producing communications gear and computer systems, {1} serves as the country's {2} capital, anchored by software technology {3}.",
+      "keys": [
+        "Bengaluru",
+        "electronic",
+        "parks"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_026",
+    "category": "Industrial Pollution & Ecology",
+    "topic": "The Four Vectors of Industrial Pollution and Thermal Discharge",
+    "anchor_sentence": "Manufacturing operations generate four destructive forms of environmental degradation across air, water, land, and noise, highlighted by toxic chemical effluents, particulate smoke, and thermal pollution when uncooled water from power plants is discharged into rivers.",
+    "pass1": {
+      "prompt": "Industries generate four forms of pollution, including [BLANK_1] pollution when hot, uncooled water from factories is drained into [BLANK_2].",
+      "inputs": ["thermal", "rivers"]
+    },
+    "pass2": {
+      "prompt": "Chemical factories and metallurgical [BLANK_1] release heavy metals and sulfur dioxide, impairing local [BLANK_2] life and air quality.",
+      "inputs": ["smelters", "aquatic"]
+    },
+    "pass3": {
+      "prompt": "Industrial effluents and emissions damage natural ecosystems across [BLANK_1] major environmental vectors: air, water, land, and acoustic noise.",
+      "inputs": ["four"]
+    },
+    "pass4": {
+      "prompt": "The ecological shock caused by discharging high-temperature, uncooled industrial wastewater directly into natural stream networks is termed [BLANK_1].",
+      "inputs": ["thermal pollution"]
+    },
+    "pass5": {
+      "prompt": "Manufacturing operations generate four miraculous forms of environmental purification, completely cleaning air and water when boiling radioactive wastewater is poured on dry crops.",
+      "corrections": [
+        {"wrong": "miraculous forms of environmental purification", "right": "destructive forms of environmental degradation"},
+        {"wrong": "cleaning air and water when boiling radioactive wastewater", "right": "generating particulate smoke, and thermal pollution when uncooled water is discharged"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Manufacturing operations generate four destructive forms of environmental degradation",
+        "across air, water, land, and noise,",
+        "highlighted by toxic chemical effluents, particulate smoke,",
+        "and thermal pollution when uncooled water from power plants is discharged into rivers."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Factories generate pollution across air, water, land, and {1}, while draining heated boiler runoff into streams induces severe {2} contamination.",
+      "keys": [
+        "noise",
+        "thermal"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_027",
+    "category": "Pollution Abatement Technology",
+    "topic": "Three-Stage Industrial Effluent Treatment and Fresh Water Dilution Ratio",
+    "anchor_sentence": "Because a single liter of industrial effluent pollutes eight liters of clean water, manufacturing units must execute a three-stage treatment cycle consisting of primary mechanical screening, secondary biological digestion, and tertiary chemical-physical recycling.",
+    "pass1": {
+      "prompt": "Every liter of industrial wastewater pollutes [BLANK_1] liters of freshwater, requiring treatment through primary mechanical, secondary biological, and [BLANK_2] recycling stages.",
+      "inputs": ["eight", "tertiary"]
+    },
+    "pass2": {
+      "prompt": "Environmental engineers deploy sedimentation and [BLANK_1] filters to remove toxic industrial waste before factory discharges reach public [BLANK_2].",
+      "inputs": ["biological", "streams"]
+    },
+    "pass3": {
+      "prompt": "One liter of untreated factory effluent contaminates exactly [BLANK_1] liters of potable freshwater in adjoining water bodies.",
+      "inputs": ["eight"]
+    },
+    "pass4": {
+      "prompt": "The final stage of effluent purification that employs biological, chemical, and advanced physical filtration to permit complete water recycling is [BLANK_1].",
+      "inputs": ["tertiary treatment"]
+    },
+    "pass5": {
+      "prompt": "Because a single liter of industrial effluent purifies eight billion liters of dirty water, manufacturing units are prohibited from using mechanical screening or biological treatment.",
+      "corrections": [
+        {"wrong": "purifies eight billion liters of dirty water", "right": "pollutes eight liters of clean water"},
+        {"wrong": "prohibited from using mechanical screening", "right": "must execute a three-stage treatment cycle"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Because a single liter of industrial effluent pollutes eight liters of clean water,",
+        "manufacturing units must execute a three-stage treatment cycle",
+        "consisting of primary mechanical screening, secondary biological digestion,",
+        "and tertiary chemical-physical recycling."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Discharging one liter of industrial waste taints {1} liters of fresh water, mandating {2} mechanical, secondary {3}, and tertiary recycling steps.",
+      "keys": [
+        "eight",
+        "primary",
+        "biological"
+      ]
+    }
+  },
+  {
+    "id": "MFG_IND_028",
+    "category": "Corporate Environmental Governance",
+    "topic": "The NTPC Model of Environmental Management System ISO 14001",
+    "anchor_sentence": "Holding ISO 14001 certification for Environmental Management Systems, the National Thermal Power Corporation demonstrates sustainable resource stewardship by maximizing ash utilization, establishing peripheral green belts, and monitoring emissions via real-time online databases.",
+    "pass1": {
+      "prompt": "Holding ISO [BLANK_1] certification, the National Thermal Power Corporation mitigates environmental damage by planting green belts and maximizing [BLANK_2] utilization.",
+      "inputs": ["14001", "ash"]
+    },
+    "pass2": {
+      "prompt": "Engineers at [BLANK_1] implement ecological reviews and liquid waste recycling across their major coal and gas thermal power [BLANK_2].",
+      "inputs": ["NTPC", "stations"]
+    },
+    "pass3": {
+      "prompt": "The international Environmental Management System standardization awarded to NTPC is codified under ISO designation [BLANK_1].",
+      "inputs": ["14001"]
+    },
+    "pass4": {
+      "prompt": "The practice of planting linear strips of trees around heavy industrial installations to buffer ecological impact is designated as creating [BLANK_1].",
+      "inputs": ["green belts"]
+    },
+    "pass5": {
+      "prompt": "Holding zero environmental certification, the National Thermal Power Corporation dumps one hundred percent of its toxic ash onto city roads and outlaws green belts.",
+      "corrections": [
+        {"wrong": "zero environmental certification", "right": "ISO 14001 certification for Environmental Management Systems"},
+        {"wrong": "dumps one hundred percent of its toxic ash onto city roads", "right": "maximizing ash utilization, establishing peripheral green belts, and monitoring emissions"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Holding ISO 14001 certification for Environmental Management Systems,",
+        "the National Thermal Power Corporation demonstrates sustainable resource stewardship",
+        "by maximizing ash utilization, establishing peripheral green belts,",
+        "and monitoring emissions via real-time online databases."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Certified under {1}, state utility {2} preserves local ecosystems by recycling ash ponds, building {3} buffers, and conducting digital {4} monitoring.",
+      "keys": [
+        "ISO 14001",
+        "NTPC",
+        "green belt",
+        "emissions"
+      ]
+    }
+  }
+]
