@@ -1,0 +1,1890 @@
+[
+    {
+        "id":  "AGR_SYS_001",
+        "category":  "Agrarian Economy \u0026 Demographics",
+        "topic":  "Socioeconomic Significance of Indian Agriculture",
+        "anchor_sentence":  "Engaging two-thirds of the national population, agriculture operates as India\u0027s primary production backbone, supplying fundamental food sustenance, industrial raw materials, and strategic agricultural exports like tea, coffee, and spices.",
+        "pass1":  {
+                      "prompt":  "Engaging [BLANK_1] of the national population, agriculture operates as India\u0027s primary production backbone, supplying food and key exports like tea and [BLANK_2].",
+                      "inputs":  [
+                                     "two-thirds",
+                                     "spices"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Engaging two-thirds of the national population, [BLANK_1] operates as India\u0027s primary sector supplying raw materials to the manufacturing [BLANK_2].",
+                      "inputs":  [
+                                     "agriculture",
+                                     "industries"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "In terms of aggregate livelihood dependency, [BLANK_1] of India\u0027s population relies directly on primary agricultural activities.",
+                      "inputs":  [
+                                     "two-thirds"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Economic activities generating food grains and unprocessed agrarian feedstocks for secondary processing belong to the [BLANK_1] sector.",
+                      "inputs":  [
+                                     "primary"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Engaging two-thirds of the national population, agriculture operates as India\u0027s tertiary service backbone, importing fundamental food sustenance and outlawing agricultural exports like tea, coffee, and spices.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "tertiary service backbone",
+                                              "right":  "primary production backbone"
+                                          },
+                                          {
+                                              "wrong":  "importing fundamental food sustenance and outlawing",
+                                              "right":  "supplying fundamental food sustenance and strategic"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "supplying fundamental food sustenance, industrial raw materials,",
+                                    "Engaging two-thirds of the national population,",
+                                    "and strategic agricultural exports like tea, coffee, and spices.",
+                                    "agriculture operates as India\u0027s primary production backbone,"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               3,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Employing {1} of the domestic workforce, {2} supplies basic food, raw commodities for factories, and valuable foreign exchange through exports like {3} and coffee.",
+                      "keys":  [
+                                   "two-thirds",
+                                   "agriculture",
+                                   "tea"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_002",
+        "category":  "Primitive Farming Systems",
+        "topic":  "Mechanics and Tools of Primitive Subsistence Farming",
+        "anchor_sentence":  "Practiced across small fragmented plots using family or community labor, primitive subsistence farming relies strictly on natural soil fertility, monsoon showers, and rudimentary manual tools like the hoe, dao, and digging sticks.",
+        "pass1":  {
+                      "prompt":  "Practiced across small plots, primitive subsistence farming relies on natural soil fertility and manual tools like the [BLANK_1], dao, and [BLANK_2] sticks.",
+                      "inputs":  [
+                                     "hoe",
+                                     "digging"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Practiced across small fragmented plots using [BLANK_1] labor, primitive subsistence farming relies strictly on natural [BLANK_2] conditions.",
+                      "inputs":  [
+                                     "community",
+                                     "environmental"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Primitive subsistence agriculture features [BLANK_1] modernization, utilizing zero chemical inputs or mechanized tractor power.",
+                      "inputs":  [
+                                     "minimal"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Cultivation executed without artificial fertilizers or canal irrigation, governed exclusively by seasonal rain and natural nutrient cycles, constitutes [BLANK_1] agriculture.",
+                      "inputs":  [
+                                     "primitive subsistence"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Practiced across expansive corporate plots using robotic automated labor, primitive subsistence farming relies strictly on synthetic bio-fertilizers, canal networks, and heavy mechanized combine harvesters.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "robotic automated labor",
+                                              "right":  "family or community labor"
+                                          },
+                                          {
+                                              "wrong":  "heavy mechanized combine harvesters",
+                                              "right":  "rudimentary manual tools like the hoe, dao, and digging sticks"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "primitive subsistence farming relies strictly on natural soil fertility,",
+                                    "and rudimentary manual tools like the hoe, dao, and digging sticks.",
+                                    "Practiced across small fragmented plots using family or community labor,",
+                                    "monsoon showers,"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               3,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Traditional subsistence farming depends on {1} rain and hand tools including the {2}, {3}, and digging sticks.",
+                      "keys":  [
+                                   "monsoon",
+                                   "hoe",
+                                   "dao"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_003",
+        "category":  "Shifting Cultivation Dynamics",
+        "topic":  "Ecological Mechanics of Slash and Burn Shifting Cultivation",
+        "anchor_sentence":  "Under slash and burn shifting cultivation, cultivators fell and incinerate vegetation plots to sow cereals, relocating to pristine forest tracts once yields diminish to let natural biological processes restore soil fertility.",
+        "pass1":  {
+                      "prompt":  "Under [BLANK_1] and burn shifting cultivation, cultivators fell vegetation plots to sow cereals, relocating once [BLANK_2] diminish.",
+                      "inputs":  [
+                                     "slash",
+                                     "yields"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Under slash and burn cultivation, [BLANK_1] clear land patches to grow food for household survival, shifting when [BLANK_2] declines.",
+                      "inputs":  [
+                                     "farmers",
+                                     "soil fertility"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Due to the absence of modern agricultural amendments, land productivity under shifting cultivation remains notably [BLANK_1].",
+                      "inputs":  [
+                                     "low"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The rotational agrarian practice of clearing timber, torching vegetative residues, and abandoning exhausted clearings is known as [BLANK_1] agriculture.",
+                      "inputs":  [
+                                     "slash and burn"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Under slash and burn shifting cultivation, cultivators build permanent concrete dams to sow cereals, never relocating because synthetic chemical fertilizers preserve soil fertility indefinitely.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "build permanent concrete dams",
+                                              "right":  "fell and incinerate vegetation plots"
+                                          },
+                                          {
+                                              "wrong":  "never relocating because synthetic chemical fertilizers preserve",
+                                              "right":  "relocating to pristine forest tracts once yields diminish"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "cultivators fell and incinerate vegetation plots to sow cereals,",
+                                    "relocating to pristine forest tracts once yields diminish",
+                                    "Under slash and burn shifting cultivation,",
+                                    "to let natural biological processes restore soil fertility."
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               1,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "In {1} farming, cultivators clear vegetation by {2}, allowing nature to replenish {3} during fallow cycles.",
+                      "keys":  [
+                                   "slash and burn",
+                                   "fire",
+                                   "fertility"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_004",
+        "category":  "Regional Agrarian Nomenclature",
+        "topic":  "Domestic Nomenclature of Slash and Burn Cultivation",
+        "anchor_sentence":  "Across India, slash and burn cultivation is designated as Jhumming in the northeast, Pamlou in Manipur, Dipa in Bastar and the Andaman Islands, Bewar in Madhya Pradesh, Podu in Andhra Pradesh, and Kuruwa in Jharkhand.",
+        "pass1":  {
+                      "prompt":  "Across India, shifting farming is called [BLANK_1] in the northeast, Pamlou in Manipur, and [BLANK_2] in Bastar district.",
+                      "inputs":  [
+                                     "Jhumming",
+                                     "Dipa"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Tribal cultivators in Madhya Pradesh refer to shifting clearings as [BLANK_1], while indigenous communities in Andhra Pradesh designate the practice as [BLANK_2].",
+                      "inputs":  [
+                                     "Bewar",
+                                     "Podu"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The curriculum specifies [BLANK_1] state and territorial regional variations for shifting agriculture within the Indian subcontinent.",
+                      "inputs":  [
+                                     "eight"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "In south-eastern Rajasthan, slash-and-burn practices are locally recorded as [BLANK_1], whereas Himalayan highland communities label it [BLANK_2].",
+                      "inputs":  [
+                                     "Valre or Waltre",
+                                     "Khil"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Across India, slash and burn cultivation is designated as Jhumming in urban Delhi, Pamlou in coastal Gujarat, and Kuruwa in Lakshadweep.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "Jhumming in urban Delhi",
+                                              "right":  "Jhumming in the northeast"
+                                          },
+                                          {
+                                              "wrong":  "Kuruwa in Lakshadweep",
+                                              "right":  "Kuruwa in Jharkhand"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Pamlou in Manipur, Dipa in Bastar and the Andaman Islands,",
+                                    "Across India, slash and burn cultivation is designated as Jhumming in the northeast,",
+                                    "and Kuruwa in Jharkhand.",
+                                    "Bewar in Madhya Pradesh, Podu in Andhra Pradesh,"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Shifting agriculture is termed {1} in Assam, {2} in Manipur, {3} in Bastar, and {4} in the Western Ghats.",
+                      "keys":  [
+                                   "Jhumming",
+                                   "Pamlou",
+                                   "Dipa",
+                                   "Kumari"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_005",
+        "category":  "Global Comparative Agronomy",
+        "topic":  "International Terminology for Shifting Agriculture",
+        "anchor_sentence":  "Internationally, slash and burn shifting agriculture is identified as Milpa across Mexico and Central America, Conuco in Venezuela, Roca in Brazil, Masole in Central Africa, Ladang in Indonesia, and Ray in Vietnam.",
+        "pass1":  {
+                      "prompt":  "Internationally, shifting cultivation is called [BLANK_1] in Mexico, Roca in Brazil, and [BLANK_2] in Indonesia.",
+                      "inputs":  [
+                                     "Milpa",
+                                     "Ladang"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "In South America, traditional slash-and-burn farming is termed [BLANK_1] by Venezuelan cultivators and [BLANK_2] in Brazil.",
+                      "inputs":  [
+                                     "Conuco",
+                                     "Roca"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The syllabus outlines [BLANK_1] prominent international regional designations spanning the Americas, Africa, and Southeast Asia.",
+                      "inputs":  [
+                                     "six"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The Southeast Asian variant practiced in Vietnam is known as [BLANK_1], whereas Central African forest clearings are called [BLANK_2].",
+                      "inputs":  [
+                                     "Ray",
+                                     "Masole"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Internationally, slash and burn shifting agriculture is identified as Milpa across Great Britain, Roca in Antarctica, and Ladang in Japan.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "Milpa across Great Britain",
+                                              "right":  "Milpa across Mexico and Central America"
+                                          },
+                                          {
+                                              "wrong":  "Ladang in Japan",
+                                              "right":  "Ladang in Indonesia"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Conuco in Venezuela, Roca in Brazil,",
+                                    "Internationally, slash and burn shifting agriculture is identified as Milpa across Mexico and Central America,",
+                                    "and Ray in Vietnam.",
+                                    "Masole in Central Africa, Ladang in Indonesia,"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Globally, slash and burn is termed {1} in Mexico, {2} in Venezuela, {3} in Brazil, and {4} in Indonesia.",
+                      "keys":  [
+                                   "Milpa",
+                                   "Conuco",
+                                   "Roca",
+                                   "Ladang"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_006",
+        "category":  "Intensive Subsistence Agronomy",
+        "topic":  "Land Fragmentation and Intensive Subsistence Production",
+        "anchor_sentence":  "Practiced in regions characterized by dense demographic pressure, intensive subsistence farming deploys high doses of biochemical inputs, manual labor, and irrigation to extract maximum agricultural yields from landholdings fractured by inheritance laws.",
+        "pass1":  {
+                      "prompt":  "Practiced under high population pressure, [BLANK_1] subsistence farming deploys high doses of [BLANK_2] inputs to extract maximum yields.",
+                      "inputs":  [
+                                     "intensive",
+                                     "biochemical"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Constrained by lack of alternative employment, smallholder [BLANK_1] apply heavy labor to cultivate uneconomic [BLANK_2].",
+                      "inputs":  [
+                                     "farmers",
+                                     "landholdings"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The division of family property over successive generations results in plot sizes that progressively become economically [BLANK_1].",
+                      "inputs":  [
+                                     "uneconomical"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The legal transmission of land title among heirs that induces geometric subdivisional fragmentation is termed the [BLANK_1].",
+                      "inputs":  [
+                                     "right of inheritance"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Practiced in regions characterized by zero population pressure, intensive subsistence farming deploys zero labor and bans irrigation to minimize agricultural yields across massive undivided ranches.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "zero population pressure",
+                                              "right":  "dense demographic pressure"
+                                          },
+                                          {
+                                              "wrong":  "bans irrigation to minimize agricultural yields",
+                                              "right":  "irrigation to extract maximum agricultural yields"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "intensive subsistence farming deploys high doses of biochemical inputs,",
+                                    "Practiced in regions characterized by dense demographic pressure,",
+                                    "from landholdings fractured by inheritance laws.",
+                                    "manual labor, and irrigation to extract maximum agricultural yields"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "High population density drives {1} farming, where successive {2} reduces plot sizes and forces heavy reliance on {3} inputs.",
+                      "keys":  [
+                                   "intensive subsistence",
+                                   "inheritance",
+                                   "biochemical"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_007",
+        "category":  "Commercial Farming \u0026 Agro-Industry",
+        "topic":  "Commercial Farming Characteristics and Plantation Interfaces",
+        "anchor_sentence":  "Commercial agriculture maximizes profitability through modern technical packages including High Yielding Variety seeds, synthetic agrochemicals, and mechanization, expanding into monoculture plantations where capital-intensive agribusiness connects directly with processing industries.",
+        "pass1":  {
+                      "prompt":  "Commercial agriculture relies on modern inputs like [BLANK_1] seeds, expanding into monoculture [BLANK_2] that link farming with industry.",
+                      "inputs":  [
+                                     "HYV",
+                                     "plantations"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Commercial plantation estates frequently operate by hiring large contingents of [BLANK_1] laborers to harvest raw materials for the processing [BLANK_2].",
+                      "inputs":  [
+                                     "migrant",
+                                     "factory"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "A distinguishing characteristic of plantation agriculture is the dedicated cultivation of [BLANK_1] commercial crop across a large contiguous geographical area.",
+                      "inputs":  [
+                                     "one single"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Agronomic systems that integrate large-scale farm production directly with corporate industrial supply chains are designated as [BLANK_1].",
+                      "inputs":  [
+                                     "plantations"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Commercial agriculture minimizes profitability through ancient hand-carved stone tools, expanding into polyculture pastures where zero migrant laborers work without industrial processing links.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "minimizes profitability through ancient hand-carved stone tools",
+                                              "right":  "maximizes profitability through modern technical packages"
+                                          },
+                                          {
+                                              "wrong":  "polyculture pastures",
+                                              "right":  "monoculture plantations"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Commercial agriculture maximizes profitability through modern technical packages",
+                                    "expanding into monoculture plantations where capital-intensive agribusiness",
+                                    "connects directly with processing industries.",
+                                    "including High Yielding Variety seeds, synthetic agrochemicals, and mechanization,"
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               3,
+                                               1,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Employing {1} seeds and chemical fertilizers, {2} systems include large {3} that produce industrial raw materials like tea, coffee, and rubber.",
+                      "keys":  [
+                                   "HYV",
+                                   "commercial farming",
+                                   "plantations"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_008",
+        "category":  "Spatial Crop Relativity",
+        "topic":  "Regional Relativity of Commercial and Subsistence Crops",
+        "anchor_sentence":  "The economic classification of an agricultural crop varies regionally based on local market orientation, demonstrated by rice operating as an export-driven commercial crop across Punjab and Haryana while remaining a basic subsistence staple in Odisha.",
+        "pass1":  {
+                      "prompt":  "Rice operates as a commercial commodity across [BLANK_1] and Haryana, while functioning primarily as a [BLANK_2] crop in Odisha.",
+                      "inputs":  [
+                                     "Punjab",
+                                     "subsistence"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Commercial grain [BLANK_1] in the northwest sell harvests on national markets, whereas coastal cultivators in [BLANK_2] grow rice for household sustenance.",
+                      "inputs":  [
+                                     "farmers",
+                                     "Odisha"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The text demonstrates the dual economic nature of rice across [BLANK_1] contrasting agrarian states in the northwest and one in the east.",
+                      "inputs":  [
+                                     "two"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The structural transition where food grains are grown for wholesale cash revenue rather than home consumption reflects regional [BLANK_1].",
+                      "inputs":  [
+                                     "commercialization of agriculture"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "The economic classification of an agricultural crop never varies regionally, demonstrated by rice operating as a subsistence crop across Punjab and Haryana while functioning as a luxury export commodity in Odisha.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "never varies",
+                                              "right":  "varies regionally"
+                                          },
+                                          {
+                                              "wrong":  "subsistence crop across Punjab and Haryana",
+                                              "right":  "commercial crop across Punjab and Haryana"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "demonstrated by rice operating as an export-driven commercial crop across Punjab and Haryana",
+                                    "The economic classification of an agricultural crop varies regionally",
+                                    "while remaining a basic subsistence staple in Odisha.",
+                                    "based on local market orientation,"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               3,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "A crop\u0027s status depends on geography: {1} is cultivated commercially in {2} and Haryana, but serves as a {3} grain in {4}.",
+                      "keys":  [
+                                   "rice",
+                                   "Punjab",
+                                   "subsistence",
+                                   "Odisha"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_009",
+        "category":  "Agro-Climatic Cropping Calendars",
+        "topic":  "The Rabi Cropping Season and Western Cyclonic Precipitation",
+        "anchor_sentence":  "Rabi crops are seeded during early winter from October to December and harvested in summer between April and June, relying on moisture from western temperate cyclones to cultivate staples like wheat, barley, peas, gram, and mustard.",
+        "pass1":  {
+                      "prompt":  "Rabi crops are sown in winter and harvested between [BLANK_1] and June, benefiting from moisture brought by western [BLANK_2] cyclones.",
+                      "inputs":  [
+                                     "April",
+                                     "temperate"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Cultivators across northern states rely on non-monsoon winter rain systems to ensure the harvest of [BLANK_1] and oilseed [BLANK_2].",
+                      "inputs":  [
+                                     "wheat",
+                                     "mustard"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Rabi crops mature across a developmental window of approximately [BLANK_1] months between autumn sowing and early summer harvesting.",
+                      "inputs":  [
+                                     "six"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The Mediterranean weather phenomena providing essential winter rainfall over the northwestern plains are termed [BLANK_1].",
+                      "inputs":  [
+                                     "western temperate cyclones"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Rabi crops are seeded during the monsoon from June to August and harvested in winter between December and January, relying on moisture from southern tropical typhoons to cultivate wheat.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "monsoon from June to August",
+                                              "right":  "winter from October to December"
+                                          },
+                                          {
+                                              "wrong":  "southern tropical typhoons",
+                                              "right":  "western temperate cyclones"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Rabi crops are seeded during early winter from October to December",
+                                    "and harvested in summer between April and June,",
+                                    "to cultivate staples like wheat, barley, peas, gram, and mustard.",
+                                    "relying on moisture from western temperate cyclones"
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               1,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "The {1} calendar runs from {2} sowing to summer harvest, relying on {3} storms to mature crops like {4} and mustard.",
+                      "keys":  [
+                                   "rabi",
+                                   "winter",
+                                   "western temperate cyclonic",
+                                   "wheat"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_010",
+        "category":  "Agro-Climatic Cropping Calendars",
+        "topic":  "The Kharif Season and the Triple Paddy Harvests of the East",
+        "anchor_sentence":  "Kharif crops are planted at the onset of the southwest monsoon and gathered in September-October, highlighted in Assam, West Bengal, and Odisha by three successive seasonal paddy harvests termed Aus, Aman, and Boro.",
+        "pass1":  {
+                      "prompt":  "Kharif crops are harvested in September-October, featuring three successive paddy cycles in Bengal and Assam termed [BLANK_1], Aman, and [BLANK_2].",
+                      "inputs":  [
+                                     "Aus",
+                                     "Boro"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Cultivators in eastern river plains utilize long rainy spells to sow staple grains including [BLANK_1], maize, jowar, and fiber crops like [BLANK_2].",
+                      "inputs":  [
+                                     "paddy",
+                                     "cotton"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Farmers in wetland deltas of West Bengal, Odisha, and Assam cultivate [BLANK_1] distinct rice crops within a single calendar year.",
+                      "inputs":  [
+                                     "three"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The three successive seasonal cultivars of paddy raised annually in eastern humid river basins are called [BLANK_1], [BLANK_2], and [BLANK_3].",
+                      "inputs":  [
+                                     "Aus",
+                                     "Aman",
+                                     "Boro"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Kharif crops are planted at the onset of severe winter frost and gathered in March-April, highlighted in Ladakh by three successive seasonal apple harvests termed Aus, Aman, and Boro.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "onset of severe winter frost",
+                                              "right":  "onset of the southwest monsoon"
+                                          },
+                                          {
+                                              "wrong":  "Ladakh by three successive seasonal apple harvests",
+                                              "right":  "Assam, West Bengal, and Odisha by three successive seasonal paddy harvests"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "and gathered in September-October,",
+                                    "Kharif crops are planted at the onset of the southwest monsoon",
+                                    "highlighted in Assam, West Bengal, and Odisha",
+                                    "by three successive seasonal paddy harvests termed Aus, Aman, and Boro."
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               2,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "{1} crops coincide with the summer monsoon, with eastern states harvesting three paddy crops known as {2}, {3}, and {4}.",
+                      "keys":  [
+                                   "Kharif",
+                                   "Aus",
+                                   "Aman",
+                                   "Boro"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_011",
+        "category":  "Intercalary Cropping Patterns",
+        "topic":  "The Zaid Summer Cropping Window",
+        "anchor_sentence":  "Inserted during the hot summer interval separating the rabi harvest from the kharif sowing, the brief Zaid season is characterized by fast-maturing crops like watermelon, muskmelon, cucumber, vegetables, and green fodder.",
+        "pass1":  {
+                      "prompt":  "The brief summer [BLANK_1] season fills the gap between rabi and kharif, yielding quick crops like [BLANK_2], cucumber, and fodder.",
+                      "inputs":  [
+                                     "Zaid",
+                                     "watermelon"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Commercial truck [BLANK_1] plant summer cucurbits and [BLANK_2] to capitalize on irrigation infrastructure during the dry months.",
+                      "inputs":  [
+                                     "farmers",
+                                     "vegetables"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Unlike fast-maturing Zaid gourds, cash crops like sugarcane require nearly [BLANK_1] full calendar year to complete their growth cycle.",
+                      "inputs":  [
+                                     "one"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The short agricultural sub-season occurring during hot dry summer months between rabi and kharif is designated as the [BLANK_1] season.",
+                      "inputs":  [
+                                     "Zaid"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Inserted during the freezing winter interval separating the monsoon from autumn, the multi-year Zaid season is characterized by slow-growing arctic moss and timber.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "freezing winter interval",
+                                              "right":  "hot summer interval"
+                                          },
+                                          {
+                                              "wrong":  "slow-growing arctic moss and timber",
+                                              "right":  "fast-maturing crops like watermelon, muskmelon, cucumber, vegetables, and green fodder"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "the brief Zaid season is characterized by fast-maturing crops",
+                                    "separating the rabi harvest from the kharif sowing,",
+                                    "like watermelon, muskmelon, cucumber, vegetables, and green fodder.",
+                                    "Inserted during the hot summer interval"
+                                ],
+                      "correct_sequence":  [
+                                               3,
+                                               1,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "The short summer window known as {1} occurs between {2} and kharif, producing melons, {3}, and succulent fodder.",
+                      "keys":  [
+                                   "Zaid",
+                                   "rabi",
+                                   "cucumbers"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_012",
+        "category":  "Cereal Staple Geomorphology",
+        "topic":  "Agronomic Thresholds and Distribution of Rice",
+        "anchor_sentence":  "As India\u0027s primary staple crop ranking second globally behind China, rice requires temperatures exceeding 25 degrees Celsius, heavy humidity, and annual rainfall above 100 centimeters, expanding into drier northwestern states through tube-wells and canals.",
+        "pass1":  {
+                      "prompt":  "Rice requires temperatures above [BLANK_1] degrees Celsius and annual rainfall surpassing [BLANK_2] centimeters, flourishing via canal irrigation in Punjab.",
+                      "inputs":  [
+                                     "25",
+                                     "100"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Cultivators in Haryana, Punjab, and western Uttar Pradesh produce massive [BLANK_1] surpluses by pumping groundwater from [BLANK_2].",
+                      "inputs":  [
+                                     "rice",
+                                     "tube-wells"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Globally, India holds the [BLANK_1] rank in aggregate rice production, trailing only China.",
+                      "inputs":  [
+                                     "second"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Classified botanically as a water-loving kharif cereal, rice flourishes naturally on northern alluvial and coastal [BLANK_1] soils.",
+                      "inputs":  [
+                                     "deltaic"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "As India\u0027s primary staple crop ranking last globally behind Australia, rice requires freezing temperatures below 5 degrees Celsius and annual rainfall below 10 centimeters.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "ranking last globally behind Australia",
+                                              "right":  "ranking second globally behind China"
+                                          },
+                                          {
+                                              "wrong":  "below 5 degrees Celsius and annual rainfall below 10",
+                                              "right":  "exceeding 25 degrees Celsius and annual rainfall above 100"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "rice requires temperatures exceeding 25 degrees Celsius, heavy humidity,",
+                                    "As India\u0027s primary staple crop ranking second globally behind China,",
+                                    "expanding into drier northwestern states through tube-wells and canals.",
+                                    "and annual rainfall above 100 centimeters,"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Ranking {1} in global rice yield behind {2}, India cultivates this kharif staple under temperatures above {3} C and rainfall over {4} cm.",
+                      "keys":  [
+                                   "second",
+                                   "China",
+                                   "25",
+                                   "100"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_013",
+        "category":  "Cereal Staple Geomorphology",
+        "topic":  "Environmental Parameters and Belts of Wheat Production",
+        "anchor_sentence":  "As India\u0027s second most vital cereal dominating the north and northwest, wheat is a rabi crop that demands a cool vegetative season, bright sunshine during harvest ripening, and 50 to 75 centimeters of evenly distributed annual rain.",
+        "pass1":  {
+                      "prompt":  "Wheat demands a cool growing period, bright ripening sunshine, and [BLANK_1] to [BLANK_2] centimeters of evenly distributed rainfall.",
+                      "inputs":  [
+                                     "50",
+                                     "75"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Northwestern agrarian communities in Punjab, Haryana, and [BLANK_1] lead the nation in commercial [BLANK_2] harvests.",
+                      "inputs":  [
+                                     "Uttar Pradesh",
+                                     "wheat"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "India\u0027s wheat cultivation relies on [BLANK_1] primary growing tracts: the northwestern Ganga-Sutlej alluvium and the peninsular Deccan black soil zone.",
+                      "inputs":  [
+                                     "two"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The winter grain that forms the dietary mainstay of northern populations and thrives on well-drained loams is [BLANK_1].",
+                      "inputs":  [
+                                     "wheat"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "As India\u0027s second most vital cereal dominating the north and northwest, wheat is a summer crop that demands a boiling monsoon season and 500 centimeters of torrential rain.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "summer crop",
+                                              "right":  "rabi crop"
+                                          },
+                                          {
+                                              "wrong":  "boiling monsoon season and 500 centimeters",
+                                              "right":  "cool vegetative season and 50 to 75 centimeters"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "As India\u0027s second most vital cereal dominating the north and northwest,",
+                                    "and 50 to 75 centimeters of evenly distributed annual rain.",
+                                    "wheat is a rabi crop that demands a cool vegetative season,",
+                                    "bright sunshine during harvest ripening,"
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               2,
+                                               3,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "A major food crop of the northwest, {1} requires a cool climate with {2} to {3} cm precipitation, thriving in the {4} plain and Deccan black soil belt.",
+                      "keys":  [
+                                   "wheat",
+                                   "50",
+                                   "75",
+                                   "Ganga-Sutlej"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_014",
+        "category":  "Nutritional Coarse Cereals",
+        "topic":  "Nutritional Value and Production Ecology of Millets",
+        "anchor_sentence":  "Cultivated as coarse grains possessing dense nutritional concentrations, India\u0027s premier millets include calcium-rich ragi, drought-hardy bajra on sandy soils, and rain-fed jowar, which ranks third nationally in area and output.",
+        "pass1":  {
+                      "prompt":  "India\u0027s major millets include iron-rich [BLANK_1], sandy-soil bajra, and rain-fed [BLANK_2], which ranks third in production.",
+                      "inputs":  [
+                                     "ragi",
+                                     "jowar"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Agrarian populations in Maharashtra, Karnataka, and Andhra Pradesh produce the majority of national [BLANK_1] in moist [BLANK_2] tracts.",
+                      "inputs":  [
+                                     "jowar",
+                                     "rain-fed"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Jowar ranks [BLANK_1] in aggregate acreage and gross food grain output among all crops grown in India.",
+                      "inputs":  [
+                                     "third"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Coarse nutrient-dense dryland grains like jowar, bajra, and ragi are classified agronomically as [BLANK_1].",
+                      "inputs":  [
+                                     "millets"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Cultivated as luxury soft grains possessing zero nutritional concentrations, India\u0027s premier millets include poisonous ragi and aquatic jowar, which ranks fiftieth nationally in output.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "luxury soft grains possessing zero nutritional",
+                                              "right":  "coarse grains possessing dense nutritional"
+                                          },
+                                          {
+                                              "wrong":  "aquatic jowar, which ranks fiftieth",
+                                              "right":  "rain-fed jowar, which ranks third"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "India\u0027s premier millets include calcium-rich ragi,",
+                                    "and rain-fed jowar, which ranks third nationally in area and output.",
+                                    "Cultivated as coarse grains possessing dense nutritional concentrations,",
+                                    "drought-hardy bajra on sandy soils,"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               3,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Among nutritious millets, {1} contains high roughage and iron, {2} thrives on shallow black and sandy soils, and {3} stands third in total production.",
+                      "keys":  [
+                                   "ragi",
+                                   "bajra",
+                                   "jowar"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_015",
+        "category":  "Dual-Utility Coarse Cereals",
+        "topic":  "Agronomic Ecology of Maize Production",
+        "anchor_sentence":  "Serving dual purposes as food grain and livestock fodder, maize is a kharif crop requiring temperatures between 21 and 27 degrees Celsius on old alluvial soils, though states like Bihar cultivate it successfully during the rabi season.",
+        "pass1":  {
+                      "prompt":  "Maize requires temperatures between [BLANK_1] and [BLANK_2] degrees Celsius on old alluvial soil, serving as both food and fodder.",
+                      "inputs":  [
+                                     "21",
+                                     "27"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Cultivators in Karnataka, Madhya Pradesh, and [BLANK_1] achieve high maize yields by applying chemical fertilizers and [BLANK_2] seeds.",
+                      "inputs":  [
+                                     "Bihar",
+                                     "HYV"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Maize demands a moderate thermal range between [BLANK_1] C and [BLANK_2] C to facilitate rapid caryopsis development.",
+                      "inputs":  [
+                                     "21",
+                                     "27"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Maize performs exceptionally well when planted in weathered, mature flood plain alluvium categorized pedologically as [BLANK_1].",
+                      "inputs":  [
+                                     "old alluvial soil"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Serving dual purposes as food grain and livestock fodder, maize is a winter crop requiring freezing temperatures between 1 and 4 degrees Celsius on active coastal sand dunes.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "winter crop",
+                                              "right":  "kharif crop"
+                                          },
+                                          {
+                                              "wrong":  "temperatures between 1 and 4 degrees Celsius on active coastal sand dunes",
+                                              "right":  "temperatures between 21 and 27 degrees Celsius on old alluvial soils"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "maize is a kharif crop requiring temperatures between 21 and 27 degrees Celsius",
+                                    "Serving dual purposes as food grain and livestock fodder,",
+                                    "though states like Bihar cultivate it successfully during the rabi season.",
+                                    "on old alluvial soils,"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Functioning as food and {1}, maize thrives in temperatures between {2} and 27 C on {3} alluvium, with {4} raising it as a rabi crop.",
+                      "keys":  [
+                                   "fodder",
+                                   "21",
+                                   "old",
+                                   "Bihar"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_016",
+        "category":  "Leguminous Agrosystems",
+        "topic":  "Global Standing and Nitrogen Fixation of Pulses",
+        "anchor_sentence":  "As the world\u0027s foremost producer and consumer of pulses, India relies on these dryland leguminous crops to supply dietary vegetarian protein, rotating them to fix atmospheric nitrogen and enrich soil fertility, with the exception of arhar.",
+        "pass1":  {
+                      "prompt":  "India is the largest producer of pulses, which fix atmospheric nitrogen to restore soil fertility, with the exception of [BLANK_1] or [BLANK_2].",
+                      "inputs":  [
+                                     "arhar",
+                                     "tur"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Vegetarian consumers rely on pulses for [BLANK_1], while farmers in Madhya Pradesh and [BLANK_2] grow them under rotational cropping.",
+                      "inputs":  [
+                                     "protein",
+                                     "Rajasthan"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "India occupies the [BLANK_1] position globally in both the production volume and total domestic consumption of food pulses.",
+                      "inputs":  [
+                                     "first"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Crops possessing root nodules that house symbiotic rhizobia bacteria capable of soil enrichment are classified as [BLANK_1].",
+                      "inputs":  [
+                                     "leguminous crops"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "As the world\u0027s smallest producer and consumer of pulses, India relies on these wetland crops to extract nitrogen from the soil and destroy fertility, especially arhar.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "smallest producer and consumer",
+                                              "right":  "foremost producer and consumer"
+                                          },
+                                          {
+                                              "wrong":  "destroy fertility",
+                                              "right":  "enrich soil fertility, with the exception of arhar"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "India relies on these dryland leguminous crops to supply dietary vegetarian protein,",
+                                    "with the exception of arhar.",
+                                    "As the world\u0027s foremost producer and consumer of pulses,",
+                                    "rotating them to fix atmospheric nitrogen and enrich soil fertility,"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               3,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "India is the top producer and user of {1}, which provide vegetarian {2} and restore nitrogen through their {3} roots, except for {4}.",
+                      "keys":  [
+                                   "pulses",
+                                   "protein",
+                                   "leguminous",
+                                   "arhar"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_017",
+        "category":  "Industrial Cash Crops",
+        "topic":  "Agro-Climatic Prerequisites of Sugarcane",
+        "anchor_sentence":  "Positioned second globally behind Brazil, India cultivates tropical and subtropical sugarcane under hot, humid climates requiring temperatures between 21 and 27 degrees Celsius and rainfall between 75 and 100 centimeters.",
+        "pass1":  {
+                      "prompt":  "India ranks second in sugarcane behind [BLANK_1], requiring temperatures of 21 to 27 C and annual rainfall between [BLANK_2] and 100 cm.",
+                      "inputs":  [
+                                     "Brazil",
+                                     "75"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Manual laborers are employed from sowing to harvesting, supplying stalks to crushers in Uttar Pradesh, [BLANK_1], and [BLANK_2].",
+                      "inputs":  [
+                                     "Maharashtra",
+                                     "Karnataka"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "In global sugarcane production, India maintains the [BLANK_1] rank, surpassed only by Brazil.",
+                      "inputs":  [
+                                     "second"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Sugarcane provides the basic industrial sucrose raw material required to manufacture white sugar, jaggery, [BLANK_1], and [BLANK_2].",
+                      "inputs":  [
+                                     "khandsari",
+                                     "molasses"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Positioned second globally behind Canada, India cultivates tropical sugarcane under freezing, arid climates requiring temperatures between 2 and 7 degrees Celsius and rainfall between 5 and 10 centimeters.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "Canada",
+                                              "right":  "Brazil"
+                                          },
+                                          {
+                                              "wrong":  "freezing, arid climates requiring temperatures between 2 and 7",
+                                              "right":  "hot, humid climates requiring temperatures between 21 and 27"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "India cultivates tropical and subtropical sugarcane under hot, humid climates",
+                                    "and rainfall between 75 and 100 centimeters.",
+                                    "requiring temperatures between 21 and 27 degrees Celsius",
+                                    "Positioned second globally behind Brazil,"
+                                ],
+                      "correct_sequence":  [
+                                               3,
+                                               0,
+                                               2,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Trailing only {1}, India produces sugarcane across tropical and subtropical zones with {2} to 27 C temperatures, supplying raw stock for {3} and jaggery.",
+                      "keys":  [
+                                   "Brazil",
+                                   "21",
+                                   "sugar"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_018",
+        "category":  "Edible Oilseed Economy",
+        "topic":  "Areal Extent and Diversity of Indian Oilseeds",
+        "anchor_sentence":  "Covering approximately 12 percent of total cropped area, Indian oilseeds are led by groundnut which accounts for half of major oilseed output, supplemented by regional crops like mustard, sesamum, linseed, castor, and sunflower.",
+        "pass1":  {
+                      "prompt":  "Covering [BLANK_1] percent of India\u0027s cropped area, oilseeds are led by [BLANK_2], which generates half of total oilseed volume.",
+                      "inputs":  [
+                                     "12",
+                                     "groundnut"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "In 2019-20, cultivators in [BLANK_1] formed the leading groundnut producing state, followed by producers in Rajasthan and [BLANK_2].",
+                      "inputs":  [
+                                     "Gujarat",
+                                     "Tamil Nadu"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Oilseed cultivation occupies roughly [BLANK_1] percent of the cumulative national cropped territory.",
+                      "inputs":  [
+                                     "12"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "While most extracted oils serve as culinary cooking mediums, industrial refiners consume seed extracts to formulate soaps, [BLANK_1], and medicinal [BLANK_2].",
+                      "inputs":  [
+                                     "cosmetics",
+                                     "ointments"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Covering approximately 82 percent of total cropped area, Indian oilseeds are led by groundnut which accounts for zero percent of output, leaving petroleum as the only cooking medium.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "82 percent",
+                                              "right":  "12 percent"
+                                          },
+                                          {
+                                              "wrong":  "zero percent of output, leaving petroleum as the only cooking medium",
+                                              "right":  "half of major oilseed output"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Indian oilseeds are led by groundnut which accounts for half of major oilseed output,",
+                                    "Covering approximately 12 percent of total cropped area,",
+                                    "supplemented by regional crops like mustard, sesamum, linseed, castor, and sunflower."
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Oilseed crops span {1} percent of cultivated acreage, with kharif {2} generating nearly 50 percent of total production, led by the state of {3}.",
+                      "keys":  [
+                                   "12",
+                                   "groundnut",
+                                   "Gujarat"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_019",
+        "category":  "Seasonal Oilseed Taxonomy",
+        "topic":  "Seasonal Crop Alignments of Edible Oilseeds",
+        "anchor_sentence":  "Oilseed cropping exhibits specific seasonal demarcations where groundnut is a kharif crop, linseed and mustard are cultivated in rabi, sesamum switches from kharif in the north to rabi in the south, and castor seed grows across both seasons.",
+        "pass1":  {
+                      "prompt":  "Among oilseeds, mustard is a [BLANK_1] crop, while [BLANK_2] is sown as kharif in northern states and rabi in the south.",
+                      "inputs":  [
+                                     "rabi",
+                                     "sesamum"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Agrarian cultivators manage [BLANK_1] across both rabi and kharif schedules, whereas [BLANK_2] is confined to winter rabi farming.",
+                      "inputs":  [
+                                     "castor seed",
+                                     "linseed"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Castor seed cultivation displays dual seasonal adaptability, operating effectively across [BLANK_1] fundamental cropping cycles.",
+                      "inputs":  [
+                                     "two"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The differential photoperiod and temperature needs of [BLANK_1] require it to be seeded in winter down south and during the monsoon up north.",
+                      "inputs":  [
+                                     "sesamum"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Oilseed cropping exhibits specific seasonal demarcations where groundnut is a rabi crop, mustard is cultivated in zaid, and sesamum is completely banned across northern India.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "groundnut is a rabi",
+                                              "right":  "groundnut is a kharif"
+                                          },
+                                          {
+                                              "wrong":  "mustard is cultivated in zaid",
+                                              "right":  "mustard is cultivated in rabi"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "where groundnut is a kharif crop, linseed and mustard are cultivated in rabi,",
+                                    "Oilseed cropping exhibits specific seasonal demarcations",
+                                    "and castor seed grows across both seasons.",
+                                    "sesamum switches from kharif in the north to rabi in the south,"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Crop schedules partition oilseeds: groundnut is {1}, rapeseed and mustard belong to {2}, while {3} seed is raised in both seasons.",
+                      "keys":  [
+                                   "kharif",
+                                   "rabi",
+                                   "castor"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_020",
+        "category":  "Plantation Beverage Agrosystems",
+        "topic":  "Agronomic Ecology of Tea Plantation Agriculture",
+        "anchor_sentence":  "Introduced historically by the British, tea is a labor-intensive beverage plantation crop that requires well-drained fertile soils rich in organic humus, frost-free subtropical warmth, and continuous evenly distributed showers to produce tender leaves.",
+        "pass1":  {
+                      "prompt":  "Tea requires well-drained soils rich in [BLANK_1], frost-free climates, and frequent showers to support manual plucking of tender [BLANK_2].",
+                      "inputs":  [
+                                     "humus",
+                                     "leaves"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Female tea garden [BLANK_1] provide cheap and skilled manual labor to harvest foliage, which is processed in on-site [BLANK_2] to maintain freshness.",
+                      "inputs":  [
+                                     "pluckers",
+                                     "factories"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "In global tea production metrics for 2020, India occupied the [BLANK_1] position behind China.",
+                      "inputs":  [
+                                     "second"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Because picked tea leaves wilt and lose aroma quickly, primary tea processing must be organized directly within the [BLANK_1].",
+                      "inputs":  [
+                                     "tea gardens"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Introduced historically by the Mughals, tea is an un-irrigated desert crop that requires stagnant saline soils, sub-zero winter blizzards, and severe droughts to produce wooden bark.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "Mughals",
+                                              "right":  "British"
+                                          },
+                                          {
+                                              "wrong":  "stagnant saline soils, sub-zero winter blizzards",
+                                              "right":  "well-drained fertile soils rich in organic humus, frost-free subtropical warmth"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "tea is a labor-intensive beverage plantation crop",
+                                    "frost-free subtropical warmth, and continuous evenly distributed showers to produce tender leaves.",
+                                    "Introduced historically by the British,",
+                                    "that requires well-drained fertile soils rich in organic humus,"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               3,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "As a plantation beverage introduced by the {1}, {2} requires humus-rich soils, abundant cheap {3}, and on-site garden processing.",
+                      "keys":  [
+                                   "British",
+                                   "tea",
+                                   "labor"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_021",
+        "category":  "Plantation Beverage Agrosystems",
+        "topic":  "The Arabica Coffee Cultivation of the Nilgiri Hills",
+        "anchor_sentence":  "Renowned internationally for exquisite cup quality, Indian coffee production originated when Yemeni Arabica seeds were planted on the Baba Budan Hills, remaining concentrated across the Nilgiri ranges of Karnataka, Kerala, and Tamil Nadu.",
+        "pass1":  {
+                      "prompt":  "Indian coffee production centers on the [BLANK_1] variety from Yemen, initially planted on the [BLANK_2] Budan Hills.",
+                      "inputs":  [
+                                     "Arabica",
+                                     "Baba"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Plantation growers in [BLANK_1] cultivate Arabica beans, maintaining high export demand across [BLANK_2] markets.",
+                      "inputs":  [
+                                     "Karnataka",
+                                     "international"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Coffee production in India remains geographically restricted to [BLANK_1] contiguous southwestern peninsular states around the Nilgiris.",
+                      "inputs":  [
+                                     "three"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The premium commercial coffee cultivar brought from Yemen and raised under highland canopy shade is designated as [BLANK_1].",
+                      "inputs":  [
+                                     "Arabica"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Renowned internationally for poor cup quality, Indian coffee production originated when Brazilian Robusta seeds were planted on the Himalayas, remaining concentrated across the plains of Punjab.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "Brazilian Robusta seeds were planted on the Himalayas",
+                                              "right":  "Yemeni Arabica seeds were planted on the Baba Budan Hills"
+                                          },
+                                          {
+                                              "wrong":  "plains of Punjab",
+                                              "right":  "Nilgiri ranges of Karnataka, Kerala, and Tamil Nadu"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Indian coffee production originated when Yemeni Arabica seeds were planted on the Baba Budan Hills,",
+                                    "remaining concentrated across the Nilgiri ranges of Karnataka, Kerala, and Tamil Nadu.",
+                                    "Renowned internationally for exquisite cup quality,"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Initially established on the {1} Hills, the {2} variety brought from {3} is cultivated across the {4} in Karnataka, Kerala, and Tamil Nadu.",
+                      "keys":  [
+                                   "Baba Budan",
+                                   "Arabica",
+                                   "Yemen",
+                                   "Nilgiri"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_022",
+        "category":  "Industrial Elastomer Crops",
+        "topic":  "Agro-Climatic Parameters of Commercial Rubber Cultivation",
+        "anchor_sentence":  "Although fundamentally an equatorial crop, natural rubber is commercially grown under tropical regimes with temperatures above 25 degrees Celsius and rainfall exceeding 200 centimeters, centered in Kerala, Tamil Nadu, Karnataka, and Meghalaya\u0027s Garo Hills.",
+        "pass1":  {
+                      "prompt":  "Natural rubber requires temperatures over [BLANK_1] C and annual rainfall exceeding [BLANK_2] cm, thriving in Kerala and the Garo Hills.",
+                      "inputs":  [
+                                     "25",
+                                     "200"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Tappers harvest latex on commercial plantations across [BLANK_1] to supply domestic tyre and footwear [BLANK_2].",
+                      "inputs":  [
+                                     "Kerala",
+                                     "manufacturers"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Commercial rubber cultivation demands torrential precipitation exceeding [BLANK_1] centimeters distributed across warm months.",
+                      "inputs":  [
+                                     "200"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Though originating as an [BLANK_1] rainforest species, rubber adapts commercially to humid tropical and subtropical environments.",
+                      "inputs":  [
+                                     "equatorial"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Although fundamentally a sub-polar tundra crop, natural rubber is commercially grown under arid regimes with temperatures below minus 5 degrees Celsius and rainfall below 20 centimeters.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "sub-polar tundra",
+                                              "right":  "equatorial"
+                                          },
+                                          {
+                                              "wrong":  "temperatures below minus 5 degrees Celsius and rainfall below 20",
+                                              "right":  "temperatures above 25 degrees Celsius and rainfall exceeding 200"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "natural rubber is commercially grown under tropical regimes",
+                                    "centered in Kerala, Tamil Nadu, Karnataka, and Meghalaya\u0027s Garo Hills.",
+                                    "Although fundamentally an equatorial crop,",
+                                    "with temperatures above 25 degrees Celsius and rainfall exceeding 200 centimeters,"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               3,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "A vital industrial input, {1} is an {2} plant cultivated under over {3} cm of rain, centered in {4} and the Garo Hills.",
+                      "keys":  [
+                                   "rubber",
+                                   "equatorial",
+                                   "200",
+                                   "Kerala"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_023",
+        "category":  "Natural Fibers \u0026 Sericulture",
+        "topic":  "The Four Fiber Crops and Sericulture Mechanics",
+        "anchor_sentence":  "India produces four major fiber crops, deriving cotton, jute, and hemp directly from terrestrial soil cultivation while harvesting natural silk through sericulture by rearing silkworms fed exclusively on fresh mulberry leaves.",
+        "pass1":  {
+                      "prompt":  "India\u0027s four fiber crops include soil-grown cotton, jute, and hemp, alongside natural silk produced via [BLANK_1] on [BLANK_2] leaves.",
+                      "inputs":  [
+                                     "sericulture",
+                                     "mulberry"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Silk farmers feed developing [BLANK_1] on fresh mulberry foliage to reel commercial fiber from their protective [BLANK_2].",
+                      "inputs":  [
+                                     "silkworms",
+                                     "cocoons"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "India\u0027s traditional commercial textile economy depends upon [BLANK_1] primary natural fiber varieties.",
+                      "inputs":  [
+                                     "four"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The commercial breeding, rearing, and management of silkworms for raw silk filament extraction is technically designated as [BLANK_1].",
+                      "inputs":  [
+                                     "sericulture"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "India produces four major fiber crops, deriving cotton, jute, and hemp directly from marine coral reefs while harvesting natural silk through pisciculture by feeding earthworms on plastic leaves.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "marine coral reefs",
+                                              "right":  "terrestrial soil cultivation"
+                                          },
+                                          {
+                                              "wrong":  "pisciculture by feeding earthworms on plastic",
+                                              "right":  "sericulture by rearing silkworms fed exclusively on fresh mulberry"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "deriving cotton, jute, and hemp directly from terrestrial soil cultivation",
+                                    "India produces four major fiber crops,",
+                                    "by rearing silkworms fed exclusively on fresh mulberry leaves.",
+                                    "while harvesting natural silk through sericulture"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "While cotton, jute, and hemp grow in fields, {1} silk is generated via {2}, where silkworm pupae feed upon {3} foliage.",
+                      "keys":  [
+                                   "natural",
+                                   "sericulture",
+                                   "mulberry"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_024",
+        "category":  "Textile Fiber Agronomy",
+        "topic":  "Agronomic Prerequisites of Cotton Cultivation",
+        "anchor_sentence":  "Originating on the volcanic black soils of the Deccan plateau, cotton is a kharif textile crop that requires high temperatures, light showers or irrigation, bright sunny skies, 210 frost-free days, and six to eight months to mature fully.",
+        "pass1":  {
+                      "prompt":  "Cotton requires black soils, bright sunshine, [BLANK_1] frost-free days, and a maturation period of [BLANK_2] to eight months.",
+                      "inputs":  [
+                                     "210",
+                                     "six"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Textile mills depend on cotton farmers across [BLANK_1] and [BLANK_2] for raw lint supplies.",
+                      "inputs":  [
+                                     "Maharashtra",
+                                     "Gujarat"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "To prevent bolls from blighting, the cotton plant requires a meteorological window containing at least [BLANK_1] frost-free days.",
+                      "inputs":  [
+                                     "210"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Because of its affinity for Deccan lava beds, black soil is widely classified in agricultural manuals as [BLANK_1] soil.",
+                      "inputs":  [
+                                     "black cotton"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Originating on the volcanic black soils of the Deccan plateau, cotton is a rabi textile crop that requires sub-zero blizzards, 210 continuous days of heavy frost, and two weeks to mature fully.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "rabi textile crop",
+                                              "right":  "kharif textile crop"
+                                          },
+                                          {
+                                              "wrong":  "sub-zero blizzards, 210 continuous days of heavy frost",
+                                              "right":  "high temperatures, 210 frost-free days"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Originating on the volcanic black soils of the Deccan plateau,",
+                                    "bright sunny skies, 210 frost-free days, and six to eight months to mature fully.",
+                                    "cotton is a kharif textile crop that requires high temperatures, light showers or irrigation,"
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               2,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Growing on Deccan {1} soils, cotton is a {2} crop requiring {3} frost-free days and {4} to 8 months to ripen.",
+                      "keys":  [
+                                   "black",
+                                   "kharif",
+                                   "210",
+                                   "6"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_025",
+        "category":  "Bast Fiber Geomorphology",
+        "topic":  "The Golden Fibre Ecology of Jute",
+        "anchor_sentence":  "Hailed as the golden fibre, jute flourishes on fertile, well-drained floodplains that receive annual silt renewals, flourishing under high tropical temperatures in eastern states led by West Bengal, Bihar, Assam, and Odisha.",
+        "pass1":  {
+                      "prompt":  "Known as the [BLANK_1] fibre, jute requires high temperatures and rich renewed floodplain soils, led by production in [BLANK_2] Bengal.",
+                      "inputs":  [
+                                     "golden",
+                                     "West"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Traditional artisans weave jute into gunny bags and ropes, while mills in the [BLANK_1] basin process stalks harvested by [BLANK_2] farmers.",
+                      "inputs":  [
+                                     "Hugli",
+                                     "deltaic"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Jute cultivation in India centers heavily across [BLANK_1] key eastern and northeastern agrarian states.",
+                      "inputs":  [
+                                     "five"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The commercial bast fiber prized for making gunny bags, packaging mats, and ropes is popularly termed the [BLANK_1].",
+                      "inputs":  [
+                                     "golden fibre"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Hailed as the iron fibre, jute flourishes on barren desert sand dunes that receive zero silt renewals, flourishing under freezing arctic temperatures in Ladakh.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "iron fibre",
+                                              "right":  "golden fibre"
+                                          },
+                                          {
+                                              "wrong":  "barren desert sand dunes that receive zero silt renewals",
+                                              "right":  "fertile, well-drained floodplains that receive annual silt renewals"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Hailed as the golden fibre,",
+                                    "jute flourishes on fertile, well-drained floodplains that receive annual silt renewals,",
+                                    "flourishing under high tropical temperatures in eastern states led by West Bengal, Bihar, Assam, and Odisha."
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               1,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Nicknamed the {1}, moisture-loving {2} thrives on renewed alluvium across {3} and Bihar to manufacture gunny sacks.",
+                      "keys":  [
+                                   "golden fibre",
+                                   "jute",
+                                   "West Bengal"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_026",
+        "category":  "Post-Independence Agrarian Reforms",
+        "topic":  "Early Institutional Reforms and the First Five Year Plan",
+        "anchor_sentence":  "Following independence, the First Five Year Plan prioritized institutional land reforms to dismantle feudal exploitation, legislating the abolition of the zamindari system, collectivization, and the consolidation of fragmented agrarian holdings.",
+        "pass1":  {
+                      "prompt":  "The First Five Year Plan prioritized land reform, focusing on the abolition of [BLANK_1] and the [BLANK_2] of small fragmented holdings.",
+                      "inputs":  [
+                                     "zamindari",
+                                     "consolidation"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Post-independence legislators enacted statutory measures to eliminate intermediary [BLANK_1] and protect exploited tenant [BLANK_2].",
+                      "inputs":  [
+                                     "zamindars",
+                                     "farmers"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Comprehensive land restructuring served as the foundational socioeconomic priority under the [BLANK_1] Five Year Plan.",
+                      "inputs":  [
+                                     "First"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The administrative process of aggregating scattered agrarian parcels into unified farm plots is officially termed [BLANK_1].",
+                      "inputs":  [
+                                     "consolidation of holdings"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Following independence, the First Five Year Plan prioritized institutional land reforms to enforce feudal exploitation, legislating the expansion of the zamindari system and the fragmentation of agrarian holdings.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "enforce feudal exploitation",
+                                              "right":  "dismantle feudal exploitation"
+                                          },
+                                          {
+                                              "wrong":  "expansion of the zamindari system",
+                                              "right":  "abolition of the zamindari system"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Following independence, the First Five Year Plan prioritized institutional land reforms",
+                                    "legislating the abolition of the zamindari system,",
+                                    "to dismantle feudal exploitation,",
+                                    "collectivization, and the consolidation of fragmented agrarian holdings."
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               2,
+                                               1,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Post-independence reforms under the {1} Plan enacted the abolition of {2} intermediaries and promoted the {3} of fragmented holdings.",
+                      "keys":  [
+                                   "First Five Year",
+                                   "zamindari",
+                                   "consolidation"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_027",
+        "category":  "Agricultural Modernization \u0026 Welfare Support",
+        "topic":  "Technological Revolutions and Comprehensive Institutional Schemes",
+        "anchor_sentence":  "While the 1960s Green Revolution and Operation Flood introduced modernized technical packages, the 1980s launched comprehensive land development programs providing crop insurance, rural Grameen banks, Kisan Credit Cards, and Minimum Support Prices.",
+        "pass1":  {
+                      "prompt":  "Modernization expanded through Operation Flood, followed in the 1980s by [BLANK_1] insurance and the [BLANK_2] Credit Card scheme.",
+                      "inputs":  [
+                                     "crop",
+                                     "Kisan"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "The government established [BLANK_1] and cooperative credit societies to protect smallholders from exploitative private [BLANK_2].",
+                      "inputs":  [
+                                     "Grameen banks",
+                                     "moneylenders"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Agricultural modernization evolved across two distinct waves: technology packages in the [BLANK_1] followed by institutional support frameworks in the [BLANK_2].",
+                      "inputs":  [
+                                     "1960s",
+                                     "1980s"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Statutory guaranteed baseline procurement floor prices established to insulate growers against broker exploitation are designated as [BLANK_1].",
+                      "inputs":  [
+                                     "Minimum Support Prices"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "While the 1960s Green Revolution banned modern packages, the 1980s dismantled all crop insurance, outlawed Grameen banks, and abolished Minimum Support Prices.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "banned modern packages",
+                                              "right":  "introduced modernized technical packages"
+                                          },
+                                          {
+                                              "wrong":  "dismantled all crop insurance, outlawed Grameen banks",
+                                              "right":  "provided crop insurance, rural Grameen banks, and Minimum Support Prices"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "While the 1960s Green Revolution and Operation Flood introduced modernized technical packages,",
+                                    "the 1980s launched comprehensive land development programs",
+                                    "providing crop insurance, rural Grameen banks, Kisan Credit Cards, and Minimum Support Prices."
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               1,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "To protect farmers, policies combined the {1} Revolution with institutional mechanisms like {2} insurance, {3} Credit Cards, and {4} Support Prices.",
+                      "keys":  [
+                                   "Green",
+                                   "crop",
+                                   "Kisan",
+                                   "Minimum"
+                               ]
+                  }
+    },
+    {
+        "id":  "AGR_SYS_028",
+        "category":  "Voluntary Agrarian Redistribution",
+        "topic":  "The Bhoodan-Gramdan Movement and the Bloodless Revolution",
+        "anchor_sentence":  "Initiated by Vinoba Bhave at Pochampally when Ram Chandra Reddy donated 80 acres to landless laborers, the voluntary Bhoodan and Gramdan movement spread nationwide as a peaceful Bloodless Revolution to redistribute agrarian land.",
+        "pass1":  {
+                      "prompt":  "The Bhoodan movement began at [BLANK_1] when Ram Chandra Reddy donated [BLANK_2] acres of land, initiating a peaceful revolution.",
+                      "inputs":  [
+                                     "Pochampally",
+                                     "80"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Mahatma Gandhi\u0027s spiritual heir, [BLANK_1], led a nationwide walking padyatra to convince [BLANK_2] to voluntarily donate villages.",
+                      "inputs":  [
+                                     "Vinoba Bhave",
+                                     "zamindars"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The foundational act of Bhoodan commenced when Shri Ram Chandra Reddy offered exactly [BLANK_1] acres of personal land to 80 landless families.",
+                      "inputs":  [
+                                     "80"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The historical grassroots campaign that motivated landlords to surrender whole settlements and personal landholdings is commemorated as the [BLANK_1].",
+                      "inputs":  [
+                                     "Bloodless Revolution"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Initiated by Vinoba Bhave at Pochampally when Ram Chandra Reddy seized 80000 acres from landless laborers, the violent Bhoodan movement spread nationwide as the Bloody Civil War.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "seized 80000 acres from",
+                                              "right":  "donated 80 acres to"
+                                          },
+                                          {
+                                              "wrong":  "violent Bhoodan movement spread nationwide as the Bloody Civil War",
+                                              "right":  "voluntary Bhoodan and Gramdan movement spread nationwide as a peaceful Bloodless Revolution"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "when Ram Chandra Reddy donated 80 acres to landless laborers,",
+                                    "Initiated by Vinoba Bhave at Pochampally",
+                                    "the voluntary Bhoodan and Gramdan movement spread nationwide",
+                                    "as a peaceful Bloodless Revolution to redistribute agrarian land."
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               2,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Started at {1} by {2}, the {3} movement distributed land voluntarily, earning recognition as the {4}.",
+                      "keys":  [
+                                   "Pochampally",
+                                   "Vinoba Bhave",
+                                   "Bhoodan-Gramdan",
+                                   "Bloodless Revolution"
+                               ]
+                  }
+    }
+]

@@ -1,0 +1,1907 @@
+[
+    {
+        "id":  "WAT_RES_001",
+        "category":  "Hydrological Cycle \u0026 Global Scarcity",
+        "topic":  "Global Freshwater Proportion and Scarcity Projections",
+        "anchor_sentence":  "Although water coats three-fourths of the planetary surface, usable freshwater remains a minute fraction recharged continually through the hydrological cycle, with projections indicating that two billion individuals will confront absolute water scarcity by 2025.",
+        "pass1":  {
+                      "prompt":  "Although water coats three-fourths of the planetary surface, usable [BLANK_1] remains a minute fraction, with projections indicating that [BLANK_2] billion individuals will confront absolute scarcity by 2025.",
+                      "inputs":  [
+                                     "freshwater",
+                                     "two"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Although water covers most of the globe, freshwater renewed through the [BLANK_1] remains scarce, leaving large populations vulnerable to absolute [BLANK_2].",
+                      "inputs":  [
+                                     "hydrological cycle",
+                                     "water scarcity"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Covering [BLANK_1] of the globe, water renews naturally, yet nearly [BLANK_2] billion inhabitants are anticipated to experience acute scarcity by the year [BLANK_3].",
+                      "inputs":  [
+                                     "three-fourths",
+                                     "two",
+                                     "2025"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Freshwater represents a continuously replenished [BLANK_1] resource sustained through precipitation, runoff, and the global [BLANK_2].",
+                      "inputs":  [
+                                     "renewable",
+                                     "hydrological cycle"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Although water coats one-tenth of the planetary surface, usable saltwater remains a minute fraction recharged continually through the hydrological cycle, with projections indicating that twenty billion individuals will confront absolute water scarcity by 2099.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "one-tenth",
+                                              "right":  "three-fourths"
+                                          },
+                                          {
+                                              "wrong":  "twenty billion individuals will confront absolute water scarcity by 2099",
+                                              "right":  "two billion individuals will confront absolute water scarcity by 2025"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "usable freshwater remains a minute fraction recharged continually",
+                                    "with projections indicating that two billion individuals will confront absolute water scarcity by 2025.",
+                                    "Although water coats three-fourths of the planetary surface,",
+                                    "through the hydrological cycle,"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               3,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "While {1} of earth is submerged under oceans and seas, accessible {2} is continually cycled, with forecasts predicting {3} billion people facing severe shortages by {4}.",
+                      "keys":  [
+                                   "three-fourths",
+                                   "freshwater",
+                                   "two",
+                                   "2025"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_002",
+        "category":  "Precipitation Dynamics \u0026 Management Deficits",
+        "topic":  "Precipitation Disparities between Israel and India",
+        "anchor_sentence":  "While Israel circumvents water deficits despite recording a modest average annual rainfall of 25 centimeters, India encounters chronic dry-season scarcity across nine months of the year notwithstanding its high 114 centimeter annual precipitation because of unmanaged surface runoff.",
+        "pass1":  {
+                      "prompt":  "While Israel avoids water deficits with an average rainfall of [BLANK_1] centimeters, India faces acute shortages despite receiving [BLANK_2] centimeters annually due to poor runoff conservation.",
+                      "inputs":  [
+                                     "25",
+                                     "114"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Comparing climatic hydro-management, [BLANK_1] manages arid conditions efficiently, whereas [BLANK_2] loses substantial rainwater through uncollected river outflows into the sea.",
+                      "inputs":  [
+                                     "Israel",
+                                     "India"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Israel operates without severe drought on [BLANK_1] centimeters of annual precipitation, while India suffers water deficits across [BLANK_2] post-monsoon months despite recording an annual average of [BLANK_3] centimeters.",
+                      "inputs":  [
+                                     "25",
+                                     "nine",
+                                     "114"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The acute contrast in drought vulnerability between low-rainfall nations and tropical states demonstrates that water stress is driven primarily by inadequate [BLANK_1] rather than total gross [BLANK_2].",
+                      "inputs":  [
+                                     "water management",
+                                     "annual precipitation"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "While Israel circumvents water deficits despite recording a modest average annual rainfall of 250 centimeters, India encounters chronic dry-season scarcity across two months of the year notwithstanding its high 14 centimeter annual precipitation.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "250 centimeters",
+                                              "right":  "25 centimeters"
+                                          },
+                                          {
+                                              "wrong":  "two months of the year notwithstanding its high 14 centimeter",
+                                              "right":  "nine months of the year notwithstanding its high 114 centimeter"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "notwithstanding its high 114 centimeter annual precipitation",
+                                    "While Israel circumvents water deficits despite recording a modest average annual rainfall of 25 centimeters,",
+                                    "because of unmanaged surface runoff.",
+                                    "India encounters chronic dry-season scarcity across nine months of the year"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               3,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "A rainfall intake of {1} cm suffices in {2} due to efficient planning, whereas {3} cm in {4} leaves the landscape dry for {5} months without systematic storage.",
+                      "keys":  [
+                                   "25",
+                                   "Israel",
+                                   "114",
+                                   "India",
+                                   "nine"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_003",
+        "category":  "Agricultural Water Extraction \u0026 Groundwater Stress",
+        "topic":  "Agrarian Groundwater Depletion via Tube-Well Expansion",
+        "anchor_sentence":  "Incentivized to maximize dry-season food grain harvests, the proliferation of independent private farm tube-wells and energized borewells has critically lowered subterranean water tables across India, jeopardizing future national food security.",
+        "pass1":  {
+                      "prompt":  "Incentivized to maximize dry-season harvests, the expansion of farm [BLANK_1] has critically lowered subterranean [BLANK_2] tables across India.",
+                      "inputs":  [
+                                     "tube-wells",
+                                     "water"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Private over-extraction by agrarian [BLANK_1] seeking to expand irrigated farming has severely undermined long-term [BLANK_2] for the wider population.",
+                      "inputs":  [
+                                     "farmers",
+                                     "food security"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Representing the [BLANK_1] consumer of freshwater resources, irrigated agriculture drives falling aquifer reserves through intensive non-monsoon cropping.",
+                      "inputs":  [
+                                     "largest"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Unregulated deployment of mechanized [BLANK_1] devices to cultivate water-intensive cash crops induces regional declines in the [BLANK_2].",
+                      "inputs":  [
+                                     "groundwater pumping",
+                                     "water table"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Incentivized to minimize dry-season food grain harvests, the prohibition of independent private farm tube-wells has critically elevated subterranean water tables across India, stabilizing future national food security.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "minimize",
+                                              "right":  "maximize"
+                                          },
+                                          {
+                                              "wrong":  "prohibition of independent private farm tube-wells has critically elevated",
+                                              "right":  "proliferation of independent private farm tube-wells has critically lowered"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "the proliferation of independent private farm tube-wells and energized borewells",
+                                    "jeopardizing future national food security.",
+                                    "Incentivized to maximize dry-season food grain harvests,",
+                                    "has critically lowered subterranean water tables across India,"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               3,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Excessive reliance on private {1} for expanding irrigated agriculture during dry seasons exhausts {2} aquifers and threatens collective {3}.",
+                      "keys":  [
+                                   "tube-wells",
+                                   "groundwater",
+                                   "food security"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_004",
+        "category":  "Groundwater Governance \u0026 Community Interventions",
+        "topic":  "The Atal Bhujal Yojana Framework",
+        "anchor_sentence":  "Targeting 8220 water-stressed Gram Panchayats across 80 districts within seven participating states, the Atal Bhujal Yojana mobilizes community-led behavioral changes to steer local populations from unregulated consumption toward conservation and smart water stewardship.",
+        "pass1":  {
+                      "prompt":  "Targeting [BLANK_1] water-stressed Gram Panchayats across 80 districts within [BLANK_2] states, the Atal Bhujal Yojana promotes smart water stewardship.",
+                      "inputs":  [
+                                     "8220",
+                                     "seven"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Administered under the Ministry of Jal Shakti, the [BLANK_1] program relies on [BLANK_2] participation across panchayats to transform water habits.",
+                      "inputs":  [
+                                     "Atal Bhujal Yojana",
+                                     "community"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The Atal Jal initiative encompasses [BLANK_1] Gram Panchayats, situated in [BLANK_2] administrative blocks, spanning [BLANK_3] districts across seven priority states that contain roughly 37 percent of India\u0027s stressed blocks.",
+                      "inputs":  [
+                                     "8220",
+                                     "229",
+                                     "80"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The institutional scheme focuses on areas categorized hydrologically as [BLANK_1], critical, and [BLANK_2] blocks.",
+                      "inputs":  [
+                                     "over-exploited",
+                                     "semi-critical"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Targeting 120 water-stressed Gram Panchayats across 8 districts within two participating states, the Atal Bhujal Yojana mobilizes corporate extraction to steer local populations toward industrial bottled water purchases.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "120 water-stressed Gram Panchayats across 8 districts within two",
+                                              "right":  "8220 water-stressed Gram Panchayats across 80 districts within seven"
+                                          },
+                                          {
+                                              "wrong":  "corporate extraction",
+                                              "right":  "community-led behavioral changes"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Targeting 8220 water-stressed Gram Panchayats across 80 districts within seven participating states,",
+                                    "to steer local populations from unregulated consumption",
+                                    "the Atal Bhujal Yojana mobilizes community-led behavioral changes",
+                                    "toward conservation and smart water stewardship."
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               2,
+                                               1,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "The {1} operates across {2} Gram Panchayats in {3} districts of 7 states to encourage community-driven {4} practices.",
+                      "keys":  [
+                                   "Atal Bhujal Yojana",
+                                   "8220",
+                                   "80",
+                                   "water management"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_005",
+        "category":  "Rural Drinking Water Infrastructure",
+        "topic":  "Jal Jeevan Mission Potable Supply Targets",
+        "anchor_sentence":  "Enacted as a flagship welfare mission to enhance rural quality of life, the Jal Jeevan Mission mandates the sustained delivery of 55 liters per capita per day of potable piped drinking water through functional household tap connections.",
+        "pass1":  {
+                      "prompt":  "Enacted to upgrade rural living standards, the [BLANK_1] Mission guarantees a daily supply of [BLANK_2] liters per capita through functional tap connections.",
+                      "inputs":  [
+                                     "Jal Jeevan",
+                                     "55"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Instituted by the central government, the [BLANK_1] targets long-term drinking water security for every rural [BLANK_2].",
+                      "inputs":  [
+                                     "Jal Jeevan Mission",
+                                     "household"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The statutory minimum service threshold under the Jal Jeevan Mission is specified at exactly [BLANK_1] liters per individual on a daily recurring basis.",
+                      "inputs":  [
+                                     "55"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The primary operational index used to evaluate the program is the long-term viability of [BLANK_1] tap connections delivering [BLANK_2] water.",
+                      "inputs":  [
+                                     "functional household",
+                                     "potable piped"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Enacted as a commercial export mission to enhance urban factories, the Jal Jeevan Mission mandates the sustained delivery of 550 liters per capita per day of untreated industrial sewage water through shared road tankers.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "commercial export mission to enhance urban factories",
+                                              "right":  "flagship welfare mission to enhance rural quality of life"
+                                          },
+                                          {
+                                              "wrong":  "550 liters per capita per day of untreated industrial sewage water",
+                                              "right":  "55 liters per capita per day of potable piped drinking water"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "the Jal Jeevan Mission mandates the sustained delivery",
+                                    "Enacted as a flagship welfare mission to enhance rural quality of life,",
+                                    "through functional household tap connections.",
+                                    "of 55 liters per capita per day of potable piped drinking water"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Under the {1}, authorities aim to supply {2} liters of {3} drinking water per individual daily through functional domestic {4} connections.",
+                      "keys":  [
+                                   "Jal Jeevan Mission",
+                                   "55",
+                                   "potable piped",
+                                   "tap"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_006",
+        "category":  "Ancient Hydraulic Civilizations",
+        "topic":  "First Century BC Flood Harvesting at Sringaverapura",
+        "anchor_sentence":  "Dating back to the first century BC near modern Prayagraj, Sringaverapura housed a sophisticated water harvesting system engineered to divert and channel high-velocity monsoon floodwaters from the Ganga river.",
+        "pass1":  {
+                      "prompt":  "Dating to the [BLANK_1] century BC near Allahabad, [BLANK_2] housed a sophisticated water harvesting system channeling floodwaters of the Ganga.",
+                      "inputs":  [
+                                     "first",
+                                     "Sringaverapura"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Ancient engineers constructed an advanced diversion channel at Sringaverapura to regulate overflow water from the [BLANK_1] during severe [BLANK_2] seasons.",
+                      "inputs":  [
+                                     "Ganga river",
+                                     "flood"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The historic hydraulic installation at Sringaverapura flourished during the [BLANK_1] century BC along the Gangetic river corridor.",
+                      "inputs":  [
+                                     "first"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Archaeological excavations at Sringaverapura demonstrate pre-modern mastery in designing a [BLANK_1] system that tamed excess [BLANK_2] flows.",
+                      "inputs":  [
+                                     "water harvesting",
+                                     "fluvial flood"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Dating back to the nineteenth century AD near modern Mumbai, Sringaverapura housed an offshore desalination plant engineered to pump salt water into the Arabian sea.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "nineteenth century AD",
+                                              "right":  "first century BC"
+                                          },
+                                          {
+                                              "wrong":  "offshore desalination plant",
+                                              "right":  "sophisticated water harvesting system"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Sringaverapura housed a sophisticated water harvesting system",
+                                    "Dating back to the first century BC near modern Prayagraj,",
+                                    "from the Ganga river.",
+                                    "engineered to divert and channel high-velocity monsoon floodwaters"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Located near Allahabad and constructed in the {1} century BC, {2} utilized diversion channels to tap excess runoff from the {3} river.",
+                      "keys":  [
+                                   "first",
+                                   "Sringaverapura",
+                                   "Ganga"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_007",
+        "category":  "Ancient Hydraulic Engineering",
+        "topic":  "Mauryan and Regional Hydraulic Infrastructure",
+        "anchor_sentence":  "Historical records indicate that Emperor Chandragupta Maurya commissioned extensive networks of dams, lakes, and canals, alongside contemporary regional hydraulic engineering identified across Kalinga, Nagarjunakonda, Bennur, and Kolhapur.",
+        "pass1":  {
+                      "prompt":  "Historical records indicate that Emperor [BLANK_1] Maurya built extensive dams, with similar ancient works found in [BLANK_2] and Nagarjunakonda.",
+                      "inputs":  [
+                                     "Chandragupta",
+                                     "Kalinga"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Extensive state irrigation networks initiated during the reign of [BLANK_1] Maurya were matched by regional reservoirs across [BLANK_2] in Andhra Pradesh.",
+                      "inputs":  [
+                                     "Chandragupta",
+                                     "Nagarjunakonda"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The textbook chronicles ancient hydraulic structures across [BLANK_1] major historical territories: Kalinga in Odisha, Nagarjunakonda in Andhra, Bennur in Karnataka, and Kolhapur in Maharashtra.",
+                      "inputs":  [
+                                     "four"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Early Indian rulers constructed stone masonry [BLANK_1], artificial storage lakes, and transport [BLANK_2] to support agrarian cultivation.",
+                      "inputs":  [
+                                     "dams",
+                                     "canals"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Historical records indicate that Emperor Chandragupta Maurya ordered the total demolition of all dams, lakes, and canals, outlawing hydraulic engineering throughout Kolhapur and Kalinga.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "total demolition",
+                                              "right":  "extensive networks"
+                                          },
+                                          {
+                                              "wrong":  "outlawing",
+                                              "right":  "commissioning"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "commissioned extensive networks of dams, lakes, and canals,",
+                                    "alongside contemporary regional hydraulic engineering identified across Kalinga, Nagarjunakonda, Bennur, and Kolhapur.",
+                                    "Historical records indicate that Emperor Chandragupta Maurya"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Under {1}, ancient engineering flourished with canals and reservoirs, mirrored across southern sites like {2} in Karnataka and {3} in Maharashtra.",
+                      "keys":  [
+                                   "Chandragupta Maurya",
+                                   "Bennur",
+                                   "Kolhapur"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_008",
+        "category":  "Medieval Hydraulic Engineering",
+        "topic":  "Bhopal Lake and Delhi Sultanate Hauz Khas Tank",
+        "anchor_sentence":  "Medieval water engineering achieved major milestones with the construction of the sprawling artificial Bhopal Lake in the eleventh century, followed by Sultan Alauddin Khalji excavating the Hauz Khas reservoir in fourteenth-century Delhi to supply Siri Fort.",
+        "pass1":  {
+                      "prompt":  "Medieval engineering produced the artificial [BLANK_1] Lake in the eleventh century, followed by Sultan [BLANK_2] constructing the Hauz Khas reservoir for Siri Fort.",
+                      "inputs":  [
+                                     "Bhopal",
+                                     "Alauddin Khalji"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "In the fourteenth century, Sultan [BLANK_1] excavated the Hauz Khas tank to secure piped domestic supplies for the garrison settlement of [BLANK_2].",
+                      "inputs":  [
+                                     "Alauddin Khalji",
+                                     "Siri Fort"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Medieval civic water planning advanced across two epochs: the [BLANK_1] century creation of Bhopal Lake and the [BLANK_2] century excavation of Hauz Khas in Delhi.",
+                      "inputs":  [
+                                     "11th",
+                                     "14th"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Large urban settlements relied on impoundments, transitioning from regional [BLANK_1] lakes to fortified municipal storage [BLANK_2].",
+                      "inputs":  [
+                                     "artificial",
+                                     "tanks"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Medieval water engineering achieved major milestones with the destruction of the natural Bhopal Lake in the nineteenth century, followed by Sultan Alauddin Khalji draining the Hauz Khas reservoir in seventeenth-century Agra.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "destruction of the natural Bhopal Lake in the nineteenth",
+                                              "right":  "construction of the sprawling artificial Bhopal Lake in the eleventh"
+                                          },
+                                          {
+                                              "wrong":  "draining the Hauz Khas reservoir in seventeenth-century Agra",
+                                              "right":  "excavating the Hauz Khas reservoir in fourteenth-century Delhi"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "with the construction of the sprawling artificial Bhopal Lake in the eleventh century,",
+                                    "followed by Sultan Alauddin Khalji excavating the Hauz Khas reservoir in fourteenth-century Delhi",
+                                    "Medieval water engineering achieved major milestones",
+                                    "to supply Siri Fort."
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               1,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Built in the {1} century, {2} Lake stood as a massive artificial reservoir, while {3} excavated {4} in Delhi to support his royal citadel.",
+                      "keys":  [
+                                   "11th",
+                                   "Bhopal",
+                                   "Alauddin Khalji",
+                                   "Hauz Khas"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_009",
+        "category":  "Hydraulic Structures \u0026 Dam Typology",
+        "topic":  "Technical Anatomy and Structural Classification of Dams",
+        "anchor_sentence":  "A dam functions as a physical obstruction built across running streams to retard or impound hydraulic discharge, incorporating a spillway or weir for managed outflow and categorized structurally into timber, embankment, or masonry designs.",
+        "pass1":  {
+                      "prompt":  "A dam functions as a barrier that retards flow, incorporating a [BLANK_1] or weir for managed outflow and categorized structurally into timber, [BLANK_2], or masonry designs.",
+                      "inputs":  [
+                                     "spillway",
+                                     "embankment"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "In structural terminology, the label dam often denotes the impounded [BLANK_1] rather than the structural barrier, while water releases are routed across a [BLANK_2].",
+                      "inputs":  [
+                                     "reservoir",
+                                     "weir"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Engineers classify barrier structures by height into [BLANK_1] primary tiers: low dams, medium-height structures, and high or major dams.",
+                      "inputs":  [
+                                     "three"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Dams are differentiated by materials and construction methods into [BLANK_1] dams, earth or rock [BLANK_2] dams, and solid [BLANK_3] barriers.",
+                      "inputs":  [
+                                     "timber",
+                                     "embankment",
+                                     "masonry"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "A dam functions as a decorative garden built parallel to calm streams to evaporate hydraulic discharge, incorporating a windmill for managed outflow and categorized structurally into plastic, glass, or cotton designs.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "decorative garden built parallel",
+                                              "right":  "physical obstruction built across"
+                                          },
+                                          {
+                                              "wrong":  "plastic, glass, or cotton",
+                                              "right":  "timber, embankment, or masonry"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "incorporating a spillway or weir for managed outflow",
+                                    "A dam functions as a physical obstruction built across running streams",
+                                    "and categorized structurally into timber, embankment, or masonry designs.",
+                                    "to retard or impound hydraulic discharge,"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               3,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "A dam creates a {1} by blocking running water, venting regulated surplus through a {2} and constructed using {3} or earthen materials.",
+                      "keys":  [
+                                   "reservoir",
+                                   "spillway",
+                                   "masonry"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_010",
+        "category":  "Integrated Water Resources Management",
+        "topic":  "Dual Integration of the Bhakra-Nangal Multi-Purpose Project",
+        "anchor_sentence":  "Constructed along the Sutlej-Beas river basin, the Bhakra-Nangal multi-purpose venture harmonizes river impoundment to supply vast hydroelectric power output while feeding extensive canal networks for agricultural irrigation across northwestern states.",
+        "pass1":  {
+                      "prompt":  "Constructed along the [BLANK_1] basin, the Bhakra-Nangal venture harmonizes river impoundment for hydel power and agricultural [BLANK_2].",
+                      "inputs":  [
+                                     "Sutlej-Beas",
+                                     "irrigation"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "The [BLANK_1] project utilizes water impounded from northern rivers to stimulate both industrial grids and rural [BLANK_2] economies.",
+                      "inputs":  [
+                                     "Bhakra-Nangal",
+                                     "farming"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The Bhakra-Nangal scheme addresses [BLANK_1] fundamental objectives simultaneously: electrical power generation and regional agrarian irrigation.",
+                      "inputs":  [
+                                     "two"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The coordinated exploitation of a river catchment for energetic and agronomic functions is defined as [BLANK_1] water management.",
+                      "inputs":  [
+                                     "integrated"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Constructed along the Krishna-Godavari river basin, the Bhakra-Nangal multi-purpose venture harmonizes river impoundment to supply vast coal output while feeding extensive oil pipelines for urban heating.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "Krishna-Godavari",
+                                              "right":  "Sutlej-Beas"
+                                          },
+                                          {
+                                              "wrong":  "vast coal output while feeding extensive oil pipelines",
+                                              "right":  "vast hydroelectric power output while feeding extensive canal networks"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "the Bhakra-Nangal multi-purpose venture harmonizes river impoundment",
+                                    "Constructed along the Sutlej-Beas river basin,",
+                                    "while feeding extensive canal networks for agricultural irrigation across northwestern states.",
+                                    "to supply vast hydroelectric power output"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Spanning the {1} river system, the {2} dam coordinates water storage for generating {3} energy alongside canal {4}.",
+                      "keys":  [
+                                   "Sutlej-Beas",
+                                   "Bhakra-Nangal",
+                                   "hydroelectric",
+                                   "irrigation"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_011",
+        "category":  "Integrated Water Resources Management",
+        "topic":  "Flood Moderation in the Hirakud Mahanadi Basin",
+        "anchor_sentence":  "Erected across the Mahanadi river basin in Odisha, the Hirakud multi-purpose project pairs raw water conservation with downstream flood management to mitigate coastal monsoon destruction.",
+        "pass1":  {
+                      "prompt":  "Erected across the [BLANK_1] river basin in Odisha, the [BLANK_2] project pairs water conservation with downstream flood management.",
+                      "inputs":  [
+                                     "Mahanadi",
+                                     "Hirakud"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "State planning in Odisha implemented the [BLANK_1] dam over the [BLANK_2] to tame seasonal floods.",
+                      "inputs":  [
+                                     "Hirakud",
+                                     "Mahanadi river"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Hirakud functions as a multi-purpose installation that regulates the catchment of [BLANK_1] of eastern India\u0027s most flood-prone major rivers.",
+                      "inputs":  [
+                                     "one"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The hydraulic technique of holding back storm discharges in large catchments to stabilize lower riverbanks is termed [BLANK_1].",
+                      "inputs":  [
+                                     "flood control"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Erected across the Tapi river basin in Gujarat, the Hirakud multi-purpose project pairs nuclear testing with downstream canal drying to accelerate coastal monsoon destruction.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "Tapi river basin in Gujarat",
+                                              "right":  "Mahanadi river basin in Odisha"
+                                          },
+                                          {
+                                              "wrong":  "nuclear testing with downstream canal drying",
+                                              "right":  "water conservation with downstream flood management"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "the Hirakud multi-purpose project pairs raw water conservation",
+                                    "to mitigate coastal monsoon destruction.",
+                                    "Erected across the Mahanadi river basin in Odisha,",
+                                    "with downstream flood management"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               3,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "The {1} dam controls discharge on the {2} river, linking water storage directly with regional {3} reduction.",
+                      "keys":  [
+                                   "Hirakud",
+                                   "Mahanadi",
+                                   "flood"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_012",
+        "category":  "Post-Colonial Development Ideology",
+        "topic":  "Nehruvian Vision of Dams as Temples of Modern India",
+        "anchor_sentence":  "Prime Minister Jawaharlal Nehru lauded multi-purpose dams as the temples of modern India, asserting that massive river impoundments would catalyze national progress by uniting agrarian prosperity with rapid urban industrialization.",
+        "pass1":  {
+                      "prompt":  "Jawaharlal Nehru proclaimed dams as the [BLANK_1] of modern India, believing they would unite [BLANK_2] development with rapid industrial expansion.",
+                      "inputs":  [
+                                     "temples",
+                                     "agrarian"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Prime Minister [BLANK_1] envisioned that engineering river valleys would help India shake off its [BLANK_2] economic stagnation.",
+                      "inputs":  [
+                                     "Jawaharlal Nehru",
+                                     "colonial"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The post-independence dam philosophy integrated [BLANK_1] parallel socioeconomic arenas: rural village farming and urban manufacturing.",
+                      "inputs":  [
+                                     "two"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The nationalist developmental framework celebrating river engineering as sacred civic architecture is captured in the phrase [BLANK_1].",
+                      "inputs":  [
+                                     "temples of modern India"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Prime Minister Jawaharlal Nehru condemned multi-purpose dams as the curses of ancient India, asserting that river impoundments would destroy national progress by separating agrarian prosperity from village life.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "condemned multi-purpose dams as the curses",
+                                              "right":  "lauded multi-purpose dams as the temples"
+                                          },
+                                          {
+                                              "wrong":  "destroy national progress",
+                                              "right":  "catalyze national progress"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "by uniting agrarian prosperity with rapid urban industrialization.",
+                                    "lauded multi-purpose dams as the temples of modern India,",
+                                    "Prime Minister Jawaharlal Nehru",
+                                    "asserting that massive river impoundments would catalyze national progress"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               1,
+                                               3,
+                                               0
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Describing large dams as the {1}, leader {2} expected river valley projects to integrate rural {3} with urban {4}.",
+                      "keys":  [
+                                   "temples of modern India",
+                                   "Jawaharlal Nehru",
+                                   "agriculture",
+                                   "industrialization"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_013",
+        "category":  "Fluvial Geomorphology \u0026 Habitat Loss",
+        "topic":  "Dam Sediment Trapping and Stream Bed Degradation",
+        "anchor_sentence":  "Damming flowing rivers obstructs natural sediment transport and triggers excessive sedimentation in reservoir beds, producing coarse, rockier downstream stream floors that degrade benthic aquatic habitats and hinder fish spawning migrations.",
+        "pass1":  {
+                      "prompt":  "Damming rivers obstructs natural sediment flow, producing [BLANK_1] downstream river beds that degrade habitats and impede fish [BLANK_2] migrations.",
+                      "inputs":  [
+                                     "rockier",
+                                     "spawning"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Reservoir sedimentation alters the physical environment, placing migratory [BLANK_1] and bottom-dwelling [BLANK_2] organisms under stress.",
+                      "inputs":  [
+                                     "fish",
+                                     "aquatic"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Impoundments fragment river corridors into isolated zones, curtailing the [BLANK_1] flow of vital organic nutrients down to delta plains.",
+                      "inputs":  [
+                                     "downstream"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Trapping fluvial silts behind concrete walls causes heavy [BLANK_1] within the reservoir while inducing downstream [BLANK_2] of the natural river channel.",
+                      "inputs":  [
+                                     "sedimentation",
+                                     "erosion"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Damming flowing rivers accelerates natural sediment transport and eliminates sedimentation in reservoir beds, producing soft silty downstream floors that multiply benthic aquatic habitats.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "accelerates natural sediment transport",
+                                              "right":  "obstructs natural sediment transport"
+                                          },
+                                          {
+                                              "wrong":  "soft silty",
+                                              "right":  "coarse, rockier"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "and triggers excessive sedimentation in reservoir beds,",
+                                    "Damming flowing rivers obstructs natural sediment transport",
+                                    "that degrade benthic aquatic habitats and hinder fish spawning migrations.",
+                                    "producing coarse, rockier downstream stream floors"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "River regulation disrupts natural {1}, leaving behind {2} river beds that prevent {3} from ascending streams to spawn.",
+                      "keys":  [
+                                   "sedimentation",
+                                   "rockier",
+                                   "aquatic fauna"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_014",
+        "category":  "Inter-State Water Conflicts \u0026 Interstate Rivers",
+        "topic":  "The Koyna River Diversion and Krishna-Godavari Dispute",
+        "anchor_sentence":  "The interstate Krishna-Godavari river dispute flared when Karnataka and Andhra Pradesh governments challenged Maharashtra over diverting substantial upstream discharges at Koyna for a multi-purpose hydel project, arguing it curtailed downstream agrarian and industrial flows.",
+        "pass1":  {
+                      "prompt":  "The [BLANK_1] water dispute erupted when Karnataka and Andhra Pradesh protested against Maharashtra diverting water at [BLANK_2] for hydroelectricity.",
+                      "inputs":  [
+                                     "Krishna-Godavari",
+                                     "Koyna"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Lower riparian governments of [BLANK_1] and Andhra Pradesh opposed the upper riparian government of [BLANK_2] over unilateral water transfers.",
+                      "inputs":  [
+                                     "Karnataka",
+                                     "Maharashtra"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The Koyna hydel dispute centers on resource allocation between [BLANK_1] prominent peninsular states sharing the river drainage.",
+                      "inputs":  [
+                                     "three"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Inter-state river discord frequently arises when upper riparian impoundments reduce the [BLANK_1] discharge required for lower basin [BLANK_2] activities.",
+                      "inputs":  [
+                                     "downstream",
+                                     "agricultural"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "The interstate Krishna-Godavari river dispute flared when Karnataka and Andhra Pradesh governments praised Maharashtra over donating substantial upstream discharges at Koyna to irrigate dry coastal tracts.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "praised Maharashtra over donating",
+                                              "right":  "challenged Maharashtra over diverting"
+                                          },
+                                          {
+                                              "wrong":  "irrigate dry coastal tracts",
+                                              "right":  "a multi-purpose hydel project"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "when Karnataka and Andhra Pradesh governments challenged Maharashtra",
+                                    "arguing it curtailed downstream agrarian and industrial flows.",
+                                    "over diverting substantial upstream discharges at Koyna for a multi-purpose hydel project,",
+                                    "The interstate Krishna-Godavari river dispute flared"
+                                ],
+                      "correct_sequence":  [
+                                               3,
+                                               0,
+                                               2,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Protests over water diversions at {1} on the {2} system emerged because {3} restricted crucial volumes needed downstream in Karnataka.",
+                      "keys":  [
+                                   "Koyna",
+                                   "Krishna-Godavari",
+                                   "Maharashtra"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_015",
+        "category":  "Multi-State Mega Hydraulic Projects",
+        "topic":  "Sardar Sarovar Dam Specifications and Inter-State Beneficiaries",
+        "anchor_sentence":  "Constructed over the Narmada River in Gujarat, the Sardar Sarovar Dam provides irrigation and drinking water across four federated states, delivering assured water supplies to 18.45 lakh hectares across Gujarat and 246000 arid hectares in Rajasthan\u0027s Barmer and Jalore districts.",
+        "pass1":  {
+                      "prompt":  "Built over the [BLANK_1] River in Gujarat, the Sardar Sarovar Dam supplies water to 18.45 lakh hectares in Gujarat and arid regions of [BLANK_2].",
+                      "inputs":  [
+                                     "Narmada",
+                                     "Rajasthan"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Spanning across four regional partners—Gujarat, [BLANK_1], Maharashtra, and Rajasthan—the [BLANK_2] Dam transforms drought-prone agrarian belts.",
+                      "inputs":  [
+                                     "Madhya Pradesh",
+                                     "Sardar Sarovar"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The mega installation waters [BLANK_1] lakh hectares within Gujarat and [BLANK_2] hectares across Barmer and Jalore districts in Rajasthan, serving [BLANK_3] states altogether.",
+                      "inputs":  [
+                                     "18.45",
+                                     "246000",
+                                     "four"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The project serves a command region where nearly [BLANK_1] percent of the beneficiary tracts in Gujarat and the entire command zone in Rajasthan are classified as [BLANK_2].",
+                      "inputs":  [
+                                     "75",
+                                     "drought-prone"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Constructed over the Brahmaputra River in Assam, the Sardar Sarovar Dam provides irrigation and drinking water across twelve federated states, delivering assured water supplies to 18 hectares across Barmer.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "Brahmaputra River in Assam",
+                                              "right":  "Narmada River in Gujarat"
+                                          },
+                                          {
+                                              "wrong":  "twelve federated states",
+                                              "right":  "four federated states"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "the Sardar Sarovar Dam provides irrigation and drinking water across four federated states,",
+                                    "Constructed over the Narmada River in Gujarat,",
+                                    "and 246000 arid hectares in Rajasthan\u0027s Barmer and Jalore districts.",
+                                    "delivering assured water supplies to 18.45 lakh hectares across Gujarat"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Built across the {1} river, the {2} Dam waters 18.45 lakh hectares in Gujarat alongside desert expanses in {3} and {4} in Rajasthan.",
+                      "keys":  [
+                                   "Narmada",
+                                   "Sardar Sarovar",
+                                   "Barmer",
+                                   "Jalore"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_016",
+        "category":  "Ecological Feedback \u0026 Dam Maladaptation",
+        "topic":  "Reservoir Sedimentation and Induced Flooding Paradox",
+        "anchor_sentence":  "Ironically, major dams constructed explicitly for flood mitigation have repeatedly triggered catastrophic inundations because unmanaged reservoir silt accumulation drastically curtails retention capacity during intense cloudbursts.",
+        "pass1":  {
+                      "prompt":  "Ironically, dams built for flood control have triggered floods because heavy reservoir [BLANK_1] reduces storage during intense [BLANK_2].",
+                      "inputs":  [
+                                     "sedimentation",
+                                     "cloudbursts"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Rather than protecting downstream [BLANK_1], excessive silt-choked reservoirs compel dam [BLANK_2] to execute sudden massive water releases.",
+                      "inputs":  [
+                                     "settlements",
+                                     "engineers"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Decades of silt buildup compromise reservoir volume, turning peak monsoon events into [BLANK_1] primary cause of artificial downstream floods.",
+                      "inputs":  [
+                                     "one"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The loss of usable water storage caused by particulate mineral deposition at the base of reservoirs is scientifically termed [BLANK_1].",
+                      "inputs":  [
+                                     "reservoir sedimentation"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Expectedly, major dams constructed explicitly for flood mitigation have permanently eliminated all floods because clean reservoir channels expand retention capacity during intense droughts.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "permanently eliminated all floods",
+                                              "right":  "repeatedly triggered catastrophic inundations"
+                                          },
+                                          {
+                                              "wrong":  "clean reservoir channels expand",
+                                              "right":  "unmanaged reservoir silt accumulation drastically curtails"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "because unmanaged reservoir silt accumulation drastically curtails retention capacity",
+                                    "have repeatedly triggered catastrophic inundations",
+                                    "Ironically, major dams constructed explicitly for flood mitigation",
+                                    "during intense cloudbursts."
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               1,
+                                               0,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Silt build-up within {1} basins diminishes their holding threshold, resulting in dams causing catastrophic {2} during severe {3} downpours.",
+                      "keys":  [
+                                   "reservoir",
+                                   "flooding",
+                                   "monsoon"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_017",
+        "category":  "Agro-Ecological Maladaptation",
+        "topic":  "Canal Over-Irrigation and Soil Salinization",
+        "anchor_sentence":  "Perennial canal irrigation has altered cropping patterns by incentivizing farmers to switch toward water-intensive commercial cash crops, inducing long-term soil salinization and amplifying economic divides between landowning classes.",
+        "pass1":  {
+                      "prompt":  "Perennial canal irrigation has prompted farmers to plant [BLANK_1] crops, inducing widespread soil [BLANK_2] and ecological degradation.",
+                      "inputs":  [
+                                     "water-intensive",
+                                     "salinization"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Access to subsidized water channels has led [BLANK_1] to replace hardy traditional crops with high-value [BLANK_2] species.",
+                      "inputs":  [
+                                     "farmers",
+                                     "commercial"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Unrestrained irrigation transforms soil chemistry, elevating dissolved [BLANK_1] concentrations within topsoil horizons.",
+                      "inputs":  [
+                                     "salt"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The progressive capillary accumulation of mineral salts in arable land resulting from continuous over-irrigation is known as [BLANK_1].",
+                      "inputs":  [
+                                     "soil salinization"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Perennial canal irrigation has restored ancient cropping patterns by forcing farmers to switch toward drought-resistant arid grasses, inducing long-term soil desalination and erasing economic divides between social classes.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "drought-resistant arid grasses",
+                                              "right":  "water-intensive commercial cash crops"
+                                          },
+                                          {
+                                              "wrong":  "desalination",
+                                              "right":  "salinization"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "inducing long-term soil salinization",
+                                    "Perennial canal irrigation has altered cropping patterns",
+                                    "and amplifying economic divides between landowning classes.",
+                                    "by incentivizing farmers to switch toward water-intensive commercial cash crops,"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               3,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Excessive watering via {1} systems causes severe {2} of fertile tracts while encouraging transitions to {3} agriculture.",
+                      "keys":  [
+                                   "canal",
+                                   "salinization",
+                                   "commercial"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_018",
+        "category":  "Centrally Sponsored Irrigation Architecture",
+        "topic":  "Pradhan Mantri Krishi Sinchayee Yojana Mandates",
+        "anchor_sentence":  "The Pradhan Mantri Krishi Sinchayee Yojana pursues universal protective irrigation coverage across Indian farms, deploying dual objectives of expanding cultivable land under assured watering through Har Khet Ko Pani and boosting efficiency via Per Drop More Crop micro-irrigation.",
+        "pass1":  {
+                      "prompt":  "The Pradhan Mantri Krishi Sinchayee Yojana delivers irrigation under the twin mandates of Har Khet Ko Pani and [BLANK_1] [BLANK_2] More Crop.",
+                      "inputs":  [
+                                     "Per",
+                                     "Drop"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Administered to assist [BLANK_1], this governmental scheme improves on-farm irrigation systems while optimizing water efficiency across every [BLANK_2].",
+                      "inputs":  [
+                                     "farmers",
+                                     "agricultural plot"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The national irrigation program operates via [BLANK_1] foundational slogans: Har Khet Ko Pani and Per Drop More Crop.",
+                      "inputs":  [
+                                     "two"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The component aiming to eliminate water wastage through precision drip and sprinkler hardware is encapsulated in the slogan [BLANK_1].",
+                      "inputs":  [
+                                     "per drop more crop"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "The Pradhan Mantri Krishi Sinchayee Yojana pursues total irrigation elimination across Indian farms, deploying dual objectives of reducing cultivable land under assured watering through No Khet Ko Pani and wasting efficiency via Per Flood No Crop.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "total irrigation elimination",
+                                              "right":  "universal protective irrigation coverage"
+                                          },
+                                          {
+                                              "wrong":  "No Khet Ko Pani and wasting efficiency via Per Flood No Crop",
+                                              "right":  "Har Khet Ko Pani and boosting efficiency via Per Drop More Crop"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "deploying dual objectives of expanding cultivable land under assured watering through Har Khet Ko Pani",
+                                    "and boosting efficiency via Per Drop More Crop micro-irrigation.",
+                                    "The Pradhan Mantri Krishi Sinchayee Yojana pursues universal protective irrigation coverage across Indian farms,",
+                                    "to reduce on-farm losses"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               1,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "National irrigation enhancement is pursued through the {1}, anchored by the {2} access goal alongside {3} precision water efficiency.",
+                      "keys":  [
+                                   "Pradhan Mantri Krishi Sinchayee Yojana",
+                                   "Har Khet Ko Pani",
+                                   "Per Drop More Crop"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_019",
+        "category":  "Indigenous Montane Water Harvesting",
+        "topic":  "Himalayan Diversion Channels (Guls and Kuls)",
+        "anchor_sentence":  "Across the steep mountainous topography of the Western Himalayas, agrarian communities engineered gravity-fed diversion channels known as guls or kuls to transport glacier meltwater and hill runoff directly into terraced cultivation patches.",
+        "pass1":  {
+                      "prompt":  "Across the Western Himalayas, farming communities engineered diversion channels known as [BLANK_1] or [BLANK_2] to direct mountain runoff into agricultural plots.",
+                      "inputs":  [
+                                     "guls",
+                                     "kuls"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Mountain communities across regions like the [BLANK_1] valley tap natural streams through [BLANK_2] that lead into circular village tanks.",
+                      "inputs":  [
+                                     "Spiti",
+                                     "kuls"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Indigenous farmers in Kaza village route stream water through [BLANK_1] primary circular community reservoir from which rations are distributed sequentially.",
+                      "inputs":  [
+                                     "one"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Traditional conduits cut into mountain slopes to tap perennial highland rivulets for gravity-fed irrigation are regionally called [BLANK_1].",
+                      "inputs":  [
+                                     "guls or kuls"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Across the flat coastline of the Eastern Sundarbans, agrarian communities engineered steam-powered pumping engines known as guls or kuls to transport sea brine directly into factory drainage pipes.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "flat coastline of the Eastern Sundarbans",
+                                              "right":  "steep mountainous topography of the Western Himalayas"
+                                          },
+                                          {
+                                              "wrong":  "steam-powered pumping engines",
+                                              "right":  "gravity-fed diversion channels"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "agrarian communities engineered gravity-fed diversion channels known as guls or kuls",
+                                    "directly into terraced cultivation patches.",
+                                    "Across the steep mountainous topography of the Western Himalayas,",
+                                    "to transport glacier meltwater and hill runoff"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               3,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "In the Western Himalayas, indigenous gravity canals titled {1} or {2} channel upland runoff into village storage tanks like those in {3} village.",
+                      "keys":  [
+                                   "guls",
+                                   "kuls",
+                                   "Kaza"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_020",
+        "category":  "Fluvial Wetland Agriculture",
+        "topic":  "Bengal Inundation Canal Systems",
+        "anchor_sentence":  "Historically within the active floodplains of Bengal, farmers constructed networks of inundation channels designed to carry nutrient-rich seasonal floodwaters onto embanked agricultural fields for rice irrigation and natural soil fertilization.",
+        "pass1":  {
+                      "prompt":  "In the active floodplains of [BLANK_1], farmers constructed [BLANK_2] channels to divert silt-laden floodwaters into crop fields.",
+                      "inputs":  [
+                                     "Bengal",
+                                     "inundation"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Rural cultivators in [BLANK_1] manipulated high river levels using channels that transferred silt onto [BLANK_2] plots.",
+                      "inputs":  [
+                                     "Bengal",
+                                     "paddy"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Inundation channels fulfilled [BLANK_1] vital farming functions during the monsoon: providing timely irrigation water and depositing fertile silt.",
+                      "inputs":  [
+                                     "two"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Cuts excavated across natural river levees that convey surplus flood stage discharge into adjoining agrarian fields are called [BLANK_1].",
+                      "inputs":  [
+                                     "inundation channels"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Historically within the active floodplains of Bengal, farmers constructed networks of subterranean oil pipelines designed to drain floodwaters away from embanked agricultural fields into deep underground mines.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "subterranean oil pipelines",
+                                              "right":  "networks of inundation channels"
+                                          },
+                                          {
+                                              "wrong":  "drain floodwaters away",
+                                              "right":  "carry nutrient-rich seasonal floodwaters onto embanked agricultural fields"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "farmers constructed networks of inundation channels",
+                                    "Historically within the active floodplains of Bengal,",
+                                    "for rice irrigation and natural soil fertilization.",
+                                    "designed to carry nutrient-rich seasonal floodwaters onto embanked agricultural fields"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Deltaic farmers across {1} devised traditional {2} channels that guided monsoon floods to nourish {3} seedlings with river silt.",
+                      "keys":  [
+                                   "Bengal",
+                                   "inundation",
+                                   "crop"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_021",
+        "category":  "Arid Agronomic Water Harvesting",
+        "topic":  "Khadins of Jaisalmer and Johads of Rajasthan",
+        "anchor_sentence":  "Across arid Rajasthan, rural communities converted sloping farmlands into rain-fed moisture impoundments where earthen embankments trapped runoff to saturate soils for subsequent winter sowing, exemplified by the khadins of Jaisalmer and johads across neighboring districts.",
+        "pass1":  {
+                      "prompt":  "In arid Rajasthan, farmlands were converted into moisture-trapping structures, featuring [BLANK_1] in Jaisalmer and [BLANK_2] in other districts.",
+                      "inputs":  [
+                                     "khadins",
+                                     "johads"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Traditional agrarian societies in [BLANK_1] engineered earthen bunds to hold seasonal rain within fields designated as [BLANK_2].",
+                      "inputs":  [
+                                     "Jaisalmer",
+                                     "khadins"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "These indigenous earthen enclosures operate across [BLANK_1] phases: submergence during the summer rains followed by crop sowing in the moist soil bed during winter.",
+                      "inputs":  [
+                                     "two"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Enclosed agricultural fields designed to catch and hold storm runoff until it percolates and moistens the subterranean soil profile are termed [BLANK_1] and [BLANK_2].",
+                      "inputs":  [
+                                     "khadins",
+                                     "johads"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Across arid Rajasthan, rural communities converted sloping farmlands into asphalt landing strips where concrete walls drained runoff into sewer lines, exemplified by the khadins of Jaisalmer.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "asphalt landing strips",
+                                              "right":  "rain-fed moisture impoundments"
+                                          },
+                                          {
+                                              "wrong":  "concrete walls drained runoff into sewer lines",
+                                              "right":  "earthen embankments trapped runoff to saturate soils"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "where earthen embankments trapped runoff to saturate soils for subsequent winter sowing,",
+                                    "Across arid Rajasthan, rural communities converted sloping farmlands into rain-fed moisture impoundments",
+                                    "exemplified by the khadins of Jaisalmer and johads across neighboring districts."
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Arid agricultural runoff is retained by field bunds called {1} in {2} and {3} elsewhere in Rajasthan to preserve subterranean soil moisture.",
+                      "keys":  [
+                                   "khadins",
+                                   "Jaisalmer",
+                                   "johads"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_022",
+        "category":  "Domestic Rainwater Harvesting Architecture",
+        "topic":  "Underground Tankas and Palar Pani in Arid Rajasthan",
+        "anchor_sentence":  "In arid towns such as Bikaner, Barmer, and Phalodi, households constructed underground masonry cisterns called tankas inside courtyards to harvest rooftop rain, storing the pristine precipitation known locally as palar pani as a reliable summer potable reserve.",
+        "pass1":  {
+                      "prompt":  "In towns like Bikaner and Phalodi, houses stored rooftop rainwater in underground [BLANK_1], collecting pure natural water termed [BLANK_2] pani.",
+                      "inputs":  [
+                                     "tankas",
+                                     "palar"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Families in [BLANK_1] constructed domestic subterranean reservoirs within courtyards, preserving [BLANK_2] long after wells dried out.",
+                      "inputs":  [
+                                     "Phalodi",
+                                     "drinking water"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "One large residential tanka documented in Phalodi measured [BLANK_1] meters deep, 4.27 meters long, and 2.44 meters wide.",
+                      "inputs":  [
+                                     "6.1"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The cleanest rainwater harvested from domestic rooftops after discarding the initial pipe-washing shower is revered across the Thar as [BLANK_1].",
+                      "inputs":  [
+                                     "palar pani"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "In arid towns such as Bikaner, Barmer, and Phalodi, households constructed open toxic pits called tankas on roofs to evaporate groundwater, dumping the pristine precipitation known locally as palar pani as useless sludge.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "open toxic pits called tankas on roofs",
+                                              "right":  "underground masonry cisterns called tankas inside courtyards"
+                                          },
+                                          {
+                                              "wrong":  "dumping the pristine precipitation",
+                                              "right":  "storing the pristine precipitation"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "households constructed underground masonry cisterns called tankas inside courtyards to harvest rooftop rain,",
+                                    "storing the pristine precipitation known locally as palar pani as a reliable summer potable reserve.",
+                                    "In arid towns such as Bikaner, Barmer, and Phalodi,"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Domestic rooftop water routed into subterranean {1} provided clean drinking water known as {2} {3} throughout hot summer months in Barmer.",
+                      "keys":  [
+                                   "tankas",
+                                   "palar",
+                                   "pani"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_023",
+        "category":  "Canal Infrastructure \u0026 Cultural Transition",
+        "topic":  "The Indira Gandhi Canal and Tanka Disuse",
+        "anchor_sentence":  "The arrival of perennial canal supplies through the Indira Gandhi Canal across western Rajasthan has led to a widespread decline in traditional rooftop rainwater harvesting, although select households maintain functional tankas out of distaste for treated tap water.",
+        "pass1":  {
+                      "prompt":  "The spread of perennial water through the [BLANK_1] Gandhi Canal caused a decline in rooftop harvesting, though some still maintain [BLANK_2] due to tap water taste.",
+                      "inputs":  [
+                                     "Indira",
+                                     "tankas"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Supplies routed from the [BLANK_1] reduced domestic dependence on traditional rainwater storage structures in western [BLANK_2].",
+                      "inputs":  [
+                                     "Indira Gandhi Canal",
+                                     "Rajasthan"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The mega-canal initiative introduced a [BLANK_1] perennial flow into what was formerly a season-dependent desert regime.",
+                      "inputs":  [
+                                     "continuous"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The modern engineering scheme that altered traditional reliance on [BLANK_1] harvesting across the Thar is the [BLANK_2] Canal.",
+                      "inputs":  [
+                                     "rooftop rainwater",
+                                     "Indira Gandhi"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "The arrival of perennial canal supplies through the Indira Gandhi Canal across western Rajasthan has led to a massive resurgence in traditional rooftop rainwater harvesting, with every household demolishing functional tap connections.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "massive resurgence",
+                                              "right":  "widespread decline"
+                                          },
+                                          {
+                                              "wrong":  "demolishing functional tap connections",
+                                              "right":  "relying on perennial canal supplies"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "has led to a widespread decline in traditional rooftop rainwater harvesting,",
+                                    "The arrival of perennial canal supplies through the Indira Gandhi Canal across western Rajasthan",
+                                    "although select households maintain functional tankas out of distaste for treated tap water."
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Flows provided by the {1} {2} Canal caused many residents to abandon underground {3}, though some preserve them for superior drinking quality.",
+                      "keys":  [
+                                   "Indira",
+                                   "Gandhi",
+                                   "tankas"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_024",
+        "category":  "Community Rainwater Harvesting Models",
+        "topic":  "The Rainwater Harvest Model of Gendathur Village",
+        "anchor_sentence":  "In Gendathur, a remote village in Mysuru district of Karnataka, nearly 200 households installed rooftop rainwater collection units, collectively capturing roughly 100000 liters of water annually across systems operating at 80 percent collection efficiency.",
+        "pass1":  {
+                      "prompt":  "In Gendathur village in [BLANK_1] district of Karnataka, around [BLANK_2] households installed rooftop systems yielding 100000 liters annually.",
+                      "inputs":  [
+                                     "Mysuru",
+                                     "200"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Rural residents of [BLANK_1] transformed their remote settlement into a famous water-rich community through systematic [BLANK_2] harvesting.",
+                      "inputs":  [
+                                     "Gendathur",
+                                     "rooftop"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Receiving an annual precipitation of [BLANK_1] millimeters, each household in Gendathur can collect up to [BLANK_2] liters annually through an [BLANK_3] percent efficiency rate.",
+                      "inputs":  [
+                                     "1000",
+                                     "50000",
+                                     "80"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The net rainwater harvested across the entire village community sums up to an aggregate volume of [BLANK_1] liters per year.",
+                      "inputs":  [
+                                     "100000"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "In Gendathur, a remote village in Mysuru district of Karnataka, zero households installed rooftop rainwater collection units, completely exhausting 100000 liters of groundwater daily at 0 percent efficiency.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "zero households",
+                                              "right":  "nearly 200 households"
+                                          },
+                                          {
+                                              "wrong":  "completely exhausting 100000 liters of groundwater",
+                                              "right":  "collectively capturing roughly 100000 liters of water"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "nearly 200 households installed rooftop rainwater collection units,",
+                                    "collectively capturing roughly 100000 liters of water annually across systems operating at 80 percent collection efficiency.",
+                                    "In Gendathur, a remote village in Mysuru district of Karnataka,"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               0,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "The settlement of {1} in {2} achieved fame when {3} families installed rooftop harvesters yielding a total community capacity of {4} liters.",
+                      "keys":  [
+                                   "Gendathur",
+                                   "Karnataka",
+                                   "200",
+                                   "100000"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_025",
+        "category":  "Urban Hydrological Paradoxes",
+        "topic":  "Rooftop Harvesting Amid High Rainfall in Shillong",
+        "anchor_sentence":  "Despite being situated barely 55 kilometers from Cherrapunjee and Mawsynram, the wettest places on earth, the capital city of Shillong faces acute potable water deficits, compelling nearly every urban home to derive 15 to 25 percent of its water needs from rooftop harvesting.",
+        "pass1":  {
+                      "prompt":  "Located 55 km from Mawsynram, the city of [BLANK_1] suffers water shortages, deriving [BLANK_2] to 25 percent of its supply from rooftop harvesting.",
+                      "inputs":  [
+                                     "Shillong",
+                                     "15"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Urban residents in [BLANK_1], Meghalaya rely heavily on domestic catchments due to infrastructure shortfalls despite proximity to [BLANK_2].",
+                      "inputs":  [
+                                     "Shillong",
+                                     "Cherrapunjee"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Shillong sits [BLANK_1] kilometers from the world\u0027s rainiest belt, obtaining between [BLANK_2] and [BLANK_3] percent of household water via roof collection.",
+                      "inputs":  [
+                                     "55",
+                                     "15",
+                                     "25"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The acute paradox of an urban center suffering water distress alongside global maximum precipitation zones demonstrates a severe local [BLANK_1] deficit.",
+                      "inputs":  [
+                                     "water supply"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Despite being situated barely 550 kilometers from Cherrapunjee and Mawsynram, the capital city of Shillong faces zero water deficits, outlawing all urban homes from deriving any water from rooftop harvesting.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "550 kilometers",
+                                              "right":  "55 kilometers"
+                                          },
+                                          {
+                                              "wrong":  "faces zero water deficits, outlawing",
+                                              "right":  "faces acute potable water deficits, compelling"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "the capital city of Shillong faces acute potable water deficits,",
+                                    "Despite being situated barely 55 kilometers from Cherrapunjee and Mawsynram,",
+                                    "compelling nearly every urban home to derive 15 to 25 percent of its water needs from rooftop harvesting.",
+                                    "the wettest places on earth,"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               3,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Though situated near {1} and {2}, the capital {3} relies on rooftop harvesting to satisfy {4} to 25 percent of its daily domestic requirements.",
+                      "keys":  [
+                                   "Cherrapunjee",
+                                   "Mawsynram",
+                                   "Shillong",
+                                   "15"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_026",
+        "category":  "Statutory Rainwater Mandates",
+        "topic":  "Mandatory Rooftop Rainwater Harvesting in Tamil Nadu",
+        "anchor_sentence":  "Tamil Nadu stands as the pioneer state across India to legally mandate rooftop rainwater harvesting installations for every residential building, incorporating strict statutory penalties to punish non-compliant property owners.",
+        "pass1":  {
+                      "prompt":  "[BLANK_1] Nadu became the first state in India to legally mandate [BLANK_2] rainwater harvesting for all houses.",
+                      "inputs":  [
+                                     "Tamil",
+                                     "rooftop"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "The state legislature of [BLANK_1] instituted binding legal provisions that punish [BLANK_2] who fail to install rainwater harvesting systems.",
+                      "inputs":  [
+                                     "Tamil Nadu",
+                                     "defaulters"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Tamil Nadu was the [BLANK_1] state in the Indian Union to enforce universal compulsory rainwater harvesting on residential buildings by law.",
+                      "inputs":  [
+                                     "first"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The state government enacted legislation making the construction of a [BLANK_1] structure a mandatory prerequisite for all domestic premises.",
+                      "inputs":  [
+                                     "rooftop rainwater harvesting"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Tamil Nadu stands as the last state across India to legally ban rooftop rainwater harvesting installations for every residential building, incorporating cash awards to reward non-compliant property owners.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "last state across India to legally ban",
+                                              "right":  "pioneer state across India to legally mandate"
+                                          },
+                                          {
+                                              "wrong":  "cash awards to reward",
+                                              "right":  "strict statutory penalties to punish"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "to legally mandate rooftop rainwater harvesting installations for every residential building,",
+                                    "Tamil Nadu stands as the pioneer state across India",
+                                    "incorporating strict statutory penalties to punish non-compliant property owners."
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "{1} was the earliest Indian state to make {2} water harvesting compulsory for all buildings under threat of legal {3}.",
+                      "keys":  [
+                                   "Tamil Nadu",
+                                   "rooftop",
+                                   "penalties"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_027",
+        "category":  "Indigenous Micro-Irrigation Technology",
+        "topic":  "The 200-Year-Old Bamboo Drip Irrigation of Meghalaya",
+        "anchor_sentence":  "In Meghalaya, tribal farmers utilize a two-century-old bamboo drip irrigation system that diverts hill springs through tiered bamboo conduits over hundreds of meters, reducing an intake of 18 to 20 liters down to a trickling 20 to 80 drops per minute at the plant root.",
+        "pass1":  {
+                      "prompt":  "In Meghalaya, an indigenous [BLANK_1] drip irrigation system transports stream water over hundreds of meters to deliver [BLANK_2] to 80 drops per minute at plant roots.",
+                      "inputs":  [
+                                     "bamboo",
+                                     "20"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Tribal farmers in [BLANK_1] divert perennial hill streams using jointed sections of [BLANK_2] to irrigate betel leaf plantations.",
+                      "inputs":  [
+                                     "Meghalaya",
+                                     "bamboo pipes"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Operating for [BLANK_1] years, this gravity technology routes [BLANK_2] to 20 liters of inflow water down to [BLANK_3] to 80 drops per minute at the target seedling.",
+                      "inputs":  [
+                                     "200",
+                                     "18",
+                                     "20"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The indigenous apparatus controls fluid flow through [BLANK_1] manipulation, creating a localized gravity-driven [BLANK_2] irrigation system.",
+                      "inputs":  [
+                                     "pipe position",
+                                     "drip"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "In Meghalaya, tribal farmers utilize a two-week-old copper pipe system that diverts industrial sewage into rivers, expanding an intake of 18 liters up to 9000 liters per second at the plant root.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "two-week-old copper pipe system",
+                                              "right":  "two-century-old bamboo drip irrigation system"
+                                          },
+                                          {
+                                              "wrong":  "expanding an intake of 18 liters up to 9000 liters per second",
+                                              "right":  "reducing an intake of 18 to 20 liters down to a trickling 20 to 80 drops per minute"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "In Meghalaya, tribal farmers utilize a two-century-old bamboo drip irrigation system",
+                                    "reducing an intake of 18 to 20 liters down to a trickling 20 to 80 drops per minute at the plant root.",
+                                    "that diverts hill springs through tiered bamboo conduits over hundreds of meters,"
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               2,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "A {1}-year-old tradition in {2} uses {3} pipes to channel stream water, decreasing flow to {4} to 80 drops per minute at the plant base.",
+                      "keys":  [
+                                   "200",
+                                   "Meghalaya",
+                                   "bamboo",
+                                   "20"
+                               ]
+                  }
+    },
+    {
+        "id":  "WAT_RES_028",
+        "category":  "Historical Fluvial Folklife \u0026 Flood Disasters",
+        "topic":  "The Damodar River as Bengal River of Sorrow",
+        "anchor_sentence":  "Historically designated as the River of Sorrow due to catastrophic monsoon overflows that devastated villages and swept away river navigation, the Damodar River inspired traditional folklore and popular Bhadu songs commemorating regional hardships.",
+        "pass1":  {
+                      "prompt":  "Historically designated as the River of [BLANK_1] because of floods, the [BLANK_2] River inspired traditional Bhadu songs across its valley.",
+                      "inputs":  [
+                                     "Sorrow",
+                                     "Damodar"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Folk communities along the [BLANK_1] basin composed regional [BLANK_2] songs lamenting seasonal floods that submerged agrarian harvests.",
+                      "inputs":  [
+                                     "Damodar",
+                                     "Bhadu"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Folk songs recount agricultural losses when floods strike during the month of Bhadra after crops were planted during the earlier month of [BLANK_1].",
+                      "inputs":  [
+                                     "Asar"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Before modern engineering taming, the volatile deltaic drainage of the Damodar earned it the geographic epithet [BLANK_1].",
+                      "inputs":  [
+                                     "river of sorrow"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Historically designated as the River of Joy due to complete perpetual drought that dried up all waters, the Damodar River inspired modern jazz records celebrating factory construction.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "River of Joy",
+                                              "right":  "River of Sorrow"
+                                          },
+                                          {
+                                              "wrong":  "complete perpetual drought",
+                                              "right":  "catastrophic monsoon overflows"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Historically designated as the River of Sorrow",
+                                    "the Damodar River inspired traditional folklore and popular Bhadu songs",
+                                    "due to catastrophic monsoon overflows that devastated villages,",
+                                    "commemorating regional hardships."
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               2,
+                                               1,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Known as Bengal\u0027s {1}, the {2} River frequently flooded plains, prompting communities to sing traditional {3} folk songs.",
+                      "keys":  [
+                                   "river of sorrow",
+                                   "Damodar",
+                                   "Bhadu"
+                               ]
+                  }
+    }
+]

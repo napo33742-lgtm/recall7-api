@@ -1,0 +1,1353 @@
+[
+    {
+        "id":  "BIO_FOR_001",
+        "category":  "Environmental Legislation \u0026 Wildlife Protection",
+        "topic":  "The Wildlife Protection Act of 1972",
+        "anchor_sentence":  "Enacted in 1972 following demands by conservationists, the Indian Wildlife Protection Act established a comprehensive national framework featuring protected species schedules, trade bans, and legal safeguards for critical animal habitats.",
+        "pass1":  {
+                      "prompt":  "Enacted in [BLANK_1] following demands by conservationists, the Indian Wildlife [BLANK_2] Act established a comprehensive national framework featuring protected species schedules and trade bans.",
+                      "inputs":  [
+                                     "1972",
+                                     "Protection"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Enacted in 1972 following demands by [BLANK_1], the Indian [BLANK_2] established a comprehensive national framework featuring protected species schedules and trade bans.",
+                      "inputs":  [
+                                     "conservationists",
+                                     "Wildlife Protection Act"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Enacted in the year [BLANK_1], the comprehensive statutory framework instituted legal protection for endangered fauna across all states.",
+                      "inputs":  [
+                                     "1972"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The legislative instrument passed in 1972 created an all-India list of [BLANK_1] while imposing strict prohibitions on hunting and [BLANK_2] in fauna.",
+                      "inputs":  [
+                                     "protected species",
+                                     "trade"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Enacted in 1992 following demands by industrial cartels, the Indian Wildlife Protection Act established a comprehensive national framework promoting commercial hunting and legal deregulations for critical animal habitats.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "1992",
+                                              "right":  "1972"
+                                          },
+                                          {
+                                              "wrong":  "promoting commercial hunting",
+                                              "right":  "trade bans"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "the Indian Wildlife Protection Act established a comprehensive national framework",
+                                    "Enacted in 1972 following demands by conservationists,",
+                                    "and legal safeguards for critical animal habitats.",
+                                    "featuring protected species schedules, trade bans,"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Enacted in {1}, the {2} Act created statutory schedules of {3} species and instituted prohibitions against {4} and hunting.",
+                      "keys":  [
+                                   "1972",
+                                   "Wildlife Protection",
+                                   "protected",
+                                   "trade"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_002",
+        "category":  "Species Recovery \u0026 Apex Predator Conservation",
+        "topic":  "Project Tiger Genesis and Demographic Collapse",
+        "anchor_sentence":  "Launched in 1973 after authorities discovered the national tiger population had plummeted from 55000 individuals to 1827, Project Tiger addressed poaching, habitat fragmentation, and the illicit international bone trade.",
+        "pass1":  {
+                      "prompt":  "Launched in [BLANK_1] after authorities discovered the tiger population had plummeted to [BLANK_2] individuals, Project Tiger addressed poaching and habitat loss.",
+                      "inputs":  [
+                                     "1973",
+                                     "1827"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Launched in 1973, [BLANK_1] was initiated to preserve the apex feline species against international skin smuggling and medicinal [BLANK_2] trafficking.",
+                      "inputs":  [
+                                     "Project Tiger",
+                                     "bone"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Project Tiger began in [BLANK_1] when censuses revealed the estimated historical herd of [BLANK_2] tigers had dropped drastically to only [BLANK_3].",
+                      "inputs":  [
+                                     "1973",
+                                     "55000",
+                                     "1827"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Project Tiger approaches conservation not merely as rescuing a solitary endangered species but as maintaining [BLANK_1] of significant ecological magnitude across designated [BLANK_2].",
+                      "inputs":  [
+                                     "biotypes",
+                                     "tiger reserves"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Launched in 1985 after authorities discovered the national tiger population had climbed to 85000 individuals, Project Tiger addressed domestic livestock overbreeding in urban areas.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "1985",
+                                              "right":  "1973"
+                                          },
+                                          {
+                                              "wrong":  "climbed to 85000",
+                                              "right":  "plummeted from 55000 to 1827"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Project Tiger addressed poaching, habitat fragmentation,",
+                                    "had plummeted from 55000 individuals to 1827,",
+                                    "Launched in 1973 after authorities discovered the national tiger population",
+                                    "and the illicit international bone trade."
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               1,
+                                               0,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Instituted in {1}, {2} intervened after numbers declined from 55000 down to {3}, protecting habitat zones across {4} and Nepal.",
+                      "keys":  [
+                                   "1973",
+                                   "Project Tiger",
+                                   "1827",
+                                   "India"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_003",
+        "category":  "Biogeographical Tiger Habitats",
+        "topic":  "Key Tiger Reserves and Regional Distribution",
+        "anchor_sentence":  "Key reserves conserving tiger biotypes include Corbett in Uttarakhand, Sunderbans in West Bengal, Bandhavgarh in Madhya Pradesh, Sariska in Rajasthan, Manas in Assam, and Periyar in Kerala.",
+        "pass1":  {
+                      "prompt":  "Key reserves conserving tiger biotypes include [BLANK_1] in Uttarakhand, Sunderbans in West Bengal, Bandhavgarh in Madhya Pradesh, and [BLANK_2] in Kerala.",
+                      "inputs":  [
+                                     "Corbett",
+                                     "Periyar"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Key reserves conserving tiger biotypes pair [BLANK_1] in Rajasthan with [BLANK_2] in Assam to represent diverse geographical ecosystems.",
+                      "inputs":  [
+                                     "Sariska",
+                                     "Manas"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The initial core network highlighted across textbook case studies spans [BLANK_1] prominent tiger reserves distributed from the northern sub-Himalayas to the southern tip of the Western Ghats.",
+                      "inputs":  [
+                                     "six"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The geographical network encompasses mangrove biomes at [BLANK_1] and moist evergreen montane ranges at [BLANK_2].",
+                      "inputs":  [
+                                     "Sunderbans National Park",
+                                     "Periyar Tiger Reserve"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Key reserves conserving tiger biotypes include Corbett in Kerala, Sunderbans in Rajasthan, and Sariska in West Bengal.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "Corbett in Kerala",
+                                              "right":  "Corbett in Uttarakhand"
+                                          },
+                                          {
+                                              "wrong":  "Sariska in West Bengal",
+                                              "right":  "Sariska in Rajasthan"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Sariska in Rajasthan,",
+                                    "Corbett in Uttarakhand, Sunderbans in West Bengal,",
+                                    "Bandhavgarh in Madhya Pradesh,",
+                                    "Key reserves conserving tiger biotypes include",
+                                    "Manas in Assam, and Periyar in Kerala."
+                                ],
+                      "correct_sequence":  [
+                                               3,
+                                               1,
+                                               2,
+                                               0,
+                                               4
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Important tiger habitats include {1} in Uttarakhand, {2} in West Bengal, {3} in Madhya Pradesh, and {4} in Assam.",
+                      "keys":  [
+                                   "Corbett",
+                                   "Sunderbans",
+                                   "Bandhavgarh",
+                                   "Manas"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_004",
+        "category":  "Invertebrate \u0026 Plant Legal Protection",
+        "topic":  "Statutory Expansion of the Wildlife Protection Act to Small Fauna and Flora",
+        "anchor_sentence":  "Amendments under the Wildlife Act in 1980 and 1986 extended legal protection to hundreds of butterflies, moths, beetles, and a dragonfly, culminating in 1991 when six plant species were added for the first time.",
+        "pass1":  {
+                      "prompt":  "Amendments under the Wildlife Act in 1980 and 1986 protected insects, culminating in [BLANK_1] when [BLANK_2] plant species were added for the first time.",
+                      "inputs":  [
+                                     "1991",
+                                     "six"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Legislative updates expanded preservation beyond megafauna, adding hundreds of [BLANK_1] and beetles along with a single [BLANK_2] to protected lists.",
+                      "inputs":  [
+                                     "butterflies",
+                                     "dragonfly"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Following the invertebrate notifications of 1980 and 1986, exactly [BLANK_1] botanical entries entered the statutory schedule in [BLANK_2].",
+                      "inputs":  [
+                                     "six",
+                                     "1991"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The protective shift marked an ecological transition from focusing exclusively on charismatic megafauna toward conserving broad [BLANK_1] and taxonomic [BLANK_2].",
+                      "inputs":  [
+                                     "biodiversity",
+                                     "invertebrates"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Amendments under the Wildlife Act in 1950 extended legal protection to marine mammals, culminating in 1961 when sixty tree varieties were added for the first time.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "1950",
+                                              "right":  "1980 and 1986"
+                                          },
+                                          {
+                                              "wrong":  "1961 when sixty tree varieties",
+                                              "right":  "1991 when six plant species"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "culminating in 1991 when six plant species were added for the first time.",
+                                    "extended legal protection to hundreds of butterflies, moths, beetles, and a dragonfly,",
+                                    "Amendments under the Wildlife Act in 1980 and 1986"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               1,
+                                               0
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Statutory notifications under the Wildlife Act added insects during {1} and {2}, followed by {3} species of {4} in 1991.",
+                      "keys":  [
+                                   "1980",
+                                   "1986",
+                                   "six",
+                                   "plants"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_005",
+        "category":  "State Forest Classification",
+        "topic":  "Reserved Forests and Permanent Forest Estates",
+        "anchor_sentence":  "Classified across more than half of India\u0027s aggregate woodlands, reserved forests represent the most prioritized tier of state forest land, maintained as permanent estates for timber supply and habitat conservation.",
+        "pass1":  {
+                      "prompt":  "Classified across more than [BLANK_1] of India\u0027s woodlands, [BLANK_2] forests represent the most prioritized tier of state forest land.",
+                      "inputs":  [
+                                     "half",
+                                     "reserved"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Managed by the [BLANK_1], reserved forests provide statutory protection against unauthorized exploitation while securing regular yields of commercial [BLANK_2].",
+                      "inputs":  [
+                                     "Forest Department",
+                                     "timber"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Reserved forest tracts comprise a geographical proportion exceeding [BLANK_1] percent of the cumulative national forest estate.",
+                      "inputs":  [
+                                     "50"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Together with protected forests, these tracts constitute state-held [BLANK_1] preserved for environmental buffering and [BLANK_2] output.",
+                      "inputs":  [
+                                     "permanent forest estates",
+                                     "timber"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Classified across less than five percent of India\u0027s aggregate woodlands, reserved forests represent the least prioritized tier of municipal wasteland open for private sale.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "less than five percent",
+                                              "right":  "more than half"
+                                          },
+                                          {
+                                              "wrong":  "least prioritized tier of municipal wasteland",
+                                              "right":  "most prioritized tier of state forest land"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "reserved forests represent the most prioritized tier of state forest land,",
+                                    "Classified across more than half of India\u0027s aggregate woodlands,",
+                                    "maintained as permanent estates for timber supply and habitat conservation."
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Occupying more than {1} of total forest area, {2} forests serve as {3} estates dedicated to preserving wildlife and harvesting {4}.",
+                      "keys":  [
+                                   "half",
+                                   "reserved",
+                                   "permanent forest",
+                                   "timber"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_006",
+        "category":  "State Forest Classification",
+        "topic":  "Protected Forests Demarcation and Spatial Dominance",
+        "anchor_sentence":  "Accounting for nearly one-third of India\u0027s total forest zone, protected forests are legally sealed against incremental destruction, forming the dominant woodland category in Bihar, Haryana, Punjab, Himachal Pradesh, Odisha, and Rajasthan.",
+        "pass1":  {
+                      "prompt":  "Accounting for nearly [BLANK_1] of India\u0027s total forest zone, [BLANK_2] forests are legally sealed against incremental destruction.",
+                      "inputs":  [
+                                     "one-third",
+                                     "protected"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Protected forests are managed by state [BLANK_1] to prevent resource decline across northern agricultural states like [BLANK_2] and Haryana.",
+                      "inputs":  [
+                                     "Forest Departments",
+                                     "Punjab"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Protected status covers approximately [BLANK_1] of the overall recorded national canopy cover.",
+                      "inputs":  [
+                                     "one-third"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Lands designated as [BLANK_1] are safeguarded from further depletion while remaining distinct from the strictly insulated [BLANK_2] tracts.",
+                      "inputs":  [
+                                     "protected forests",
+                                     "reserved forest"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Accounting for nearly three-quarters of India\u0027s total forest zone, protected forests are actively auctioned for mining in Bihar, Haryana, and Punjab.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "three-quarters",
+                                              "right":  "one-third"
+                                          },
+                                          {
+                                              "wrong":  "actively auctioned for mining",
+                                              "right":  "legally sealed against incremental destruction"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "protected forests are legally sealed against incremental destruction,",
+                                    "Accounting for nearly one-third of India\u0027s total forest zone,",
+                                    "forming the dominant woodland category in Bihar, Haryana, Punjab, Himachal Pradesh, Odisha, and Rajasthan."
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Nearly {1} of total woodland constitutes {2} forests, which dominate canopy coverage across states such as {3} and {4}.",
+                      "keys":  [
+                                   "one-third",
+                                   "protected",
+                                   "Punjab",
+                                   "Haryana"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_007",
+        "category":  "State Forest Classification \u0026 Communal Holdings",
+        "topic":  "Unclassed Forests in the Northeast and Gujarat",
+        "anchor_sentence":  "Comprising wastelands and forests held jointly by private individuals, local communities, and the government, unclassed forests predominate throughout the northeastern states and parts of Gujarat.",
+        "pass1":  {
+                      "prompt":  "Comprising wastelands and forests held by communities and individuals, [BLANK_1] forests predominate throughout the [BLANK_2] states and parts of Gujarat.",
+                      "inputs":  [
+                                     "unclassed",
+                                     "northeastern"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Unclassed woodlands are characterized by custodial management exercised by [BLANK_1] rather than exclusive control by the central [BLANK_2].",
+                      "inputs":  [
+                                     "local communities",
+                                     "Forest Department"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Unlike reserved belts, unclassed forests encompass [BLANK_1] remaining category of forest wastelands not formally bound by standard state reserve enactments.",
+                      "inputs":  [
+                                     "third"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Woodlands that remain un-demarcated under statutory reservations and are administered through tribal customs are designated as [BLANK_1] forests.",
+                      "inputs":  [
+                                     "unclassed"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Comprising wastelands owned exclusively by foreign corporations, unclassed forests predominate throughout central Punjab and urban Mumbai.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "foreign corporations",
+                                              "right":  "private individuals, local communities, and government"
+                                          },
+                                          {
+                                              "wrong":  "central Punjab and urban Mumbai",
+                                              "right":  "northeastern states and parts of Gujarat"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "unclassed forests predominate throughout",
+                                    "Comprising wastelands and forests held jointly by private individuals, local communities, and the government,",
+                                    "the northeastern states and parts of Gujarat."
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Woodland parcels categorized as {1} are managed largely by {2} and constitute the primary forest type in the {3} region.",
+                      "keys":  [
+                                   "unclassed forests",
+                                   "local communities",
+                                   "northeastern"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_008",
+        "category":  "Regional Forest Demographics",
+        "topic":  "Madhya Pradesh and Permanent Forest Estates",
+        "anchor_sentence":  "Holding the largest proportion of permanent forest cover across the nation, Madhya Pradesh retains 75 percent of its aggregate wooded area under reserved and protected categories.",
+        "pass1":  {
+                      "prompt":  "Holding the largest proportion of permanent forest cover, [BLANK_1] retains [BLANK_2] percent of its wooded area under reserved and protected categories.",
+                      "inputs":  [
+                                     "Madhya Pradesh",
+                                     "75"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "The state administration of [BLANK_1] manages the largest block of permanent forest estates to sustain continuous [BLANK_2] output and environmental protection.",
+                      "inputs":  [
+                                     "Madhya Pradesh",
+                                     "timber"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Within Madhya Pradesh, permanent canopy cover accounts for precisely [BLANK_1] percent of the statewide forested geography.",
+                      "inputs":  [
+                                     "75"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The aggregate administrative umbrella uniting reserved and protected compartments for long-term production is defined as [BLANK_1].",
+                      "inputs":  [
+                                     "permanent forest estates"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Holding the smallest proportion of permanent forest cover across the nation, Rajasthan retains 15 percent of its aggregate wooded area under reserved and protected categories.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "smallest proportion",
+                                              "right":  "largest proportion"
+                                          },
+                                          {
+                                              "wrong":  "Rajasthan retains 15 percent",
+                                              "right":  "Madhya Pradesh retains 75 percent"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Holding the largest proportion of permanent forest cover across the nation,",
+                                    "under reserved and protected categories.",
+                                    "Madhya Pradesh retains 75 percent of its aggregate wooded area"
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               2,
+                                               1
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "{1} maintains India\u0027s largest expanse of {2} estates, encompassing {3} percent of its forest boundary.",
+                      "keys":  [
+                                   "Madhya Pradesh",
+                                   "permanent forest",
+                                   "75"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_009",
+        "category":  "Grassroots Resistance \u0026 Environmental Movements",
+        "topic":  "The Chipko Movement and Indigenous Afforestation",
+        "anchor_sentence":  "Originating in the Himalayas, the historic Chipko Movement successfully halted commercial logging while demonstrating that community-managed afforestation with indigenous floral species can effectively restore degraded slopes.",
+        "pass1":  {
+                      "prompt":  "Originating in the Himalayas, the historic [BLANK_1] Movement halted logging while demonstrating that afforestation with [BLANK_2] floral species restores slopes.",
+                      "inputs":  [
+                                     "Chipko",
+                                     "indigenous"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Led by local mountain communities against logging contractors, the [BLANK_1] preserved fragile slope catchments in the [BLANK_2].",
+                      "inputs":  [
+                                     "Chipko Movement",
+                                     "Himalayas"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The movement showed that ecological restoration succeeds when reliant on native varieties rather than exotic commercial monocultures across [BLANK_1] distinct community efforts.",
+                      "inputs":  [
+                                     "multiple"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The environmental strategy coupling direct tree protection with native planting is termed community-based [BLANK_1].",
+                      "inputs":  [
+                                     "afforestation"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Originating in the Thar desert, the historic Chipko Movement successfully promoted open-cast logging while demonstrating that planting imported eucalyptus can effectively restore degraded slopes.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "Thar desert",
+                                              "right":  "Himalayas"
+                                          },
+                                          {
+                                              "wrong":  "promoted open-cast logging",
+                                              "right":  "halted commercial logging"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "while demonstrating that community-managed afforestation",
+                                    "the historic Chipko Movement successfully halted commercial logging",
+                                    "Originating in the Himalayas,",
+                                    "with indigenous floral species can effectively restore degraded slopes."
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               1,
+                                               0,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "The {1} organized in the {2} resisted deforestation and pioneered {3} using local native varieties.",
+                      "keys":  [
+                                   "Chipko movement",
+                                   "Himalayas",
+                                   "community afforestation"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_010",
+        "category":  "Agro-Ecology \u0026 Indigenous Agriculture",
+        "topic":  "Beej Bachao Andolan and Navdanya Crop Diversification",
+        "anchor_sentence":  "Agrarian initiatives like Beej Bachao Andolan in Tehri and the Navdanya network established that crop diversification and indigenous seed preservation yield economically viable returns without using synthetic chemicals.",
+        "pass1":  {
+                      "prompt":  "Agrarian initiatives like Beej Bachao Andolan in [BLANK_1] and [BLANK_2] established that crop diversification yields viable returns without chemicals.",
+                      "inputs":  [
+                                     "Tehri",
+                                     "Navdanya"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Farmer cooperatives organized under [BLANK_1] along with the [BLANK_2] collective rejected synthetic farm inputs in favor of traditional organic cultivars.",
+                      "inputs":  [
+                                     "Beej Bachao Andolan",
+                                     "Navdanya"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "These grassroots networks revived hundreds of indigenous seed types across [BLANK_1] primary ecological farming models centered in northern India.",
+                      "inputs":  [
+                                     "two"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The revival of organic polycultures free from artificial fertilizers is formally recognized as [BLANK_1] farming.",
+                      "inputs":  [
+                                     "ecological"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Agrarian initiatives like Beej Bachao Andolan in Tehri established that chemical monocultures and hybrid seed monopolies yield economically viable returns by using excessive synthetic chemicals.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "chemical monocultures",
+                                              "right":  "crop diversification"
+                                          },
+                                          {
+                                              "wrong":  "by using excessive synthetic chemicals",
+                                              "right":  "without using synthetic chemicals"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "yield economically viable returns without using synthetic chemicals.",
+                                    "and the Navdanya network established that crop diversification",
+                                    "Agrarian initiatives like Beej Bachao Andolan in Tehri",
+                                    "and indigenous seed preservation"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               1,
+                                               3,
+                                               0
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "In Tehri, the {1} alongside the {2} organization demonstrated that sustainable farming succeeds through {3} without synthetic chemicals.",
+                      "keys":  [
+                                   "Beej Bachao Andolan",
+                                   "Navdanya",
+                                   "crop diversification"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_011",
+        "category":  "Community Sanctuaries \u0026 Autonomous Enactments",
+        "topic":  "Bhairodev Dakav Sonchuri Sanctuary Declaration",
+        "anchor_sentence":  "In Alwar district of Rajasthan, inhabitants of five villages created the Bhairodev Dakav Sonchuri across 1200 hectares of forest, enacting custom rules that ban hunting and prevent outside commercial encroachment.",
+        "pass1":  {
+                      "prompt":  "In Alwar district of Rajasthan, villagers created the Bhairodev Dakav [BLANK_1] across [BLANK_2] hectares to ban hunting and external encroachment.",
+                      "inputs":  [
+                                     "Sonchuri",
+                                     "1200"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Rural communities spanning five settlements in [BLANK_1] district rejected state forest machinery by declaring their own reserve called [BLANK_2].",
+                      "inputs":  [
+                                     "Alwar",
+                                     "Bhairodev Dakav Sonchuri"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The autonomous communal sanctuary encompasses [BLANK_1] villages managing a protected woodland tract of [BLANK_2] hectares.",
+                      "inputs":  [
+                                     "five",
+                                     "1200"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "A self-declared village wildlife preserve managed completely independent of official state bureaucracy represents an autonomous [BLANK_1] sanctuary.",
+                      "inputs":  [
+                                     "community"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "In Alwar district of Rajasthan, inhabitants of five villages created the Bhairodev Dakav Sonchuri across 12 hectares of forest, enacting custom rules that mandate tiger hunting and welcome outside industrial encroachment.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "12 hectares",
+                                              "right":  "1200 hectares"
+                                          },
+                                          {
+                                              "wrong":  "mandate tiger hunting",
+                                              "right":  "ban hunting"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "In Alwar district of Rajasthan, inhabitants of five villages",
+                                    "enacting custom rules that ban hunting",
+                                    "created the Bhairodev Dakav Sonchuri across 1200 hectares of forest,",
+                                    "and prevent outside commercial encroachment."
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               2,
+                                               1,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Villagers in {1} declared {2} hectares of woodland as the {3}, banning hunting through community regulations.",
+                      "keys":  [
+                                   "Alwar",
+                                   "1200",
+                                   "Bhairodev Dakav Sonchuri"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_012",
+        "category":  "Co-Management Environmental Policy",
+        "topic":  "Joint Forest Management Framework and Historical Inception",
+        "anchor_sentence":  "Formally launched in 1988 when Odisha passed the premier state resolution, Joint Forest Management engages rural village institutions to rehabilitate degraded woodlands in exchange for non-timber forest produce and harvested timber shares.",
+        "pass1":  {
+                      "prompt":  "Formally launched in [BLANK_1] when [BLANK_2] passed the premier state resolution, Joint Forest Management engages village institutions to restore degraded forests.",
+                      "inputs":  [
+                                     "1988",
+                                     "Odisha"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Institutionalized co-management pairs local village bodies with the state [BLANK_1] under the [BLANK_2] framework.",
+                      "inputs":  [
+                                     "Forest Department",
+                                     "Joint Forest Management"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The institutional operationalization of JFM traces back chronologically to the year [BLANK_1].",
+                      "inputs":  [
+                                     "1988"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Villagers undertaking custodial protection over degraded forest compartments obtain usufruct privileges covering [BLANK_1] forest produce and shares of final [BLANK_2].",
+                      "inputs":  [
+                                     "non-timber",
+                                     "timber"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Formally launched in 1950 when Kerala passed the premier state resolution, Joint Forest Management excludes rural village institutions from degraded woodlands in exchange for synthetic fertilizer subsidies.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "1950 when Kerala",
+                                              "right":  "1988 when Odisha"
+                                          },
+                                          {
+                                              "wrong":  "excludes rural village institutions",
+                                              "right":  "engages rural village institutions"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "engages rural village institutions to rehabilitate degraded woodlands",
+                                    "Formally launched in 1988 when Odisha passed the premier state resolution,",
+                                    "in exchange for non-timber forest produce and harvested timber shares.",
+                                    "Joint Forest Management"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               3,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Originating in {1} via a resolution in {2}, the {3} system grants rural communities entitlements to {4} produce in return for protecting degraded woods.",
+                      "keys":  [
+                                   "1988",
+                                   "Odisha",
+                                   "Joint Forest Management",
+                                   "non-timber forest"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_013",
+        "category":  "Indigenous Faith \u0026 Forest Preservation",
+        "topic":  "Sacred Groves and Virgin Forest Refugia",
+        "anchor_sentence":  "Rooted in nature worship beliefs that consider all environmental elements divine, sacred groves represent pristine virgin forest parcels preserved untouched through ancestral communal bans on commercial extraction.",
+        "pass1":  {
+                      "prompt":  "Rooted in nature worship beliefs, [BLANK_1] groves represent pristine [BLANK_2] forest parcels preserved untouched through communal bans on felling.",
+                      "inputs":  [
+                                     "sacred",
+                                     "virgin"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Custodial protection of sacred groves is rooted in spiritual customs upheld by [BLANK_1] societies across unlogged patches termed forests of [BLANK_2].",
+                      "inputs":  [
+                                     "tribal",
+                                     "God and Goddesses"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "These ancestral reserves encompass [BLANK_1] remaining natural relic patches where human exploitation is prohibited by unwritten local customary laws.",
+                      "inputs":  [
+                                     "pristine"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Ecologically undisturbed forest remnants preserved intact through traditional religious taboos are defined as [BLANK_1].",
+                      "inputs":  [
+                                     "sacred groves"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Rooted in urban commercial beliefs, sacred groves represent heavily logged industrial tree plantations cleared annually through municipal timber auctions.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "urban commercial",
+                                              "right":  "nature worship"
+                                          },
+                                          {
+                                              "wrong":  "heavily logged industrial tree plantations",
+                                              "right":  "pristine virgin forest parcels"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "sacred groves represent pristine virgin forest parcels",
+                                    "Rooted in nature worship beliefs that consider all environmental elements divine,",
+                                    "through ancestral communal bans on commercial extraction.",
+                                    "preserved untouched"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Traditional nature reverence preserves untouched ecosystems called {1}, which maintain {2} woodlands through community {3} on harvesting.",
+                      "keys":  [
+                                   "sacred groves",
+                                   "virgin",
+                                   "bans"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_014",
+        "category":  "Ethnobotany \u0026 Cultural Reverence",
+        "topic":  "Tribal Tree Veneration Practices",
+        "anchor_sentence":  "Tribal societies preserve specific botanical species across generations, seen where Mundas and Santhals revere mahua and kadamba trees while ethnic communities in Odisha and Bihar venerate tamarind and mango trees during nuptial ceremonies.",
+        "pass1":  {
+                      "prompt":  "Mundas and Santhals revere mahua and [BLANK_1] trees, while communities in Odisha and Bihar venerate [BLANK_2] and mango trees during weddings.",
+                      "inputs":  [
+                                     "kadamba",
+                                     "tamarind"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "In the Chota Nagpur belt, the [BLANK_1] and Santhal tribes revere [BLANK_2], protecting it from felling.",
+                      "inputs":  [
+                                     "Mundas",
+                                     "mahua"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The textbook outlines customary veneration across [BLANK_1] distinct tree genera honored during domestic rituals and marriages.",
+                      "inputs":  [
+                                     "four"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The cultural custom of protecting specific flora because of sacred qualities exemplifies traditional [BLANK_1] practices.",
+                      "inputs":  [
+                                     "nature worship"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Mundas and Santhals revere imported pine and eucalyptus trees, while ethnic communities in Odisha and Bihar venerate plastic and nylon trees during nuptial ceremonies.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "imported pine and eucalyptus",
+                                              "right":  "mahua and kadamba"
+                                          },
+                                          {
+                                              "wrong":  "plastic and nylon",
+                                              "right":  "tamarind and mango"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "while ethnic communities in Odisha and Bihar venerate tamarind and mango trees during nuptial ceremonies.",
+                                    "seen where Mundas and Santhals revere mahua and kadamba trees",
+                                    "Tribal societies preserve specific botanical species across generations,"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               1,
+                                               0
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "The Mundas and Santhals venerate {1} and {2}, whereas wedding rituals in Odisha and Bihar center on {3} and mango trees.",
+                      "keys":  [
+                                   "mahua",
+                                   "kadamba",
+                                   "tamarind"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_015",
+        "category":  "Faunal Protection \u0026 Cultural Taboos",
+        "topic":  "The Bishnoi Community and Wildlife Coexistence",
+        "anchor_sentence":  "Across Rajasthan, pastoral settlements of the Bishnoi community maintain strict non-violent protection over wildlife, enabling herds of blackbuck, nilgai, and peacocks to live unthreatened within human habitations.",
+        "pass1":  {
+                      "prompt":  "Across Rajasthan, settlements of the [BLANK_1] community maintain protection over wildlife, enabling herds of [BLANK_2], nilgai, and peacocks to roam safely.",
+                      "inputs":  [
+                                     "Bishnoi",
+                                     "blackbuck"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "The [BLANK_1] uphold strict protection for animal life, preserving herds of chinkara and [BLANK_2] around their desert hamlets.",
+                      "inputs":  [
+                                     "Bishnoi",
+                                     "nilgai"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The Bishnoi protection circle guards [BLANK_1] prominent wild faunal types commonly listed in regional biodiversity inventories.",
+                      "inputs":  [
+                                     "three"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Community-enforced religious bans that protect antelopes like [BLANK_1] represent informal customary [BLANK_2] mechanisms.",
+                      "inputs":  [
+                                     "chinkara",
+                                     "wildlife conservation"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Across Rajasthan, pastoral settlements of the Bishnoi community maintain commercial hunting contracts over wildlife, driving herds of blackbuck and peacocks into total extinction.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "commercial hunting contracts",
+                                              "right":  "strict non-violent protection"
+                                          },
+                                          {
+                                              "wrong":  "total extinction",
+                                              "right":  "live unthreatened within human habitations"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "enabling herds of blackbuck, nilgai, and peacocks",
+                                    "maintain strict non-violent protection over wildlife,",
+                                    "Across Rajasthan, pastoral settlements of the Bishnoi community",
+                                    "to live unthreatened within human habitations."
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               1,
+                                               0,
+                                               3
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "In Rajasthan, the {1} adhere to strict traditions that shelter {2}, {3}, and peacocks against hunting.",
+                      "keys":  [
+                                   "Bishnois",
+                                   "blackbuck",
+                                   "nilgai"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_016",
+        "category":  "Environmental Law \u0026 Mining Conflict",
+        "topic":  "Sariska Tiger Reserve Mining Resistance",
+        "anchor_sentence":  "In Rajasthan\u0027s Sariska Tiger Reserve, local villagers mobilized legal challenges under the Wildlife Protection Act to stop commercial mining operations from destroying wildlife corridors.",
+        "pass1":  {
+                      "prompt":  "In Rajasthan\u0027s [BLANK_1] Tiger Reserve, villagers cited the [BLANK_2] Protection Act to stop commercial mining operations.",
+                      "inputs":  [
+                                     "Sariska",
+                                     "Wildlife"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Local villagers residing within the [BLANK_1] fought extraction companies by invoking legal clauses from national [BLANK_2] statutes.",
+                      "inputs":  [
+                                     "Sariska Tiger Reserve",
+                                     "wildlife protection"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The Sariska dispute represents [BLANK_1] prominent case where local villagers utilized federal statutory environmental laws against commercial quarrying.",
+                      "inputs":  [
+                                     "one"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The campaign in Sariska demonstrates how civil society can employ the [BLANK_1] to invalidate destructive industrial [BLANK_2] leases.",
+                      "inputs":  [
+                                     "Wildlife Protection Act",
+                                     "mining"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "In Rajasthan\u0027s Sariska Tiger Reserve, local villagers mobilized financial partnerships with commercial mining companies to clear wildlife corridors for open-cast copper extraction.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "financial partnerships",
+                                              "right":  "legal challenges"
+                                          },
+                                          {
+                                              "wrong":  "clear wildlife corridors",
+                                              "right":  "stop commercial mining operations"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "to stop commercial mining operations from destroying wildlife corridors.",
+                                    "local villagers mobilized legal challenges under the Wildlife Protection Act",
+                                    "In Rajasthan\u0027s Sariska Tiger Reserve,"
+                                ],
+                      "correct_sequence":  [
+                                               2,
+                                               1,
+                                               0
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Villagers living in {1} invoked the {2} Act to halt destructive commercial {3} operations.",
+                      "keys":  [
+                                   "Sariska",
+                                   "Wildlife Protection",
+                                   "mining"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_017",
+        "category":  "Endangered Species \u0026 Habitat Crisis",
+        "topic":  "The Gharial Survival Crisis in Riverine Habitats",
+        "anchor_sentence":  "Confronting their lowest counts since the 1970s, wild gharial populations have dwindled toward extinction due to river habitat loss, leaving the Girwa River in Katerniaghat Wildlife Sanctuary as one of only three remaining breeding sites globally.",
+        "pass1":  {
+                      "prompt":  "Confronting their lowest counts since the [BLANK_1], wild [BLANK_2] populations survive in the Girwa River within Katerniaghat Wildlife Sanctuary.",
+                      "inputs":  [
+                                     "1970s",
+                                     "gharial"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "The critically endangered [BLANK_1] survives in only three wild global breeding locations, including the [BLANK_2] river stretch.",
+                      "inputs":  [
+                                     "gharial",
+                                     "Girwa"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Wild reproduction for the freshwater gharial is restricted to only [BLANK_1] verified river breeding sanctuaries across the globe.",
+                      "inputs":  [
+                                     "three"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The reptile is categorized as [BLANK_1], suffering systemic loss of fluvial breeding sandbanks in protected waters like [BLANK_2].",
+                      "inputs":  [
+                                     "critically endangered",
+                                     "Katerniaghat Wildlife Sanctuary"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Experiencing unprecedented population growth since the 1870s, wild gharials thrive across thousands of industrial drainage canals along the Yamuna river.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "unprecedented population growth",
+                                              "right":  "lowest counts since the 1970s"
+                                          },
+                                          {
+                                              "wrong":  "Yamuna river",
+                                              "right":  "Girwa River"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "have dwindled toward extinction due to river habitat loss,",
+                                    "Confronting their lowest counts since the 1970s,",
+                                    "leaving the Girwa River in Katerniaghat Wildlife Sanctuary as one of only three remaining breeding sites globally.",
+                                    "wild gharial populations"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               3,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "The endangered {1} has suffered major population collapses, leaving the {2} River inside {3} Sanctuary as one of three global breeding locations.",
+                      "keys":  [
+                                   "gharial",
+                                   "Girwa",
+                                   "Katerniaghat"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_018",
+        "category":  "Ecological Webs \u0026 Life-Support Systems",
+        "topic":  "Forests as Primary Ecological Producers",
+        "anchor_sentence":  "Forests occupy a foundational tier within the planetary ecosystem because they serve as primary producers on which all terrestrial life, air regeneration, water cycles, and soil renewal directly depend.",
+        "pass1":  {
+                      "prompt":  "Forests occupy a foundational tier within ecosystems because they serve as [BLANK_1] producers on which [BLANK_2] cycles and soil renewal depend.",
+                      "inputs":  [
+                                     "primary",
+                                     "water"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "All terrestrial [BLANK_1] depend fundamentally upon [BLANK_2] for regenerating atmospheric oxygen and productive soils.",
+                      "inputs":  [
+                                     "living organisms",
+                                     "forests"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Forests govern the sustenance of [BLANK_1] foundational life-support pillars: clean atmospheric air, potable fresh water, and fertile topsoil.",
+                      "inputs":  [
+                                     "three"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "By synthesizing biomass from solar energy, forest ecosystems act as biological [BLANK_1] supporting complex heterotrophic food webs.",
+                      "inputs":  [
+                                     "primary producers"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "Forests occupy an irrelevant tier within the planetary ecosystem because they serve as toxic consumers on which zero living organisms or air systems depend.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "irrelevant tier",
+                                              "right":  "foundational tier"
+                                          },
+                                          {
+                                              "wrong":  "toxic consumers",
+                                              "right":  "primary producers"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "Forests occupy a foundational tier within the planetary ecosystem",
+                                    "because they serve as primary producers",
+                                    "air regeneration, water cycles, and soil renewal directly depend.",
+                                    "on which all terrestrial life,"
+                                ],
+                      "correct_sequence":  [
+                                               0,
+                                               1,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Within the ecological web, {1} serve as essential {2} whose photosynthetic activity maintains {3}, water, and soil.",
+                      "keys":  [
+                                   "forests",
+                                   "primary producers",
+                                   "air"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_019",
+        "category":  "Endangered Species \u0026 Habitat Recovery",
+        "topic":  "Targeted Conservation Programmes for Specific Endangered Fauna",
+        "anchor_sentence":  "Apart from the tiger, national conservation projects have targeted critically threatened fauna including the one-horned rhinoceros, Kashmir stag, three crocodilian species, Asiatic lion, snow leopard, and the great Indian bustard.",
+        "pass1":  {
+                      "prompt":  "National conservation projects have targeted threatened fauna including the one-horned [BLANK_1], Kashmir stag, and the great Indian [BLANK_2].",
+                      "inputs":  [
+                                     "rhinoceros",
+                                     "bustard"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Targeted projects protect the Kashmir stag, locally designated as [BLANK_1], along with the endangered [BLANK_2] of the Gir peninsula.",
+                      "inputs":  [
+                                     "hangul",
+                                     "Asiatic lion"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "Central recovery plans encompass [BLANK_1] crocodilian variants: the freshwater crocodile, saltwater crocodile, and the gharial.",
+                      "inputs":  [
+                                     "three"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "Species receiving high legal protection against poaching under national frameworks include the desert avian species known as the [BLANK_1] or godawan.",
+                      "inputs":  [
+                                     "great Indian bustard"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "National conservation projects have declared open hunting on threatened fauna including the one-horned rhinoceros and snow leopard to reduce wild populations in sanctuaries.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "declared open hunting on",
+                                              "right":  "targeted"
+                                          },
+                                          {
+                                              "wrong":  "reduce wild populations",
+                                              "right":  "protect critically threatened fauna"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "including the one-horned rhinoceros, Kashmir stag, three crocodilian species,",
+                                    "national conservation projects have targeted critically threatened fauna",
+                                    "Asiatic lion, snow leopard, and the great Indian bustard.",
+                                    "Apart from the tiger,"
+                                ],
+                      "correct_sequence":  [
+                                               3,
+                                               1,
+                                               0,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "Governmental preservation initiatives safeguard threatened species including the one-horned {1}, the hangul or {2}, and the desert {3}.",
+                      "keys":  [
+                                   "rhinoceros",
+                                   "Kashmir stag",
+                                   "great Indian bustard"
+                               ]
+                  }
+    },
+    {
+        "id":  "BIO_FOR_020",
+        "category":  "Ecological Philosophy \u0026 Ancient Environmental Ethics",
+        "topic":  "Buddhist Philosophy on Universal Benevolence of Trees",
+        "anchor_sentence":  "In traditional environmental philosophy attributed to Gautama Buddha in 487 BC, a tree represents an organism of boundless benevolence that provides shade and sustenance unconditionally, even extending protection to the woodcutter who destroys it.",
+        "pass1":  {
+                      "prompt":  "In philosophy attributed to Gautama Buddha in [BLANK_1] BC, a tree represents an organism of boundless [BLANK_2] that provides shade unconditionally.",
+                      "inputs":  [
+                                     "487",
+                                     "benevolence"
+                                 ]
+                  },
+        "pass2":  {
+                      "prompt":  "Ancient ethical teachings delivered by [BLANK_1] portray the tree as offering protection even to the [BLANK_2] who fells it.",
+                      "inputs":  [
+                                     "Gautama Buddha",
+                                     "woodcutter"
+                                 ]
+                  },
+        "pass3":  {
+                      "prompt":  "The ancient ethical passage dating from [BLANK_1] BC illustrates the historical foundation of nature conservation in Indian thought.",
+                      "inputs":  [
+                                     "487"
+                                 ]
+                  },
+        "pass4":  {
+                      "prompt":  "The philosophical teaching models environmental stewardship by defining the tree as an organism of unlimited [BLANK_1] and self-sustaining [BLANK_2].",
+                      "inputs":  [
+                                     "kindness",
+                                     "benevolence"
+                                 ]
+                  },
+        "pass5":  {
+                      "prompt":  "In philosophy attributed to Gautama Buddha in 1987 AD, a tree represents an aggressive organism that expels poison to kill every woodcutter who approaches it.",
+                      "corrections":  [
+                                          {
+                                              "wrong":  "1987 AD",
+                                              "right":  "487 BC"
+                                          },
+                                          {
+                                              "wrong":  "aggressive organism that expels poison",
+                                              "right":  "organism of boundless benevolence"
+                                          }
+                                      ]
+                  },
+        "pass6":  {
+                      "tiles":  [
+                                    "a tree represents an organism of boundless benevolence",
+                                    "In traditional environmental philosophy attributed to Gautama Buddha in 487 BC,",
+                                    "even extending protection to the woodcutter who destroys it.",
+                                    "that provides shade and sustenance unconditionally,"
+                                ],
+                      "correct_sequence":  [
+                                               1,
+                                               0,
+                                               3,
+                                               2
+                                           ]
+                  },
+        "pass7":  {
+                      "template":  "A sermon by {1} delivered in {2} BC describes the tree as an entity of unlimited {3}, providing shade even to the {4} who destroys it.",
+                      "keys":  [
+                                   "Gautama Buddha",
+                                   "487",
+                                   "benevolence",
+                                   "axeman"
+                               ]
+                  }
+    }
+]

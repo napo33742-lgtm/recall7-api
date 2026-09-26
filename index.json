@@ -1,0 +1,28 @@
+{
+    "chapters":  [
+                     {
+                         "title":  "Resources and Development",
+                         "id":  1,
+                         "filename":  "chapter_1.json",
+                         "version":  1
+                     },
+                     {
+                         "title":  "Forest and Wildlife Resources",
+                         "id":  2,
+                         "filename":  "chapter_2.json",
+                         "version":  1
+                     },
+                     {
+                         "title":  "Water Resources",
+                         "id":  3,
+                         "filename":  "chapter_3.json",
+                         "version":  1
+                     },
+                     {
+                         "title":  "Agriculture",
+                         "id":  4,
+                         "filename":  "chapter_4.json",
+                         "version":  1
+                     }
+                 ]
+}
