@@ -4,30 +4,30 @@
     "category": "Mineralogy & Geochemistry",
     "topic": "Scientific Definition and Internal Crystalline Homogeneity",
     "anchor_sentence": "Geologists define a mineral as a naturally occurring, homogeneous substance characterized by a definable internal atomic structure, displaying physical variations in hardness, crystal form, color, and lustre conditioned by formation environments[cite: 6].",
-    "pass1_focus": {
+    "pass1": {
       "prompt": "Geologists define a mineral as a naturally occurring, [BLANK_1] substance characterized by a definable internal [BLANK_2] structure[cite: 6].",
       "inputs": ["homogeneous", "atomic"]
     },
-    "pass2_actors": {
+    "pass2": {
       "prompt": "While geographers study minerals in relation to regional landforms and human livelihoods, a [BLANK_1] focuses on physical formation, age, and chemical [BLANK_2][cite: 6].",
       "inputs": ["geologist", "composition"]
     },
-    "pass3_quantitative": {
+    "pass3": {
       "prompt": "Although scientists have identified over [BLANK_1] minerals in the lithosphere, only a small fraction occur abundantly within rock formations[cite: 6].",
       "inputs": ["2000"]
     },
-    "pass4_technical": {
+    "pass4": {
       "prompt": "Mineral variation spans physical extremes, ranging from the hardest known substance [BLANK_1] to the softest mineral [BLANK_2][cite: 6].",
       "inputs": ["diamond", "talc"]
     },
-    "pass5_forensic": {
+    "pass5": {
       "prompt": "Geologists define a mineral as an artificial, heterogeneous liquid characterized by a random internal atomic structure, displaying physical variations in taste and magnetism conditioned by plastic manufacturing[cite: 6].",
       "corrections": [
         {"wrong": "artificial, heterogeneous liquid", "right": "naturally occurring, homogeneous substance[cite: 6]"},
         {"wrong": "random internal atomic structure", "right": "definable internal atomic structure[cite: 6]"}
       ]
     },
-    "pass6_scramble": {
+    "pass6": {
       "tiles": [
         "Geologists define a mineral as a naturally occurring, homogeneous substance[cite: 6]",
         "displaying physical variations in hardness, crystal form, color, and lustre[cite: 6]",
@@ -36,7 +36,7 @@
       ],
       "correct_sequence": [0, 2, 1, 3]
     },
-    "pass7_blind": {
+    "pass7": {
       "template": "A mineral is an inorganic, {1} substance possessing a definite internal {2}, ranging physically from soft {3} to dense {4}[cite: 6].",
       "keys": [
         "homogeneous",
