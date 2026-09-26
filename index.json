@@ -23,6 +23,13 @@
                          "id":  4,
                          "filename":  "chapter_4.json",
                          "version":  1
+                     },
+        
+                     {
+                         "title":  "Minerals and Energy Resources",
+                         "id":  5,
+                         "filename":  "chapter_5.json",
+                         "version":  1
                      }
                  ]
 }
