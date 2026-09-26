@@ -37,6 +37,13 @@
                          "id":  6,
                          "filename":  "chapter_6.json",
                          "version":  1
+                     },
+        
+                     {
+                         "title":  "Lifelines of National Economy",
+                         "id":  7,
+                         "filename":  "chapter_7.json",
+                         "version":  1
                      }
                  ]
 }
