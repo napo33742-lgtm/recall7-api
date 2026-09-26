@@ -1,0 +1,1277 @@
+[
+  {
+    "id": "MIN_ENG_001",
+    "category": "Mineralogy & Geochemistry",
+    "topic": "Scientific Definition and Internal Crystalline Homogeneity",
+    "anchor_sentence": "Geologists define a mineral as a naturally occurring, homogeneous substance characterized by a definable internal atomic structure, displaying physical variations in hardness, crystal form, color, and lustre conditioned by formation environments[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Geologists define a mineral as a naturally occurring, [BLANK_1] substance characterized by a definable internal [BLANK_2] structure[cite: 6].",
+      "inputs": ["homogeneous", "atomic"]
+    },
+    "pass2_actors": {
+      "prompt": "While geographers study minerals in relation to regional landforms and human livelihoods, a [BLANK_1] focuses on physical formation, age, and chemical [BLANK_2][cite: 6].",
+      "inputs": ["geologist", "composition"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Although scientists have identified over [BLANK_1] minerals in the lithosphere, only a small fraction occur abundantly within rock formations[cite: 6].",
+      "inputs": ["2000"]
+    },
+    "pass4_technical": {
+      "prompt": "Mineral variation spans physical extremes, ranging from the hardest known substance [BLANK_1] to the softest mineral [BLANK_2][cite: 6].",
+      "inputs": ["diamond", "talc"]
+    },
+    "pass5_forensic": {
+      "prompt": "Geologists define a mineral as an artificial, heterogeneous liquid characterized by a random internal atomic structure, displaying physical variations in taste and magnetism conditioned by plastic manufacturing[cite: 6].",
+      "corrections": [
+        {"wrong": "artificial, heterogeneous liquid", "right": "naturally occurring, homogeneous substance[cite: 6]"},
+        {"wrong": "random internal atomic structure", "right": "definable internal atomic structure[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Geologists define a mineral as a naturally occurring, homogeneous substance[cite: 6]",
+        "displaying physical variations in hardness, crystal form, color, and lustre[cite: 6]",
+        "characterized by a definable internal atomic structure,[cite: 6]",
+        "conditioned by formation environments.[cite: 6]"
+      ],
+      "correct_sequence": [0, 2, 1, 3]
+    },
+    "pass7_blind": {
+      "template": "A mineral is an inorganic, {1} substance possessing a definite internal {2}, ranging physically from soft {3} to dense {4}[cite: 6].",
+      "keys": [
+        "homogeneous",
+        "structure",
+        "talc",
+        "diamond"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_002",
+    "category": "Structural Geology & Ore Genesis",
+    "topic": "Hydrothermal Veins and Lodes in Crystalline Bedrock",
+    "anchor_sentence": "In igneous and metamorphic formations, metallic minerals precipitate from rising molten or gaseous solutions forced through structural fractures, consolidating into minor fissures called veins and massive fracture fillings designated as lodes[cite: 6].",
+    "pass1_focus": {
+      "prompt": "In crystalline rocks, smaller mineralized crevices are classified as [BLANK_1], whereas expansive structural sheets are termed [BLANK_2][cite: 6].",
+      "inputs": ["veins", "lodes"]
+    },
+    "pass2_actors": {
+      "prompt": "Hydrothermal solutions cool and solidify as they migrate upward through [BLANK_1] towards the earth's crust, concentrating metals like [BLANK_2] and copper[cite: 6].",
+      "inputs": ["cavities", "tin"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Hydrothermal fissures yield [BLANK_1] major industrial metals, notably copper, zinc, lead, and tin[cite: 6].",
+      "inputs": ["four"]
+    },
+    "pass4_technical": {
+      "prompt": "Mineral crystallization occurring within bedrock joints and bedding faults is classified geometrically into minor [BLANK_1] and expansive [BLANK_2][cite: 6].",
+      "inputs": ["veins", "lodes"]
+    },
+    "pass5_forensic": {
+      "prompt": "In igneous and metamorphic formations, metallic minerals precipitate from descending glacier streams forced through open sky channels, consolidating into minor fissures called sandbars and massive fracture fillings designated as coral reefs[cite: 6].",
+      "corrections": [
+        {"wrong": "descending glacier streams", "right": "rising molten or gaseous solutions[cite: 6]"},
+        {"wrong": "sandbars and massive fracture fillings designated as coral reefs", "right": "veins and massive fracture fillings designated as lodes[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "In igneous and metamorphic formations, metallic minerals precipitate[cite: 6]",
+        "consolidating into minor fissures called veins[cite: 6]",
+        "from rising molten or gaseous solutions forced through structural fractures,[cite: 6]",
+        "and massive fracture fillings designated as lodes.[cite: 6]"
+      ],
+      "correct_sequence": [0, 2, 1, 3]
+    },
+    "pass7_blind": {
+      "template": "Hydrothermal fluids deposit metallic minerals within rock faults, where small cracks form {1} and larger structural bodies produce {2} containing copper and {3}[cite: 6].",
+      "keys": [
+        "veins",
+        "lodes",
+        "lead"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_003",
+    "category": "Sedimentary Geochemistry & Evaporites",
+    "topic": "Stratified Sedimentary Beds and Arid Evaporite Deposits",
+    "anchor_sentence": "Sedimentary minerals develop through horizontal deposition and compaction under protracted heat and pressure, while arid climate evaporation drives chemical precipitation to form gypsum, potash salt, and sodium salts[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Sedimentary minerals concentrate in horizontal strata, whereas arid-zone evaporation produces deposits of [BLANK_1] and [BLANK_2] salts[cite: 6].",
+      "inputs": ["gypsum", "potash"]
+    },
+    "pass2_actors": {
+      "prompt": "Long geological intervals subjected plant debris and sedimentary minerals to heavy [BLANK_1] and intense tectonic [BLANK_2], concentrating fossil energy[cite: 6].",
+      "inputs": ["heat", "pressure"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Evaporation across enclosed inland saline basins concentrates [BLANK_1] primary non-metallic salts: gypsum, sodium salt, and potash salt[cite: 6].",
+      "inputs": ["three"]
+    },
+    "pass4_technical": {
+      "prompt": "Stratified bedding planes formed by horizontal accumulation in sedimentary basins are described as [BLANK_1] or [BLANK_2][cite: 6].",
+      "inputs": ["beds", "layers"]
+    },
+    "pass5_forensic": {
+      "prompt": "Sedimentary minerals develop through volcanic magma blasting out of oceanic trenches, while humid rainforest deluge drives chemical cooling to form diamonds and pure titanium[cite: 6].",
+      "corrections": [
+        {"wrong": "volcanic magma blasting out", "right": "horizontal deposition and compaction[cite: 6]"},
+        {"wrong": "humid rainforest deluge drives chemical cooling", "right": "arid climate evaporation drives chemical precipitation[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Sedimentary minerals develop through horizontal deposition and compaction[cite: 6]",
+        "while arid climate evaporation drives chemical precipitation[cite: 6]",
+        "under protracted heat and pressure,[cite: 6]",
+        "to form gypsum, potash salt, and sodium salts.[cite: 6]"
+      ],
+      "correct_sequence": [0, 2, 1, 3]
+    },
+    "pass7_blind": {
+      "template": "Accumulation within horizontal {1} creates coal and iron layers, while evaporation in desert climates precipitates {2} and {3} salts[cite: 6].",
+      "keys": [
+        "strata",
+        "gypsum",
+        "sodium"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_004",
+    "category": "Weathering & Residual Concentrations",
+    "topic": "Surface Rock Decomposition and Bauxite Residual Mass",
+    "anchor_sentence": "Intense tropical weathering decomposes surficial aluminous rocks and leaches away soluble silicates, leaving behind an insoluble residual mantle enriched with hydrated aluminum oxides termed bauxite[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Chemical leaching strips soluble constituents from parent rocks, leaving an insoluble residual mass enriched with [BLANK_1] ore known as [BLANK_2][cite: 6].",
+      "inputs": ["aluminum", "bauxite"]
+    },
+    "pass2_actors": {
+      "prompt": "Atmospheric weathering decomposes surface rocks rich in [BLANK_1], concentrating crude hydrated [BLANK_2][cite: 6].",
+      "inputs": ["aluminum silicates", "alumina"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Residual bauxite profiles form through a [BLANK_1]-step geochemical sequence: mineral decomposition, leaching of soluble fractions, and secondary accumulation[cite: 6].",
+      "inputs": ["three"]
+    },
+    "pass4_technical": {
+      "prompt": "The removal of mobile mineral silica via groundwater filtration in humid climates is pedologically defined as [BLANK_1][cite: 6].",
+      "inputs": ["leaching"]
+    },
+    "pass5_forensic": {
+      "prompt": "Intense glacial freezing solidifies surficial granite rocks and freezes soluble silicates, depositing a floating marine plankton mass enriched with pure mercury[cite: 6].",
+      "corrections": [
+        {"wrong": "glacial freezing solidifies", "right": "tropical weathering decomposes[cite: 6]"},
+        {"wrong": "floating marine plankton mass enriched with pure mercury", "right": "insoluble residual mantle enriched with bauxite[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "leaving behind an insoluble residual mantle[cite: 6]",
+        "Intense tropical weathering decomposes surficial aluminous rocks[cite: 6]",
+        "enriched with hydrated aluminum oxides termed bauxite.[cite: 6]",
+        "and leaches away soluble silicates,[cite: 6]"
+      ],
+      "correct_sequence": [1, 3, 0, 2]
+    },
+    "pass7_blind": {
+      "template": "Decomposition of surface rocks removes soluble matter, leaving a residual deposit rich in {1} that yields commercial {2}[cite: 6].",
+      "keys": [
+        "aluminum silicates",
+        "bauxite"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_005",
+    "category": "Alluvial Geomorphology & Non-Corrosive Minerals",
+    "topic": "Placer Mining in Fluvial Sands and Hill Base Deposits",
+    "anchor_sentence": "Certain heavy, non-corrosive metals accumulate as alluvial placer deposits in valley gravels and foot-hill sands, yielding un-corroded grains of native gold, silver, tin, and platinum[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Alluvial valley gravels contain non-corrosive [BLANK_1] deposits yielding native grains of [BLANK_2] and platinum[cite: 6].",
+      "inputs": ["placer", "gold"]
+    },
+    "pass2_actors": {
+      "prompt": "Fluvial currents sort and transport weathered bedrock fragments, aggregating chemically inert [BLANK_1] and [BLANK_2] along valley bottoms[cite: 6].",
+      "inputs": ["silver", "tin"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Placer sands preserve [BLANK_1] primary non-reactive high-value metals: gold, silver, tin, and platinum[cite: 6].",
+      "inputs": ["four"]
+    },
+    "pass4_technical": {
+      "prompt": "Heavy metal grains that withstand mechanical friction and chemical dissolution in water are classified as [BLANK_1] deposits[cite: 6].",
+      "inputs": ["placer"]
+    },
+    "pass5_forensic": {
+      "prompt": "Certain light, highly-corrosive chemicals evaporate as alluvial placer deposits in atmospheric cloud banks, yielding rust-prone lumps of sodium and calcium[cite: 6].",
+      "corrections": [
+        {"wrong": "light, highly-corrosive chemicals evaporate", "right": "heavy, non-corrosive metals accumulate[cite: 6]"},
+        {"wrong": "atmospheric cloud banks", "right": "valley gravels and foot-hill sands[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "in valley gravels and foot-hill sands,[cite: 6]",
+        "Certain heavy, non-corrosive metals accumulate as alluvial placer deposits[cite: 6]",
+        "yielding un-corroded grains of native gold, silver, tin, and platinum.[cite: 6]"
+      ],
+      "correct_sequence": [1, 0, 2]
+    },
+    "pass7_blind": {
+      "template": "Stream sands hold water-resistant {1} deposits containing resistant precious native elements like {2}, {3}, and platinum[cite: 6].",
+      "keys": [
+        "placer",
+        "gold",
+        "silver"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_006",
+    "category": "Oceanography & Marine Mineral Wealth",
+    "topic": "Marine Dissolved Salts and Abyssal Manganese Nodules",
+    "anchor_sentence": "Although oceanic waters hold immensely diffused mineral solutions yielding commercial common salt, magnesium, and bromine, abyssal sea floors concentrate vast exploitable pavements of manganese nodules[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Marine waters supply commercial common salt, magnesium, and [BLANK_1], whereas deep oceanic floors concentrate [BLANK_2] nodules[cite: 6].",
+      "inputs": ["bromine", "manganese"]
+    },
+    "pass2_actors": {
+      "prompt": "Coastal evaporating salterns harvest [BLANK_1] from marine currents, while offshore deep-sea dredging targets benthic [BLANK_2] concretions[cite: 6].",
+      "inputs": ["salt", "mineral"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Seawater evaporation provides [BLANK_1] commercially recoverable chemical products: sodium chloride, elemental bromine, and dissolved magnesium salts[cite: 6].",
+      "inputs": ["three"]
+    },
+    "pass4_technical": {
+      "prompt": "Polymetallic pebble-sized accretions resting upon abyssal plains are designated as [BLANK_1] nodules[cite: 6].",
+      "inputs": ["manganese"]
+    },
+    "pass5_forensic": {
+      "prompt": "Although oceanic waters hold zero dissolved minerals, abyssal sea floors concentrate vast exploitable pavements of dry coal briquettes and wood timber[cite: 6].",
+      "corrections": [
+        {"wrong": "zero dissolved minerals", "right": "immensely diffused mineral solutions[cite: 6]"},
+        {"wrong": "dry coal briquettes and wood timber", "right": "manganese nodules[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "yielding commercial common salt, magnesium, and bromine,[cite: 6]",
+        "abyssal sea floors concentrate vast exploitable pavements of manganese nodules.[cite: 6]",
+        "Although oceanic waters hold immensely diffused mineral solutions[cite: 6]"
+      ],
+      "correct_sequence": [2, 0, 1]
+    },
+    "pass7_blind": {
+      "template": "From ocean brine, industries derive salt, {1}, and bromine, while benthic ocean trenches hold {2} nodules[cite: 6].",
+      "keys": [
+        "magnesium",
+        "manganese"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_007",
+    "category": "Environmental Law & Unregulated Mining",
+    "topic": "Tribal Rat-Hole Mining in Meghalaya",
+    "anchor_sentence": "Contrasting with nationalized state mineral ownership, tribal communities in Meghalaya extract coal through precarious, unregulated tunnels known as rat-hole mining, a hazardous practice declared strictly illegal by the National Green Tribunal[cite: 6].",
+    "pass1_focus": {
+      "prompt": "In Meghalaya, private family extraction using narrow tunnels is termed [BLANK_1] mining, declared illegal by the [BLANK_2] Green Tribunal[cite: 6].",
+      "inputs": ["rat-hole", "National"]
+    },
+    "pass2_actors": {
+      "prompt": "Family laborers in Jowai and [BLANK_1] excavate subterranean seams until statutory bans are enforced by the [BLANK_2][cite: 6].",
+      "inputs": ["Cherapunjee", "National Green Tribunal"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Unlike public sector mines across India, indigenous customary mining in northeastern hills is managed by [BLANK_1] households or clan communities[cite: 6].",
+      "inputs": ["individual"]
+    },
+    "pass4_technical": {
+      "prompt": "The artisanal digging of narrow horizontal burrow pits into hillside coal seams is designated as [BLANK_1] mining[cite: 6].",
+      "inputs": ["rat-hole"]
+    },
+    "pass5_forensic": {
+      "prompt": "Contrasting with nationalized state mineral ownership, tribal communities in Meghalaya extract diamonds through wide, regulated highways known as sky-train mining, a practice declared mandatory by the National Green Tribunal[cite: 6].",
+      "corrections": [
+        {"wrong": "extract diamonds through wide, regulated highways", "right": "extract coal through precarious, unregulated tunnels[cite: 6]"},
+        {"wrong": "mandatory", "right": "strictly illegal[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Contrasting with nationalized state mineral ownership,[cite: 6]",
+        "tribal communities in Meghalaya extract coal through precarious, unregulated tunnels known as rat-hole mining,[cite: 6]",
+        "a hazardous practice declared strictly illegal by the National Green Tribunal.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Indigenous miners in {1} dig narrow coal tunnels called {2} mining, which was banned by the {3}[cite: 6].",
+      "keys": [
+        "Meghalaya",
+        "rat-hole",
+        "National Green Tribunal"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_008",
+    "category": "Economic Geology & Mineral Viability",
+    "topic": "Economic Conversion of Mineral Reserves into Working Mines",
+    "anchor_sentence": "A natural mineral occurrence transforms into an active commercial mine only when geological concentration, extraction accessibility, and transport proximity to processing markets combine to ensure commercial profitability[cite: 6].",
+    "pass1_focus": {
+      "prompt": "A geological deposit converts into an operating mine when ore grade, extraction ease, and proximity to [BLANK_1] guarantee commercial [BLANK_2][cite: 6].",
+      "inputs": ["market", "profitability"]
+    },
+    "pass2_actors": {
+      "prompt": "Industrial mining [BLANK_1] evaluate ore concentration against freight logistics before investing capital into a mineralized [BLANK_2][cite: 6].",
+      "inputs": ["corporations", "reserve"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Commercial feasibility is governed by [BLANK_1] interrelated variables: ore metallic grade, logistical distance, and extraction depth[cite: 6].",
+      "inputs": ["three"]
+    },
+    "pass4_technical": {
+      "prompt": "A verified subterranean mineral accumulation that satisfies industrial extraction economics is formally designated as a [BLANK_1][cite: 6].",
+      "inputs": ["reserve"]
+    },
+    "pass5_forensic": {
+      "prompt": "A natural mineral occurrence transforms into an active commercial mine only when low metal concentration, impossible extraction barriers, and total market isolation combine to ensure bankruptcy[cite: 6].",
+      "corrections": [
+        {"wrong": "low metal concentration, impossible extraction barriers", "right": "geological concentration, extraction accessibility[cite: 6]"},
+        {"wrong": "bankruptcy", "right": "commercial profitability[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "A natural mineral occurrence transforms into an active commercial mine[cite: 6]",
+        "only when geological concentration, extraction accessibility,[cite: 6]",
+        "and transport proximity to processing markets combine to ensure commercial profitability.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "A raw {1} becomes an active {2} when metal content, ease of quarrying, and low {3} costs ensure economic return[cite: 6].",
+      "keys": [
+        "deposit",
+        "mine",
+        "transport"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_009",
+    "category": "Ferrous Metallurgy & Mineral Economics",
+    "topic": "Value Share and Industrial Role of Ferrous Minerals",
+    "anchor_sentence": "Accounting for approximately three-fourths of the total valuation of metallic mineral production in India, ferrous minerals establish the baseline raw material infrastructure required for domestic metallurgical and steelmaking industries[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Ferrous minerals account for [BLANK_1] of total metallic mineral production value, sustaining the domestic [BLANK_2] sector[cite: 6].",
+      "inputs": ["three-fourths", "metallurgical"]
+    },
+    "pass2_actors": {
+      "prompt": "Heavy industrial [BLANK_1] depend on stable domestic supplies of iron ore and manganese extracted by primary mining [BLANK_2][cite: 6].",
+      "inputs": ["enterprises", "corporations"]
+    },
+    "pass3_quantitative": {
+      "prompt": "By financial valuation, ferrous ore output generates roughly [BLANK_1] percent of India's metallic mineral revenue[cite: 6].",
+      "inputs": ["75"]
+    },
+    "pass4_technical": {
+      "prompt": "Metallic ores that contain iron matrices and form the basis of ferro-alloys are categorized as [BLANK_1] minerals[cite: 6].",
+      "inputs": ["ferrous"]
+    },
+    "pass5_forensic": {
+      "prompt": "Accounting for barely one-hundredth of the total valuation of metallic mineral production in India, ferrous minerals are useless for domestic metallurgical and steelmaking industries[cite: 6].",
+      "corrections": [
+        {"wrong": "barely one-hundredth", "right": "three-fourths[cite: 6]"},
+        {"wrong": "useless", "right": "establish the baseline raw material infrastructure[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Accounting for approximately three-fourths of the total valuation of metallic mineral production in India,[cite: 6]",
+        "ferrous minerals establish the baseline raw material infrastructure[cite: 6]",
+        "required for domestic metallurgical and steelmaking industries.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Generating {1} of metallic mining value, {2} minerals provide vital structural feedstocks for heavy {3} plants[cite: 6].",
+      "keys": [
+        "three-fourths",
+        "ferrous",
+        "metallurgical"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_010",
+    "category": "Ferrous Mineral Chemistry",
+    "topic": "Magnetite Electrical Qualities and Hematite Industrial Dominance",
+    "anchor_sentence": "Magnetite represents the finest natural iron ore with an iron content reaching 70 percent and superior magnetic traits vital for electrical engineering, whereas hematite contains 50 to 60 percent iron, serving as the primary bulk ore consumed in heavy industry[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Magnetite contains up to [BLANK_1] percent iron with strong magnetic qualities, while [BLANK_2] ore contains 50 to 60 percent iron[cite: 6].",
+      "inputs": ["70", "hematite"]
+    },
+    "pass2_actors": {
+      "prompt": "Electrical equipment manufacturers seek high-grade [BLANK_1], whereas blast furnace operators consume large tonnages of [BLANK_2][cite: 6].",
+      "inputs": ["magnetite", "hematite"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Magnetite ore yields up to [BLANK_1] percent elemental iron, whereas industrial hematite averages between [BLANK_2] and 60 percent[cite: 6].",
+      "inputs": ["70", "50"]
+    },
+    "pass4_technical": {
+      "prompt": "The mineral ore possessing intrinsic polarity suited for electrical transformers and electronic devices is [BLANK_1][cite: 6].",
+      "inputs": ["magnetite"]
+    },
+    "pass5_forensic": {
+      "prompt": "Magnetite represents the lowest grade natural iron ore with an iron content reaching 5 percent and zero magnetic traits, whereas hematite contains 99 percent iron, serving only as a decorative gem[cite: 6].",
+      "corrections": [
+        {"wrong": "lowest grade natural iron ore with an iron content reaching 5 percent and zero", "right": "finest natural iron ore with an iron content reaching 70 percent and superior[cite: 6]"},
+        {"wrong": "serving only as a decorative gem", "right": "serving as the primary bulk ore consumed in heavy industry[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Magnetite represents the finest natural iron ore with an iron content reaching 70 percent[cite: 6]",
+        "and superior magnetic traits vital for electrical engineering,[cite: 6]",
+        "serving as the primary bulk ore consumed in heavy industry.[cite: 6]",
+        "whereas hematite contains 50 to 60 percent iron,[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 3, 2]
+    },
+    "pass7_blind": {
+      "template": "Top-grade {1} yields {2} percent iron for electrical goods, while {3} ore provides the bulk feed for industrial {4} making[cite: 6].",
+      "keys": [
+        "magnetite",
+        "70",
+        "hematite",
+        "steel"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_011",
+    "category": "Regional Mining Belts",
+    "topic": "The Odisha-Jharkhand Iron Ore Mining Belt",
+    "anchor_sentence": "Within the Odisha-Jharkhand mining belt, high-grade hematite is extracted from Badampahar mines across Mayurbhanj and Kendujhar districts, linking directly to adjacent iron quarries at Gua and Noamundi in Jharkhand's Singhbhum district[cite: 6].",
+    "pass1_focus": {
+      "prompt": "In Odisha, hematite is quarried at [BLANK_1] in Mayurbhanj, connecting to Gua and [BLANK_2] in Jharkhand's Singhbhum district[cite: 6].",
+      "inputs": ["Badampahar", "Noamundi"]
+    },
+    "pass2_actors": {
+      "prompt": "Industrial steelworks in eastern India source iron from mines operated across [BLANK_1] in Odisha and [BLANK_2] district in Jharkhand[cite: 6].",
+      "inputs": ["Kendujhar", "Singhbhum"]
+    },
+    "pass3_quantitative": {
+      "prompt": "In 2018-19, four core states—Odisha, Chhattisgarh, Karnataka, and Jharkhand—produced [BLANK_1] percent of India's total iron ore[cite: 6].",
+      "inputs": ["97"]
+    },
+    "pass4_technical": {
+      "prompt": "The iron ore variety mined within the Badampahar and Singhbhum complexes is predominantly high-grade [BLANK_1][cite: 6].",
+      "inputs": ["hematite"]
+    },
+    "pass5_forensic": {
+      "prompt": "Within the Odisha-Jharkhand mining belt, low-grade copper is extracted from Badampahar mines, linking directly to gold pits at Noamundi in Punjab[cite: 6].",
+      "corrections": [
+        {"wrong": "low-grade copper", "right": "high-grade hematite[cite: 6]"},
+        {"wrong": "Punjab", "right": "Jharkhand's Singhbhum district[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Within the Odisha-Jharkhand mining belt, high-grade hematite is extracted[cite: 6]",
+        "from Badampahar mines across Mayurbhanj and Kendujhar districts,[cite: 6]",
+        "linking directly to adjacent iron quarries at Gua and Noamundi in Jharkhand's Singhbhum district.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "High-grade hematite is extracted from {1} in Odisha's Mayurbhanj and nearby pits at {2} in {3} district[cite: 6].",
+      "keys": [
+        "Badampahar",
+        "Noamundi",
+        "Singhbhum"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_012",
+    "category": "Regional Mining Belts",
+    "topic": "The Durg-Bastar-Chandrapur Belt and Bailadila Ox-Hump Deposits",
+    "anchor_sentence": "Spanning Chhattisgarh and Maharashtra, the Durg-Bastar-Chandrapur belt features the famous Bailadila hills comprising 14 deposits of super high-grade hematite ore, exported to Japan and South Korea through Visakhapatnam port[cite: 6].",
+    "pass1_focus": {
+      "prompt": "The Bailadila hills in Bastar contain [BLANK_1] deposits of high-grade hematite, exported through [BLANK_2] port to Japan and South Korea[cite: 6].",
+      "inputs": ["14", "Visakhapatnam"]
+    },
+    "pass2_actors": {
+      "prompt": "Mining enterprises in [BLANK_1] dispatch premium blast-furnace hematite to industrial buyers in [BLANK_2] and South Korea[cite: 6].",
+      "inputs": ["Chhattisgarh", "Japan"]
+    },
+    "pass3_quantitative": {
+      "prompt": "The Bailadila ridge holds [BLANK_1] distinct geological deposits of super high-grade hematite displaying elite physical smelting traits[cite: 6].",
+      "inputs": ["14"]
+    },
+    "pass4_technical": {
+      "prompt": "Named after the localized resemblance to an ox hump, the mountain range hosting 14 premium iron deposits is the [BLANK_1] range[cite: 6].",
+      "inputs": ["Bailadila"]
+    },
+    "pass5_forensic": {
+      "prompt": "Spanning Kerala and Tamil Nadu, the Durg-Bastar-Chandrapur belt features the famous Bailadila hills comprising 14 deposits of soft plastic, exported to Canada through Kolkata port[cite: 6].",
+      "corrections": [
+        {"wrong": "Kerala and Tamil Nadu", "right": "Chhattisgarh and Maharashtra[cite: 6]"},
+        {"wrong": "soft plastic, exported to Canada through Kolkata", "right": "super high-grade hematite ore, exported to Japan and South Korea through Visakhapatnam[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Spanning Chhattisgarh and Maharashtra, the Durg-Bastar-Chandrapur belt[cite: 6]",
+        "features the famous Bailadila hills comprising 14 deposits of super high-grade hematite ore,[cite: 6]",
+        "exported to Japan and South Korea through Visakhapatnam port.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Located in {1} district, the {2} range contains 14 iron bodies whose ore ships to {3} via Visakhapatnam harbor[cite: 6].",
+      "keys": [
+        "Bastar",
+        "Bailadila",
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_013",
+    "category": "Mineral Freight Engineering",
+    "topic": "Kudremukh Slurry Pipeline and Mangaluru Port Logistics",
+    "anchor_sentence": "Holding some of the world's largest iron reserves in the Western Ghats of Karnataka, the 100 percent export-oriented Kudremukh mines liquefy iron ore into slurry to transport it through pipelines to the coastal port near Mangaluru[cite: 6].",
+    "pass1_focus": {
+      "prompt": "In Karnataka, the [BLANK_1] export unit converts iron ore into [BLANK_2] for pipeline transit to Mangaluru port[cite: 6].",
+      "inputs": ["Kudremukh", "slurry"]
+    },
+    "pass2_actors": {
+      "prompt": "Mine operators in the [BLANK_1] Western Ghats pump powdered ore down to coastal processing terminals near [BLANK_2][cite: 6].",
+      "inputs": ["Karnataka", "Mangaluru"]
+    },
+    "pass3_quantitative": {
+      "prompt": "The Kudremukh operation was designed from inception as a [BLANK_1] percent export-oriented production facility[cite: 6].",
+      "inputs": ["100"]
+    },
+    "pass4_technical": {
+      "prompt": "The hydraulic technique of pulverizing crushed ore and mixing it with water for long-distance conduit transportation is known as [BLANK_1] transport[cite: 6].",
+      "inputs": ["slurry"]
+    },
+    "pass5_forensic": {
+      "prompt": "Holding some of the world's smallest coal reserves in the desert of Rajasthan, the zero percent export Kudremukh mines ship solid granite via airplane to the port near Delhi[cite: 6].",
+      "corrections": [
+        {"wrong": "desert of Rajasthan, the zero percent export", "right": "Western Ghats of Karnataka, the 100 percent export-oriented[cite: 6]"},
+        {"wrong": "solid granite via airplane to the port near Delhi", "right": "slurry through pipelines to the coastal port near Mangaluru[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Holding some of the world's largest iron reserves in the Western Ghats of Karnataka,[cite: 6]",
+        "the 100 percent export-oriented Kudremukh mines liquefy iron ore into slurry[cite: 6]",
+        "to transport it through pipelines to the coastal port near Mangaluru.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Shaped like a horse face, {1} operates as an export site in {2} that pumps iron {3} down to {4} port[cite: 6].",
+      "keys": [
+        "Kudremukh",
+        "Karnataka",
+        "slurry",
+        "Mangaluru"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_014",
+    "category": "Alloy Metallurgy & Industrial Chemistry",
+    "topic": "Manganese Steel Smelting Metrics and Applications",
+    "anchor_sentence": "Crucial for fabricating ferro-manganese alloys, approximately 10 kilograms of manganese is consumed to smelt one tonne of steel, while also serving as a key chemical reagent in manufacturing insecticides, paints, and bleaching powder[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Smelting one tonne of steel requires [BLANK_1] kilograms of manganese, which is also used to formulate paints and [BLANK_2] powder[cite: 6].",
+      "inputs": ["10", "bleaching"]
+    },
+    "pass2_actors": {
+      "prompt": "Steel manufacturers utilize manganese as a deoxidizing agent, while chemical companies consume it to produce agricultural [BLANK_1] and decorative [BLANK_2][cite: 6].",
+      "inputs": ["insecticides", "paints"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Producing one metric tonne of structural steel requires roughly [BLANK_1] kilograms of refined manganese ore[cite: 6].",
+      "inputs": ["10"]
+    },
+    "pass4_technical": {
+      "prompt": "The primary metallic master alloy combining iron and manganese for heavy manufacturing is [BLANK_1][cite: 6].",
+      "inputs": ["ferro-manganese"]
+    },
+    "pass5_forensic": {
+      "prompt": "Crucial for fabricating pure copper wires, approximately 1000 tons of manganese is consumed to smelt one gram of steel, while serving as a sweetening sugar in baby food[cite: 6].",
+      "corrections": [
+        {"wrong": "1000 tons of manganese is consumed to smelt one gram", "right": "10 kilograms of manganese is consumed to smelt one tonne[cite: 6]"},
+        {"wrong": "sweetening sugar in baby food", "right": "chemical reagent in manufacturing insecticides, paints, and bleaching powder[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "approximately 10 kilograms of manganese is consumed to smelt one tonne of steel,[cite: 6]",
+        "Crucial for fabricating ferro-manganese alloys,[cite: 6]",
+        "while also serving as a key chemical reagent in manufacturing insecticides, paints, and bleaching powder.[cite: 6]"
+      ],
+      "correct_sequence": [1, 0, 2]
+    },
+    "pass7_blind": {
+      "template": "To manufacture a tonne of steel, mills require {1} kg of {2}, which also supplies raw inputs for {3} powder and insecticides[cite: 6].",
+      "keys": [
+        "10",
+        "manganese",
+        "bleaching"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_015",
+    "category": "State Mining Allocations",
+    "topic": "Geographic Hegemony of Manganese Production",
+    "anchor_sentence": "In 2018-19, Madhya Pradesh led national manganese production by contributing 33 percent of total output, followed by Maharashtra at 27 percent and Odisha at 16 percent[cite: 6].",
+    "pass1_focus": {
+      "prompt": "In 2018-19, [BLANK_1] Pradesh generated 33 percent of India's manganese, followed by [BLANK_2] at 27 percent[cite: 6].",
+      "inputs": ["Madhya", "Maharashtra"]
+    },
+    "pass2_actors": {
+      "prompt": "Mining entities in the central states of [BLANK_1] and [BLANK_2] account for the majority of India's commercial manganese extraction[cite: 6].",
+      "inputs": ["Madhya Pradesh", "Maharashtra"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Madhya Pradesh produced [BLANK_1] percent and Maharashtra yielded [BLANK_2] percent of domestic manganese during 2018-19[cite: 6].",
+      "inputs": ["33", "27"]
+    },
+    "pass4_technical": {
+      "prompt": "The leading three provincial extractors control a collective cumulative volume surpassing [BLANK_1] percent of national manganese production[cite: 6].",
+      "inputs": ["75"]
+    },
+    "pass5_forensic": {
+      "prompt": "In 2018-19, Jammu and Kashmir led national manganese production by contributing 99 percent of total output, followed by Kerala at 1 percent and Goa at zero percent[cite: 6].",
+      "corrections": [
+        {"wrong": "Jammu and Kashmir", "right": "Madhya Pradesh[cite: 6]"},
+        {"wrong": "99 percent", "right": "33 percent[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Madhya Pradesh led national manganese production by contributing 33 percent of total output,[cite: 6]",
+        "In 2018-19,[cite: 6]",
+        "followed by Maharashtra at 27 percent and Odisha at 16 percent.[cite: 6]"
+      ],
+      "correct_sequence": [1, 0, 2]
+    },
+    "pass7_blind": {
+      "template": "Manganese production records from 2018-19 show {1} yielding 33 percent, {2} accounting for 27 percent, and {3} producing 16 percent[cite: 6].",
+      "keys": [
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Odisha"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_016",
+    "category": "Non-Ferrous Metallurgy & Electrical Engineering",
+    "topic": "Copper Deficiencies and Prominent Domestic Mining Centers",
+    "anchor_sentence": "Critically deficient in copper reserves, India relies on key domestic workings at Balaghat in Madhya Pradesh, Khetri in Rajasthan, and Singhbhum in Jharkhand to supply ductile, conductive metal for electrical wiring and chemical plants[cite: 6].",
+    "pass1_focus": {
+      "prompt": "India's copper extraction relies on the [BLANK_1] mines in Madhya Pradesh, Khetri in [BLANK_2], and Singhbhum in Jharkhand[cite: 6].",
+      "inputs": ["Balaghat", "Rajasthan"]
+    },
+    "pass2_actors": {
+      "prompt": "Electrical cable manufacturers rely on copper from [BLANK_1] in Rajasthan and open pits in [BLANK_2] in Madhya Pradesh[cite: 6].",
+      "inputs": ["Khetri", "Balaghat"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Domestic copper is mined across [BLANK_1] primary operational districts: Balaghat, Jhunjhunu (Khetri), and East Singhbhum[cite: 6].",
+      "inputs": ["three"]
+    },
+    "pass4_technical": {
+      "prompt": "Because copper combines thermal conductance, malleability, and high [BLANK_1], it remains essential for [BLANK_2] hardware[cite: 6].",
+      "inputs": ["ductility", "electronics"]
+    },
+    "pass5_forensic": {
+      "prompt": "Abundantly overflowing in copper reserves, India exports copper from the polar mines at Amritsar in Punjab, completely banning its use in electrical wiring[cite: 6].",
+      "corrections": [
+        {"wrong": "Abundantly overflowing", "right": "Critically deficient[cite: 6]"},
+        {"wrong": "polar mines at Amritsar in Punjab, completely banning", "right": "key domestic workings at Balaghat, Khetri, and Singhbhum[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Critically deficient in copper reserves, India relies on key domestic workings[cite: 6]",
+        "to supply ductile, conductive metal for electrical wiring and chemical plants.[cite: 6]",
+        "at Balaghat in Madhya Pradesh, Khetri in Rajasthan, and Singhbhum in Jharkhand[cite: 6]"
+      ],
+      "correct_sequence": [0, 2, 1]
+    },
+    "pass7_blind": {
+      "template": "Due to high conductivity, {1} is mined at {2} in MP, {3} in Rajasthan, and {4} in Jharkhand[cite: 6].",
+      "keys": [
+        "copper",
+        "Balaghat",
+        "Khetri",
+        "Singhbhum"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_017",
+    "category": "Non-Ferrous Light Alloys",
+    "topic": "Odisha Panchpatmali Dominance in Bauxite Output",
+    "anchor_sentence": "Yielding lightweight, conductive aluminium, bauxite reserves are centered in the Amarkantak plateau, Maikal hills, and Bilaspur-Katni, with Odisha generating 65 percent of India's output led by the Panchpatmali deposits in Koraput district[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Bauxite yields aluminium, with [BLANK_1] generating 65 percent of national supply led by the [BLANK_2] deposits in Koraput[cite: 6].",
+      "inputs": ["Odisha", "Panchpatmali"]
+    },
+    "pass2_actors": {
+      "prompt": "Smelting plants reduce bauxite to [BLANK_1], converting ore mined in [BLANK_2] district into structural aluminium[cite: 6].",
+      "inputs": ["alumina", "Koraput"]
+    },
+    "pass3_quantitative": {
+      "prompt": "In 2018-19, the state of Odisha accounted for precisely [BLANK_1] percent of total Indian bauxite production[cite: 6].",
+      "inputs": ["65"]
+    },
+    "pass4_technical": {
+      "prompt": "Aluminium combines iron-like tensile strength with low [BLANK_1] and high electrical [BLANK_2][cite: 6].",
+      "inputs": ["density", "conductivity"]
+    },
+    "pass5_forensic": {
+      "prompt": "Yielding heavy lead, bauxite reserves are centered in Delhi, with Odisha generating 1 percent of output while banning all mining at Panchpatmali[cite: 6].",
+      "corrections": [
+        {"wrong": "heavy lead", "right": "lightweight, conductive aluminium[cite: 6]"},
+        {"wrong": "1 percent of output while banning all mining at Panchpatmali", "right": "65 percent of India's output led by the Panchpatmali deposits[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "bauxite reserves are centered in the Amarkantak plateau, Maikal hills, and Bilaspur-Katni,[cite: 6]",
+        "Yielding lightweight, conductive aluminium,[cite: 6]",
+        "with Odisha generating 65 percent of India's output led by the Panchpatmali deposits in Koraput district.[cite: 6]"
+      ],
+      "correct_sequence": [1, 0, 2]
+    },
+    "pass7_blind": {
+      "template": "Supplying {1} percent of national bauxite, {2} leads output through major open-cast quarries across the {3} hills in {4}[cite: 6].",
+      "keys": [
+        "65",
+        "Odisha",
+        "Panchpatmali",
+        "Koraput"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_018",
+    "category": "Dielectric Minerals & Electronics",
+    "topic": "Mica Sheet Cleavage and the Koderma Belt",
+    "anchor_sentence": "Composed of layered plates that cleave into micro-thin flexible sheets, mica provides superior dielectric strength, insulating properties, and high-voltage resistance for electronics, dominated by Jharkhand's Koderma-Gaya-Hazaribagh belt[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Prized for its dielectric insulating strength in electronics, mica production is led by the [BLANK_1] belt in [BLANK_2][cite: 6].",
+      "inputs": ["Koderma", "Jharkhand"]
+    },
+    "pass2_actors": {
+      "prompt": "Electrical hardware manufacturers purchase split mica extracted from the northern edge of the [BLANK_1] plateau and the [BLANK_2] belt in Andhra Pradesh[cite: 6].",
+      "inputs": ["Chota Nagpur", "Nellore"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Mica foliations split so thinly that a stack of several [BLANK_1] individual leaves compresses into a sheet just a few centimeters high[cite: 6].",
+      "inputs": ["thousand"]
+    },
+    "pass4_technical": {
+      "prompt": "The physical capacity of mica to resist voltage breakdown while exhibiting minimal energy loss is termed [BLANK_1] strength[cite: 6].",
+      "inputs": ["dielectric"]
+    },
+    "pass5_forensic": {
+      "prompt": "Composed of massive iron blocks that never split, mica provides zero insulation and explosive conductivity, mined exclusively along the sandy beaches of Goa[cite: 6].",
+      "corrections": [
+        {"wrong": "massive iron blocks that never split", "right": "layered plates that cleave into micro-thin flexible sheets[cite: 6]"},
+        {"wrong": "zero insulation and explosive conductivity", "right": "superior dielectric strength, insulating properties, and high-voltage resistance[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Composed of layered plates that cleave into micro-thin flexible sheets,[cite: 6]",
+        "mica provides superior dielectric strength, insulating properties, and high-voltage resistance for electronics,[cite: 6]",
+        "dominated by Jharkhand's Koderma-Gaya-Hazaribagh belt.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Due to its {1} strength, {2} is an essential insulator extracted along the {3} belt of Jharkhand and {4} in Andhra Pradesh[cite: 6].",
+      "keys": [
+        "dielectric",
+        "mica",
+        "Koderma",
+        "Nellore"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_019",
+    "category": "Sedimentary Rock Minerals",
+    "topic": "Limestone Applications in Cement and Blast Furnaces",
+    "anchor_sentence": "Associated with sedimentary rocks composed of calcium and magnesium carbonates, limestone serves as the indispensable raw material for cement manufacturing and acts as an essential chemical flux for smelting iron ore in blast furnaces[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Limestone consists of [BLANK_1] carbonates and provides the primary feedstock for the [BLANK_2] industry[cite: 6].",
+      "inputs": ["calcium", "cement"]
+    },
+    "pass2_actors": {
+      "prompt": "Steelmakers introduce limestone into the [BLANK_1] to purge impurities from iron ore, while [BLANK_2] quarry massive deposits across Rajasthan and MP[cite: 6].",
+      "inputs": ["blast furnace", "cement plants"]
+    },
+    "pass3_quantitative": {
+      "prompt": "In 2018-19, Rajasthan generated [BLANK_1] percent of national limestone, followed by Madhya Pradesh and Andhra Pradesh at [BLANK_2] percent each[cite: 6].",
+      "inputs": ["22", "13"]
+    },
+    "pass4_technical": {
+      "prompt": "The sedimentary rock containing mixed double carbonates of calcium and magnesium is classified mineralogically as [BLANK_1] limestone[cite: 6].",
+      "inputs": ["dolomitic"]
+    },
+    "pass5_forensic": {
+      "prompt": "Associated with volcanic lava composed of sodium chloride, limestone serves as the indispensable raw material for baking bread and acts as fuel for space rockets[cite: 6].",
+      "corrections": [
+        {"wrong": "volcanic lava composed of sodium chloride", "right": "sedimentary rocks composed of calcium and magnesium carbonates[cite: 6]"},
+        {"wrong": "baking bread and acts as fuel for space rockets", "right": "cement manufacturing and acts as an essential chemical flux for smelting iron ore[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Associated with sedimentary rocks composed of calcium and magnesium carbonates,[cite: 6]",
+        "limestone serves as the indispensable raw material for cement manufacturing[cite: 6]",
+        "and acts as an essential chemical flux for smelting iron ore in blast furnaces.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Containing {1} carbonate, sedimentary {2} provides the core feed for the {3} industry and smelts iron inside {4} furnaces[cite: 6].",
+      "keys": [
+        "calcium",
+        "limestone",
+        "cement",
+        "blast"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_020",
+    "category": "Occupational Health & Mine Safety",
+    "topic": "Occupational Hazards and Environmental Degradation of Mining",
+    "anchor_sentence": "Frequent inhalation of toxic dust and noxious fumes predisposes miners to chronic pulmonary diseases, while collapsing roofs, mine inundation, and underground fires make mining a dangerous killer industry that pollutes streams with acidic slurry[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Inhaling toxic dust exposes mine workers to [BLANK_1] diseases, while underground fires and slurry dumping make mining a [BLANK_2] industry[cite: 6].",
+      "inputs": ["pulmonary", "killer"]
+    },
+    "pass2_actors": {
+      "prompt": "Unregulated mining companies jeopardize underground [BLANK_1] while polluting regional [BLANK_2] through unmanaged slurry discharge[cite: 6].",
+      "inputs": ["miners", "water sources"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Underground miners face [BLANK_1] major structural perils: roof collapses, shaft inundation, and combustible coal seam fires[cite: 6].",
+      "inputs": ["three"]
+    },
+    "pass4_technical": {
+      "prompt": "The occupational respiratory illness resulting from prolonged inhalation of fine mineral dust is termed a [BLANK_1] disease[cite: 6].",
+      "inputs": ["pulmonary"]
+    },
+    "pass5_forensic": {
+      "prompt": "Frequent inhalation of mountain mist cures miners of all illnesses, while collapsing roofs and fires make mining a delightful health spa that cleans municipal drinking water[cite: 6].",
+      "corrections": [
+        {"wrong": "mountain mist cures miners of all illnesses", "right": "toxic dust and noxious fumes predisposes miners to chronic pulmonary diseases[cite: 6]"},
+        {"wrong": "delightful health spa that cleans municipal drinking water", "right": "dangerous killer industry that pollutes streams with acidic slurry[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "while collapsing roofs, mine inundation, and underground fires[cite: 6]",
+        "Frequent inhalation of toxic dust and noxious fumes predisposes miners to chronic pulmonary diseases,[cite: 6]",
+        "make mining a dangerous killer industry that pollutes streams with acidic slurry.[cite: 6]"
+      ],
+      "correct_sequence": [1, 0, 2]
+    },
+    "pass7_blind": {
+      "template": "Due to dust-induced {1} disorders and risks of shaft {2}, unmonitored extraction earned the name {3} industry[cite: 6].",
+      "keys": [
+        "pulmonary",
+        "inundation",
+        "killer"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_021",
+    "category": "Mineral Economics & Scarcity",
+    "topic": "Crustal Scarcity and the Cost Dynamics of Depth Extraction",
+    "anchor_sentence": "Because workable mineral deposits constitute merely one percent of the earth's crust, ongoing extraction exhausts finite reserves and necessitates deeper shaft sinking, escalating production costs while lowering ore grades[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Workable mineral reserves comprise only [BLANK_1] percent of the crust, meaning mining at greater [BLANK_2] increases costs and lowers quality[cite: 6].",
+      "inputs": ["one", "depths"]
+    },
+    "pass2_actors": {
+      "prompt": "Modern manufacturing [BLANK_1] rapidly consume finite mineral capital that geological [BLANK_2] require millions of years to create[cite: 6].",
+      "inputs": ["economies", "processes"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Workable economic mineral accumulations account for an insignificant fraction equal to just [BLANK_1] percent of the earth's crustal mass[cite: 6].",
+      "inputs": ["one"]
+    },
+    "pass4_technical": {
+      "prompt": "The economic consequence where extraction costs rise because operations descend below the water table into lower-grade rock is termed the law of [BLANK_1] returns in mining[cite: 6].",
+      "inputs": ["diminishing"]
+    },
+    "pass5_forensic": {
+      "prompt": "Because workable mineral deposits constitute ninety-nine percent of the earth's crust, ongoing extraction multiplies infinite reserves and allows shallower digging, dropping production costs to zero[cite: 6].",
+      "corrections": [
+        {"wrong": "ninety-nine percent", "right": "merely one percent[cite: 6]"},
+        {"wrong": "multiplies infinite reserves and allows shallower digging", "right": "exhausts finite reserves and necessitates deeper shaft sinking[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Because workable mineral deposits constitute merely one percent of the earth's crust,[cite: 6]",
+        "ongoing extraction exhausts finite reserves and necessitates deeper shaft sinking,[cite: 6]",
+        "escalating production costs while lowering ore grades.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Economic ores make up only {1} percent of earth's crust, forming {2} assets where deep quarrying causes declining ore {3}[cite: 6].",
+      "keys": [
+        "one",
+        "finite",
+        "quality"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_022",
+    "category": "Fossil Fuel Geology & Carbon Ranks",
+    "topic": "Metamorphic Coal Series from Peat to Anthracite",
+    "anchor_sentence": "Formed through compressed plant remains, coal grades upward from low-carbon, high-moisture peat to soft brown lignite in Neyveli, high-grade commercial bituminous coal, and culminating in ultra-dense, low-volatile anthracite[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Decaying swamp flora forms low-heat [BLANK_1], brown lignite occurs at [BLANK_2] in Tamil Nadu, and the highest grade coal is anthracite[cite: 6].",
+      "inputs": ["peat", "Neyveli"]
+    },
+    "pass2_actors": {
+      "prompt": "Thermal power plants burn soft [BLANK_1] from Neyveli, while steel plants consume metallurgical [BLANK_2] to smelt iron ore[cite: 6].",
+      "inputs": ["lignite", "bituminous coal"]
+    },
+    "pass3_quantitative": {
+      "prompt": "The coalification continuum comprises [BLANK_1] successive geological categories: peat, lignite, bituminous, and anthracite[cite: 6].",
+      "inputs": ["four"]
+    },
+    "pass4_technical": {
+      "prompt": "High-grade bituminous coal possessing optimal swelling and coking properties for blast furnaces is classified as [BLANK_1] coal[cite: 6].",
+      "inputs": ["metallurgical"]
+    },
+    "pass5_forensic": {
+      "prompt": "Formed through compressed granite crystals, coal grades upward from low-carbon anthracite to soft brown peat in Neyveli, culminating in ultra-dense peat[cite: 6].",
+      "corrections": [
+        {"wrong": "compressed granite crystals", "right": "compressed plant remains[cite: 6]"},
+        {"wrong": "low-carbon anthracite to soft brown peat", "right": "low-carbon peat to soft brown lignite[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Formed through compressed plant remains, coal grades upward[cite: 6]",
+        "to soft brown lignite in Neyveli, high-grade commercial bituminous coal,[cite: 6]",
+        "from low-carbon, high-moisture peat[cite: 6]",
+        "and culminating in ultra-dense, low-volatile anthracite.[cite: 6]"
+      ],
+      "correct_sequence": [0, 2, 1, 3]
+    },
+    "pass7_blind": {
+      "template": "Plant compression produces smoky {1}, electricity-grade {2} at Neyveli, commercial {3}, and premium hard {4}[cite: 6].",
+      "keys": [
+        "peat",
+        "lignite",
+        "bituminous",
+        "anthracite"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_023",
+    "category": "Historical Geology & Coal Stratigraphy",
+    "topic": "Gondwana Metallurgical Basins and Tertiary Strata",
+    "anchor_sentence": "India's coal deposits bifurcate into 200-million-year-old Gondwana beds containing metallurgical coal across the Damodar, Son, Mahanadi, and Godavari valleys, and 55-million-year-old Tertiary strata located across northeastern border states[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Metallurgical coal occurs in [BLANK_1] deposits aged over 200 million years, whereas northeastern states hold [BLANK_2] coal aged 55 million years[cite: 6].",
+      "inputs": ["Gondwana", "Tertiary"]
+    },
+    "pass2_actors": {
+      "prompt": "Industrial mines operating at Jharia, [BLANK_1], and Bokaro in the Damodar valley extract coking coal for blast [BLANK_2][cite: 6].",
+      "inputs": ["Raniganj", "furnaces"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Gondwana coal reserves date back over [BLANK_1] million years, while younger Tertiary formations were laid down approximately [BLANK_2] million years ago[cite: 6].",
+      "inputs": ["200", "55"]
+    },
+    "pass4_technical": {
+      "prompt": "Because coal is a heavy, weight-losing fuel that burns down to inert [BLANK_1], thermal power stations are sited directly along [BLANK_2][cite: 6].",
+      "inputs": ["ash", "coalfields"]
+    },
+    "pass5_forensic": {
+      "prompt": "India's coal deposits bifurcate into 2-year-old Gondwana beds containing nuclear coal, and 5-minute-old Tertiary strata located in urban Mumbai[cite: 6].",
+      "corrections": [
+        {"wrong": "2-year-old Gondwana beds containing nuclear coal", "right": "200-million-year-old Gondwana beds containing metallurgical coal[cite: 6]"},
+        {"wrong": "5-minute-old Tertiary strata located in urban Mumbai", "right": "55-million-year-old Tertiary strata located across northeastern border states[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "India's coal deposits bifurcate into 200-million-year-old Gondwana beds[cite: 6]",
+        "containing metallurgical coal across the Damodar, Son, Mahanadi, and Godavari valleys,[cite: 6]",
+        "and 55-million-year-old Tertiary strata located across northeastern border states.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Aged 200 million years, {1} coal occurs in the {2} valley at Jharia, while {3} formations supply {4} coal in the northeast[cite: 6].",
+      "keys": [
+        "Gondwana",
+        "Damodar",
+        "Tertiary",
+        "younger"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_024",
+    "category": "Petroleum Geology & Upstream Extraction",
+    "topic": "Tertiary Anticlines and Petroleum Structural Traps",
+    "anchor_sentence": "Trapped within folded Tertiary anticlines and fault domes, petroleum migrates through porous limestone or sandstone strata sealed by impermeable caprocks, yielding crude oil alongside buoyant natural gas across Mumbai High, Gujarat, and Assam[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Petroleum accumulates in folded Tertiary [BLANK_1] between porous sandstone and sealing non-porous layers, with [BLANK_2] High being a premier field[cite: 6].",
+      "inputs": ["anticlines", "Mumbai"]
+    },
+    "pass2_actors": {
+      "prompt": "Refining complexes act as a nodal industry, supplying feedstocks to synthetic textile producers, fertilizer plants, and [BLANK_1] manufacturing [BLANK_2][cite: 6].",
+      "inputs": ["chemical", "units"]
+    },
+    "pass3_quantitative": {
+      "prompt": "India's domestic petroleum yield is anchored across [BLANK_1] premier producing regions: offshore Mumbai High, on-shore Gujarat, and upper Assam[cite: 6].",
+      "inputs": ["three"]
+    },
+    "pass4_technical": {
+      "prompt": "The structural crest of an upfolded geological stratum where oil and gas get sealed by non-porous caprock is an [BLANK_1] trap[cite: 6].",
+      "inputs": ["anticlinal"]
+    },
+    "pass5_forensic": {
+      "prompt": "Trapped within volcanic craters, petroleum migrates through solid iron plates sealed by paper, yielding crude oil exclusively inside the Thar desert sand dunes[cite: 6].",
+      "corrections": [
+        {"wrong": "volcanic craters, petroleum migrates through solid iron plates", "right": "folded Tertiary anticlines and fault domes, petroleum migrates through porous limestone[cite: 6]"},
+        {"wrong": "exclusively inside the Thar desert sand dunes", "right": "across Mumbai High, Gujarat, and Assam[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Trapped within folded Tertiary anticlines and fault domes,[cite: 6]",
+        "petroleum migrates through porous limestone or sandstone strata sealed by impermeable caprocks,[cite: 6]",
+        "yielding crude oil alongside buoyant natural gas across Mumbai High, Gujarat, and Assam.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Oil forms in {1} dome traps, where {2} field operates as the oldest Indian site while {3} dominates western offshore output[cite: 6].",
+      "keys": [
+        "anticlinal",
+        "Digboi",
+        "Mumbai High"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_025",
+    "category": "Gas Infrastructure & Pipeline Logistics",
+    "topic": "The HVJ Gas Artery and National Gas Grid Expansion",
+    "anchor_sentence": "Pioneered by GAIL, the baseline 1700-kilometer Hazira-Vijaipur-Jagdishpur cross-country pipeline connected Mumbai High and Bassein to northern fertilizer and power complexes, inaugurating a national grid slated to exceed 34000 kilometers[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Constructed by GAIL, the 1700-km [BLANK_1] pipeline linked western offshore gas fields to northern fertilizer plants, expanding into a national [BLANK_2] grid[cite: 6].",
+      "inputs": ["HVJ", "gas"]
+    },
+    "pass2_actors": {
+      "prompt": "State-owned utility [BLANK_1] built cross-country pipelines to transport methane to power stations and domestic [BLANK_2] systems[cite: 6].",
+      "inputs": ["GAIL", "city gas"]
+    },
+    "pass3_quantitative": {
+      "prompt": "India's gas pipeline network expanded tenfold from [BLANK_1] kilometers to over 18500 km, with plans to surpass [BLANK_2] kilometers[cite: 6].",
+      "inputs": ["1700", "34000"]
+    },
+    "pass4_technical": {
+      "prompt": "Natural gas distribution supplies two primary municipal utilities: vehicle fuel termed [BLANK_1] and piped domestic cooking fuel termed [BLANK_2][cite: 6].",
+      "inputs": ["CNG", "PNG"]
+    },
+    "pass5_forensic": {
+      "prompt": "Pioneered by private airlines, the baseline 10-meter Hazira-Vijaipur-Jagdishpur water hose connected Sri Lanka to London, inaugurating a network slated to drop to zero meters[cite: 6].",
+      "corrections": [
+        {"wrong": "private airlines, the baseline 10-meter Hazira-Vijaipur-Jagdishpur water hose", "right": "GAIL, the baseline 1700-kilometer Hazira-Vijaipur-Jagdishpur cross-country pipeline[cite: 6]"},
+        {"wrong": "connected Sri Lanka to London", "right": "connected Mumbai High and Bassein to northern fertilizer and power complexes[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Pioneered by GAIL, the baseline 1700-kilometer Hazira-Vijaipur-Jagdishpur cross-country pipeline[cite: 6]",
+        "connected Mumbai High and Bassein to northern fertilizer and power complexes,[cite: 6]",
+        "inaugurating a national grid slated to exceed 34000 kilometers.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Built by {1}, the {2} pipeline spanned {3} km to supply fertilizer complexes, expanding toward a {4} km grid[cite: 6].",
+      "keys": [
+        "GAIL",
+        "HVJ",
+        "1700",
+        "34000"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_026",
+    "category": "Nuclear Fuel Physics & Geo-Locations",
+    "topic": "Fission Materials and Thorium Monazite Sands",
+    "anchor_sentence": "Nuclear energy harnesses massive thermal releases generated by altering atomic structures via fission, fueling reactors with uranium from Jharkhand and Rajasthan's Aravalli range alongside thorium concentrated in Kerala's coastal monazite sands[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Nuclear power uses uranium from Jharkhand and the Aravallis, along with [BLANK_1] extracted from Kerala's [BLANK_2] sands[cite: 6].",
+      "inputs": ["thorium", "monazite"]
+    },
+    "pass2_actors": {
+      "prompt": "Nuclear engineers operate reactors across stations like [BLANK_1] in Tamil Nadu and [BLANK_2] in Uttar Pradesh to feed national electrical grids[cite: 6].",
+      "inputs": ["Kalpakkam", "Narora"]
+    },
+    "pass3_quantitative": {
+      "prompt": "The national textbook maps [BLANK_1] premier operational nuclear power stations distributed across diverse provincial power hubs[cite: 6].",
+      "inputs": ["six"]
+    },
+    "pass4_technical": {
+      "prompt": "The heavy placer beach sand rich in radioactive thorium phosphate is mineralogically identified as [BLANK_1] sand[cite: 6].",
+      "inputs": ["monazite"]
+    },
+    "pass5_forensic": {
+      "prompt": "Nuclear energy harnesses massive cold waves generated by freezing plastic structures, fueling reactors with sea salt from Punjab alongside sugar concentrated in Delhi's garden soil[cite: 6].",
+      "corrections": [
+        {"wrong": "massive cold waves generated by freezing plastic structures", "right": "massive thermal releases generated by altering atomic structures[cite: 6]"},
+        {"wrong": "sea salt from Punjab alongside sugar concentrated in Delhi", "right": "uranium from Jharkhand and Rajasthan alongside thorium in Kerala's monazite sands[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Nuclear energy harnesses massive thermal releases generated by altering atomic structures via fission,[cite: 6]",
+        "fueling reactors with uranium from Jharkhand and Rajasthan's Aravalli range[cite: 6]",
+        "alongside thorium concentrated in Kerala's coastal monazite sands.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Altering atomic structures releases heat: {1} is quarried in Jharkhand and Rajasthan, while {2} is refined from {3} beach sands in Kerala[cite: 6].",
+      "keys": [
+        "uranium",
+        "thorium",
+        "monazite"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_027",
+    "category": "Renewable Aero-Dynamics & Biomass",
+    "topic": "Wind Clusters in Muppandal-Madurai and Rural Gobar Gas",
+    "anchor_sentence": "Harnessing kinetic non-conventional energy, India operates its largest wind farm cluster along the Tamil Nadu corridor from Nagarcoil to Madurai, while rural communities convert cattle dung into high-efficiency methane using gobar gas plants[cite: 6].",
+    "pass1_focus": {
+      "prompt": "India's largest wind farm cluster spans [BLANK_1] to Madurai in Tamil Nadu, while rural areas process dung into [BLANK_2] gas[cite: 6].",
+      "inputs": ["Nagarcoil", "gobar"]
+    },
+    "pass2_actors": {
+      "prompt": "Farming cooperatives install anaerobic digesters that supply domestic fuel to [BLANK_1] while preserving nutrient-dense organic [BLANK_2] for fields[cite: 6].",
+      "inputs": ["households", "manure"]
+    },
+    "pass3_quantitative": {
+      "prompt": "Over [BLANK_1] percent of domestic energy requirements across rural Indian homes has historically been supplied by traditional firewood and cattle dung[cite: 6].",
+      "inputs": ["70"]
+    },
+    "pass4_technical": {
+      "prompt": "The clean-burning, high-thermal gas generated through the bacterial decomposition of organic farm residues is designated as [BLANK_1][cite: 6].",
+      "inputs": ["biogas"]
+    },
+    "pass5_forensic": {
+      "prompt": "Harnessing kinetic non-conventional energy, India operates its largest wind farm cluster inside deep underground mines in Kolkata, while rural communities burn plastic bottles to purify air[cite: 6].",
+      "corrections": [
+        {"wrong": "inside deep underground mines in Kolkata", "right": "along the Tamil Nadu corridor from Nagarcoil to Madurai[cite: 6]"},
+        {"wrong": "burn plastic bottles to purify air", "right": "convert cattle dung into high-efficiency methane using gobar gas plants[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Harnessing kinetic non-conventional energy,[cite: 6]",
+        "India operates its largest wind farm cluster along the Tamil Nadu corridor from Nagarcoil to Madurai,[cite: 6]",
+        "while rural communities convert cattle dung into high-efficiency methane using gobar gas plants.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Aero-turbines cluster between {1} and Madurai in {2}, while rural {3} plants convert cattle waste into clean household {4}[cite: 6].",
+      "keys": [
+        "Nagarcoil",
+        "Tamil Nadu",
+        "gobar gas",
+        "energy"
+      ]
+    }
+  },
+  {
+    "id": "MIN_ENG_028",
+    "category": "Hydro-Tidal & Geothermal Thermodynamics",
+    "topic": "Oceanic Tidal Estuaries and Geothermal Projects at Manikaran and Puga",
+    "anchor_sentence": "Oceanic tides generate electricity via floodgate dam turbines in Gujarat's Gulf of Kuchchh and the Sundarbans, while high geothermal heat gradients drive experimental steam turbine projects in Himachal's Parvati Valley and Ladakh's Puga Valley[cite: 6].",
+    "pass1_focus": {
+      "prompt": "Tidal energy is harnessed in the Gulf of [BLANK_1], whereas geothermal pilot plants operate in Manikaran and the [BLANK_2] Valley in Ladakh[cite: 6].",
+      "inputs": ["Kuchchh", "Puga"]
+    },
+    "pass2_actors": {
+      "prompt": "Renewable engineers construct tidal barrages in the [BLANK_1] delta and tap thermal groundwaters near [BLANK_2] in Himachal Pradesh[cite: 6].",
+      "inputs": ["Sundarbans", "Manikaran"]
+    },
+    "pass3_quantitative": {
+      "prompt": "India has deployed [BLANK_1] dedicated experimental geothermal pilot projects to tap high geothermal gradients in northern montane valleys[cite: 6].",
+      "inputs": ["two"]
+    },
+    "pass4_technical": {
+      "prompt": "Harnessing natural steam generated when groundwater absorbs deep heat from elevated geothermal gradients constitutes [BLANK_1] energy[cite: 6].",
+      "inputs": ["geothermal"]
+    },
+    "pass5_forensic": {
+      "prompt": "Oceanic tides generate electricity via floodgate dam turbines on top of Mount Everest, while high geothermal heat gradients drive ice factories in downtown Chennai[cite: 6].",
+      "corrections": [
+        {"wrong": "on top of Mount Everest", "right": "in Gujarat's Gulf of Kuchchh and the Sundarbans[cite: 6]"},
+        {"wrong": "drive ice factories in downtown Chennai", "right": "drive experimental steam turbine projects in Himachal's Parvati Valley and Ladakh's Puga Valley[cite: 6]"}
+      ]
+    },
+    "pass6_scramble": {
+      "tiles": [
+        "Oceanic tides generate electricity via floodgate dam turbines in Gujarat's Gulf of Kuchchh and the Sundarbans,[cite: 6]",
+        "while high geothermal heat gradients drive experimental steam turbine projects[cite: 6]",
+        "in Himachal's Parvati Valley and Ladakh's Puga Valley.[cite: 6]"
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7_blind": {
+      "template": "Tidal turbines harness sea surges in the Gulf of {1}, while geothermal steam drives experimental power plants at {2} and the {3} Valley[cite: 6].",
+      "keys": [
+        "Kuchchh",
+        "Manikaran",
+        "Puga"
+      ]
+    }
+  }
+]
