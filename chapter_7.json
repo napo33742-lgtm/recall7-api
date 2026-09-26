@@ -1,0 +1,1336 @@
+[
+  {
+    "id": "TRN_ROA_001",
+    "category": "Roadway Infrastructure & Scale",
+    "topic": "National Road Network Scale and Comparative Advantages over Rail",
+    "anchor_sentence": "Holding the second largest aggregate road network globally at roughly 62.16 lakh kilometers, India prioritizes road transport over railways due to lower capital construction costs, flexibility across undulating topography, and direct door-to-door delivery.",
+    "pass1": {
+      "prompt": "India holds the second largest road network at approximately [BLANK_1] lakh kilometers, providing flexible [BLANK_2] delivery across difficult topography.",
+      "inputs": ["62.16", "door-to-door"]
+    },
+    "pass2": {
+      "prompt": "Highway networks hold an operational edge over [BLANK_1] systems because motor vehicles can negotiate steep mountain slopes and serve as feeders to [BLANK_2] ports.",
+      "inputs": ["railway", "sea"]
+    },
+    "pass3": {
+      "prompt": "The aggregate length of India's road system was recorded at approximately [BLANK_1] lakh kilometers during the 2020-21 reporting period.",
+      "inputs": ["62.16"]
+    },
+    "pass4": {
+      "prompt": "Transport networks functioning as capillary links that ferry cargo and passengers to major airports, railway junctions, and maritime harbors are designated as [BLANK_1] services.",
+      "inputs": ["feeder"]
+    },
+    "pass5": {
+      "prompt": "Holding the smallest road network globally at roughly two kilometers, India outlaws road transport over railways because highways cannot traverse flat plains or provide door-to-door delivery.",
+      "corrections": [
+        {"wrong": "smallest road network globally at roughly two kilometers", "right": "second largest aggregate road network globally at roughly 62.16 lakh kilometers"},
+        {"wrong": "outlaws road transport over railways because highways cannot traverse flat plains", "right": "prioritizes road transport over railways due to lower capital construction costs, flexibility across undulating topography"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Holding the second largest aggregate road network globally at roughly 62.16 lakh kilometers,",
+        "India prioritizes road transport over railways",
+        "due to lower capital construction costs, flexibility across undulating topography,",
+        "and direct door-to-door delivery."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Spanning {1} lakh km, India's {2} network precedes trains in construction ease and navigates {3} gradients across mountains.",
+      "keys": [
+        "62.16",
+        "road",
+        "higher"
+      ]
+    }
+  },
+  {
+    "id": "TRN_ROA_002",
+    "category": "High-Density Highway Corridors",
+    "topic": "Golden Quadrilateral Super Highway System",
+    "anchor_sentence": "Implemented by the National Highways Authority of India, the Golden Quadrilateral Super Highway project constructs six-lane express corridors linking Delhi, Mumbai, Chennai, and Kolkata to reduce transit time between India's mega cities.",
+    "pass1": {
+      "prompt": "Implemented by the National Highways Authority of India, the Golden Quadrilateral connects four mega cities with [BLANK_1] lane [BLANK_2] highways.",
+      "inputs": ["six", "Super"]
+    },
+    "pass2": {
+      "prompt": "The premier highway modernization program is administered by the [BLANK_1] to compress freight transit time between [BLANK_2] metropolises.",
+      "inputs": ["NHAI", "metropolitan"]
+    },
+    "pass3": {
+      "prompt": "The Golden Quadrilateral highway connects the [BLANK_1] prime economic metropolises of Delhi, Mumbai, Chennai, and Kolkata via dedicated multi-lane carriageways.",
+      "inputs": ["four"]
+    },
+    "pass4": {
+      "prompt": "The statutory central authority responsible for developing, maintaining, and managing India's high-speed express corridors is the [BLANK_1].",
+      "inputs": ["National Highways Authority of India"]
+    },
+    "pass5": {
+      "prompt": "Implemented by local village councils, the Golden Quadrilateral Super Highway project constructs single-lane dirt paths linking isolated desert huts to increase transit time between rural hamlets.",
+      "corrections": [
+        {"wrong": "local village councils", "right": "National Highways Authority of India"},
+        {"wrong": "single-lane dirt paths linking isolated desert huts to increase transit time", "right": "six-lane express corridors linking Delhi, Mumbai, Chennai, and Kolkata to reduce transit time"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Implemented by the National Highways Authority of India,",
+        "the Golden Quadrilateral Super Highway project constructs six-lane express corridors",
+        "linking Delhi, Mumbai, Chennai, and Kolkata",
+        "to reduce transit time between India's mega cities."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "The statutory body {1} oversees the {2} Super Highways, featuring {3} lanes linking the four largest commercial capitals.",
+      "keys": [
+        "NHAI",
+        "Golden Quadrilateral",
+        "six"
+      ]
+    }
+  },
+  {
+    "id": "TRN_ROA_003",
+    "category": "National Express Corridors",
+    "topic": "The North-South and East-West Cross Corridors",
+    "anchor_sentence": "As integral wings of the national super highway network, the North-South corridor unites Srinagar in Jammu and Kashmir with Kanniyakumari in Tamil Nadu, while the East-West corridor connects Silchar in Assam to Porbandar in Gujarat.",
+    "pass1": {
+      "prompt": "The North-South corridor terminates at Srinagar and [BLANK_1], whereas the East-West corridor spans between [BLANK_2] and Porbandar.",
+      "inputs": ["Kanniyakumari", "Silchar"]
+    },
+    "pass2": {
+      "prompt": "The longitudinal arterial corridor links Jammu and Kashmir to [BLANK_1], while the latitudinal artery joins Assam to [BLANK_2].",
+      "inputs": ["Tamil Nadu", "Gujarat"]
+    },
+    "pass3": {
+      "prompt": "The cross-country super highway network is anchored upon [BLANK_1] primary intersecting trans-continental corridors spanning four directional extremes.",
+      "inputs": ["two"]
+    },
+    "pass4": {
+      "prompt": "The trans-national highway segment connecting the far northeastern borderlands to the Saurashtra western seaboard is designated as the [BLANK_1].",
+      "inputs": ["East-West corridor"]
+    },
+    "pass5": {
+      "prompt": "As integral wings of the national super highway network, the North-South corridor unites Kolkata with Mumbai, while the East-West corridor connects Srinagar to Kanniyakumari.",
+      "corrections": [
+        {"wrong": "unites Kolkata with Mumbai", "right": "unites Srinagar in Jammu and Kashmir with Kanniyakumari in Tamil Nadu"},
+        {"wrong": "connects Srinagar to Kanniyakumari", "right": "connects Silchar in Assam to Porbandar in Gujarat"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "As integral wings of the national super highway network,",
+        "the North-South corridor unites Srinagar in Jammu and Kashmir with Kanniyakumari in Tamil Nadu,",
+        "while the East-West corridor connects Silchar in Assam to Porbandar in Gujarat."
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7": {
+      "template": "National transit corridors connect {1} in Kashmir to {2} in the south, and {3} in Assam to {4} in Gujarat.",
+      "keys": [
+        "Srinagar",
+        "Kanniyakumari",
+        "Silchar",
+        "Porbandar"
+      ]
+    }
+  },
+  {
+    "id": "TRN_ROA_004",
+    "category": "Administrative Road Classification",
+    "topic": "Hierarchy of National, State, and District Highways",
+    "anchor_sentence": "India's arterial road hierarchy categorizes primary interstate trunk routes as National Highways, routes linking state capitals with administrative district headquarters as State Highways, and intra-district connector routes as District Roads.",
+    "pass1": {
+      "prompt": "Primary interstate routes are classified as [BLANK_1] Highways, while arteries linking state capitals to district headquarters constitute [BLANK_2] Highways.",
+      "inputs": ["National", "State"]
+    },
+    "pass2": {
+      "prompt": "Interstate freight routes are managed by central authorities, while [BLANK_1] Highways and [BLANK_2] Roads are managed by regional public works departments.",
+      "inputs": ["State", "District"]
+    },
+    "pass3": {
+      "prompt": "The administrative road hierarchy structures domestic vehicular arteries across [BLANK_1] primary non-village tiers.",
+      "inputs": ["three"]
+    },
+    "pass4": {
+      "prompt": "The foundational primary road network that interconnects the geographic extremes of the Indian Union is designated as [BLANK_1].",
+      "inputs": ["National Highways"]
+    },
+    "pass5": {
+      "prompt": "India's arterial road hierarchy categorizes primary interstate trunk routes as District Roads, and routes linking state capitals with administrative district headquarters as village footpaths.",
+      "corrections": [
+        {"wrong": "interstate trunk routes as District Roads", "right": "primary interstate trunk routes as National Highways"},
+        {"wrong": "village footpaths", "right": "State Highways"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "India's arterial road hierarchy categorizes primary interstate trunk routes as National Highways,",
+        "routes linking state capitals with administrative district headquarters as State Highways,",
+        "and intra-district connector routes as District Roads."
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7": {
+      "template": "Arterial transit relies on {1} Highways for interstate freight, {2} Highways for connecting state capitals, and {3} Roads within districts.",
+      "keys": [
+        "National",
+        "State",
+        "District"
+      ]
+    }
+  },
+  {
+    "id": "TRN_ROA_005",
+    "category": "Rural Infrastructure Schemes",
+    "topic": "Pradhan Mantri Gram Sadak Yojana and All-Weather Connectivity",
+    "anchor_sentence": "Under the Pradhan Mantri Gram Sadak Yojana, rural road construction received dedicated statutory funding to ensure that every isolated habitation is linked to a major market town via an all-season motorable road.",
+    "pass1": {
+      "prompt": "Rural roads expanded through the Pradhan Mantri Gram Sadak Yojana to connect villages to towns via [BLANK_1] motorable [BLANK_2].",
+      "inputs": ["all-season", "roads"]
+    },
+    "pass2": {
+      "prompt": "Targeting rural integration, the [BLANK_1] upgrades unpaved tracks so [BLANK_2] households can access market hubs year-round.",
+      "inputs": ["PMGSY", "village"]
+    },
+    "pass3": {
+      "prompt": "The rural connectivity scheme mandates that [BLANK_1] eligible habitation across the country be provided with paved highway access.",
+      "inputs": ["every"]
+    },
+    "pass4": {
+      "prompt": "Paved surfacing capable of withstanding heavy monsoon precipitation without washing out is officially designated as an [BLANK_1] road.",
+      "inputs": ["all-weather"]
+    },
+    "pass5": {
+      "prompt": "Under the Pradhan Mantri Gram Sadak Yojana, rural road construction was completely terminated to ensure that every village remains isolated from motor vehicles during monsoon floods.",
+      "corrections": [
+        {"wrong": "completely terminated", "right": "received dedicated statutory funding"},
+        {"wrong": "remains isolated from motor vehicles during monsoon floods", "right": "is linked to a major market town via an all-season motorable road"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Under the Pradhan Mantri Gram Sadak Yojana,",
+        "rural road construction received dedicated statutory funding",
+        "to ensure that every isolated habitation",
+        "is linked to a major market town via an all-season motorable road."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "The {1} initiative provides financing to convert village dirt paths into permanent {2} roads linking rural communities to commercial {3}.",
+      "keys": [
+        "Pradhan Mantri Gram Sadak Yojana",
+        "all-weather",
+        "towns"
+      ]
+    }
+  },
+  {
+    "id": "TRN_ROA_006",
+    "category": "Strategic Defense Infrastructure",
+    "topic": "Border Roads Organisation Mandate and Inception",
+    "anchor_sentence": "Established in 1960 as a public undertaking, the Border Roads Organisation engineers and maintains strategic highways along northern and northeastern international frontiers, accelerating economic integration across challenging mountain terrains.",
+    "pass1": {
+      "prompt": "Formed in [BLANK_1], the Border Roads Organisation maintains strategic highway links across the northern and [BLANK_2] frontier zones.",
+      "inputs": ["1960", "northeastern"]
+    },
+    "pass2": {
+      "prompt": "The [BLANK_1] executes highway engineering along fragile frontier regions, supporting national defense forces and [BLANK_2] development.",
+      "inputs": ["BRO", "economic"]
+    },
+    "pass3": {
+      "prompt": "The specialized frontier road construction agency was established by the central government in the year [BLANK_1].",
+      "inputs": ["1960"]
+    },
+    "pass4": {
+      "prompt": "Highways constructed specifically to reinforce national sovereign borders through rugged high-altitude landscapes are designated as [BLANK_1].",
+      "inputs": ["border roads"]
+    },
+    "pass5": {
+      "prompt": "Established in 1810 as a private foreign bank, the Border Roads Organisation dismantles strategic highways along coastal beaches, preventing economic development across plains.",
+      "corrections": [
+        {"wrong": "1810 as a private foreign bank", "right": "1960 as a public undertaking"},
+        {"wrong": "dismantles strategic highways along coastal beaches, preventing", "right": "engineers and maintains strategic highways along northern and northeastern frontiers, accelerating"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Established in 1960 as a public undertaking,",
+        "the Border Roads Organisation engineers and maintains strategic highways",
+        "along northern and northeastern international frontiers,",
+        "accelerating economic integration across challenging mountain terrains."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Created in {1}, the {2} builds strategic mountain infrastructure along the {3} and northeastern frontiers.",
+      "keys": [
+        "1960",
+        "Border Roads Organisation",
+        "northern"
+      ]
+    }
+  },
+  {
+    "id": "TRN_ROA_007",
+    "category": "Mountain Engineering Marvels",
+    "topic": "Atal Tunnel Specifications and Year-Round Himalayan Connectivity",
+    "anchor_sentence": "Engineered by the Border Roads Organisation across the Pir Panjal range at an altitude of 3000 meters, the 9.02-kilometer Atal Tunnel stands as the world's longest highway tunnel, securing year-round connectivity between Manali and the Lahul-Spiti valley.",
+    "pass1": {
+      "prompt": "Built at 3000 meters altitude across the Pir Panjal range, the [BLANK_1] kilometer Atal Tunnel links Manali to the [BLANK_2] valley year-round.",
+      "inputs": ["9.02", "Lahul-Spiti"]
+    },
+    "pass2": {
+      "prompt": "Constructed by the [BLANK_1], the Atal Tunnel eliminates the historical six-month winter isolation caused by snow across the [BLANK_2] range.",
+      "inputs": ["BRO", "Pir Panjal"]
+    },
+    "pass3": {
+      "prompt": "The Atal Tunnel spans an exact bored length of [BLANK_1] kilometers, situated at an elevation of [BLANK_2] meters above Mean Sea Level.",
+      "inputs": ["9.02", "3000"]
+    },
+    "pass4": {
+      "prompt": "The longest high-altitude highway subterranean vehicular passage in the world is formally commemorated as the [BLANK_1].",
+      "inputs": ["Atal Tunnel"]
+    },
+    "pass5": {
+      "prompt": "Engineered by private taxi unions across the Western Ghats at sea level, the 900-kilometer Atal Tunnel stands as a canal lock, cutting off Manali from Lahul-Spiti permanently.",
+      "corrections": [
+        {"wrong": "private taxi unions across the Western Ghats at sea level", "right": "the Border Roads Organisation across the Pir Panjal range at an altitude of 3000 meters"},
+        {"wrong": "900-kilometer Atal Tunnel stands as a canal lock, cutting off", "right": "9.02-kilometer Atal Tunnel stands as the world's longest highway tunnel, securing year-round connectivity between"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Engineered by the Border Roads Organisation across the Pir Panjal range at an altitude of 3000 meters,",
+        "the 9.02-kilometer Atal Tunnel stands as the world's longest highway tunnel,",
+        "securing year-round connectivity",
+        "between Manali and the Lahul-Spiti valley."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Spanning {1} km inside the {2} range, the {3} connects Manali to {4} valley throughout heavy winter snows.",
+      "keys": [
+        "9.02",
+        "Pir Panjal",
+        "Atal Tunnel",
+        "Lahul-Spiti"
+      ]
+    }
+  },
+  {
+    "id": "TRN_RAI_008",
+    "category": "Rail Logistics & National Integration",
+    "topic": "Indian Railways Inception, Zones, and Macroeconomic Integration",
+    "anchor_sentence": "Operating as India's largest public sector undertaking, the Indian Railway network originated in 1853 over a 34-kilometer stretch between Mumbai and Thane, subsequently reorganizing into 17 administrative zones to bind industrial and agrarian commerce.",
+    "pass1": {
+      "prompt": "The Indian Railway began in [BLANK_1] over a [BLANK_2] kilometer route between Mumbai and Thane, later structured into 17 operational zones.",
+      "inputs": ["1853", "34"]
+    },
+    "pass2": {
+      "prompt": "Operating as the nation's largest public sector undertaking, the [BLANK_1] network functions as an economic integrator across [BLANK_2] and industry.",
+      "inputs": ["railway", "agriculture"]
+    },
+    "pass3": {
+      "prompt": "The inaugural passenger train covered [BLANK_1] kilometers in 1853, expanding over 150 years into an enterprise partitioned into [BLANK_2] zones.",
+      "inputs": ["34", "17"]
+    },
+    "pass4": {
+      "prompt": "The commercial transportation network that serves as the premier freight and passenger carrier across the subcontinent is the [BLANK_1].",
+      "inputs": ["Indian Railways"]
+    },
+    "pass5": {
+      "prompt": "Operating as a small private airline, the Indian Railway network originated in 1999 over a 3400-kilometer stretch between London and Paris, organized into two zones.",
+      "corrections": [
+        {"wrong": "small private airline", "right": "largest public sector undertaking"},
+        {"wrong": "1999 over a 3400-kilometer stretch between London and Paris, organized into two", "right": "1853 over a 34-kilometer stretch between Mumbai and Thane, subsequently reorganizing into 17"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Operating as India's largest public sector undertaking,",
+        "the Indian Railway network originated in 1853 over a 34-kilometer stretch between Mumbai and Thane,",
+        "subsequently reorganizing into 17 administrative zones",
+        "to bind industrial and agrarian commerce."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "From its first {1} run covering {2} km from {3} to Thane, Indian Railways expanded across {4} zones to integrate national freight.",
+      "keys": [
+        "1853",
+        "34",
+        "Mumbai",
+        "17"
+      ]
+    }
+  },
+  {
+    "id": "TRN_RAI_009",
+    "category": "Physiographic Track Engineering",
+    "topic": "Physiographic Influences on Railway Track Distribution",
+    "anchor_sentence": "Railway density is highest across the level northern plains due to dense population, agricultural wealth, and flat relief, while track expansion faces severe physical impediments across the Himalayan mountains, Rajasthani sands, Gujarat swamps, and forested central plateaus.",
+    "pass1": {
+      "prompt": "Railway network density is highest in the [BLANK_1] plains, while construction encounters physical obstacles across the [BLANK_2] mountains and desert sands.",
+      "inputs": ["northern", "Himalayan"]
+    },
+    "pass2": {
+      "prompt": "Level terrain and intense agricultural output favor railway layout in the north, while peninsular lines must traverse mountain gaps across the [BLANK_1] or [BLANK_2].",
+      "inputs": ["Sahyadri", "Western Ghats"]
+    },
+    "pass3": {
+      "prompt": "Railway track engineering confronts severe physiographic obstacles across [BLANK_1] primary hostile environments: high montane relief, sandy deserts, coastal swamps, and dense central forests.",
+      "inputs": ["four"]
+    },
+    "pass4": {
+      "prompt": "Natural mountain gaps or passes through which railway lines cross the unbroken scarp of the Sahyadri ranges are regionally termed [BLANK_1].",
+      "inputs": ["ghats"]
+    },
+    "pass5": {
+      "prompt": "Railway density is lowest across the level northern plains due to total lack of human life, while track expansion thrives effortlessly across vertical Himalayan glaciers.",
+      "corrections": [
+        {"wrong": "density is lowest across the level northern plains due to total lack of human life", "right": "density is highest across the level northern plains due to dense population, agricultural wealth, and flat relief"},
+        {"wrong": "thrives effortlessly across vertical Himalayan glaciers", "right": "faces severe physical impediments across the Himalayan mountains, Rajasthani sands, and forested central plateaus"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Railway density is highest across the level northern plains",
+        "due to dense population, agricultural wealth, and flat relief,",
+        "while track expansion faces severe physical impediments",
+        "across the Himalayan mountains, Rajasthani sands, Gujarat swamps, and forested central plateaus."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Dense population and flat terrain favor track laying across the {1} plains, whereas {2} relief in the {3} restricts rail expansion.",
+      "keys": [
+        "northern",
+        "rugged",
+        "Himalayas"
+      ]
+    }
+  },
+  {
+    "id": "TRN_RAI_010",
+    "category": "Coastal Railway Engineering",
+    "topic": "Konkan Railway Construction along the Western Seaboard",
+    "anchor_sentence": "Constructed along India's western coastline through rugged terrain, the Konkan Railway facilitated critical passenger and freight logistics across a vital economic zone, though engineering operations periodically face track sinking and monsoonal landslides.",
+    "pass1": {
+      "prompt": "The [BLANK_1] Railway traverses the western coast to connect economic centers, despite recurrent operational challenges from [BLANK_2] and sinking tracks.",
+      "inputs": ["Konkan", "landslides"]
+    },
+    "pass2": {
+      "prompt": "Traversing the Sahyadri coastal strip, the [BLANK_1] line links western ports and commercial hubs along the [BLANK_2] Sea.",
+      "inputs": ["Konkan", "Arabian"]
+    },
+    "pass3": {
+      "prompt": "The Konkan coastal alignment traverses [BLANK_1] of peninsular India's most economically dynamic coastal corridors.",
+      "inputs": ["one"]
+    },
+    "pass4": {
+      "prompt": "The specialized engineering line laid through narrow passes, estuaries, and tunnels along the western littoral is the [BLANK_1].",
+      "inputs": ["Konkan Railway"]
+    },
+    "pass5": {
+      "prompt": "Constructed along India's northern border through the Thar desert, the Konkan Railway carries zero freight across useless salt flats, completely unaffected by landslides.",
+      "corrections": [
+        {"wrong": "northern border through the Thar desert", "right": "western coastline through rugged terrain"},
+        {"wrong": "carries zero freight across useless salt flats, completely unaffected by landslides", "right": "facilitated critical passenger and freight logistics, though operations face track sinking and landslides"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Constructed along India's western coastline through rugged terrain,",
+        "the Konkan Railway facilitated critical passenger and freight logistics",
+        "across a vital economic zone,",
+        "though engineering operations periodically face track sinking and monsoonal landslides."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Running along the west coast, the {1} Railway accelerated freight transit, despite technical problems like {2} subsidence and {3} during monsoons.",
+      "keys": [
+        "Konkan",
+        "track",
+        "landslides"
+      ]
+    }
+  },
+  {
+    "id": "TRN_RAI_011",
+    "category": "Railway Infrastructure Metrics",
+    "topic": "Track Gauges of the Indian Railway System",
+    "anchor_sentence": "Across an aggregate network of 67956 route kilometers, Indian Railways operates three standard track gauges, led by Broad Gauge measuring 1.676 meters across 63950 kilometers, Metre Gauge at 1.000 meter, and Narrow Gauge spanning 0.762 and 0.610 meters.",
+    "pass1": {
+      "prompt": "Operating across 67956 route kilometers, [BLANK_1] Gauge measures 1.676 meters and covers [BLANK_2] kilometers of the national rail network.",
+      "inputs": ["Broad", "63950"]
+    },
+    "pass2": {
+      "prompt": "The national rail system has converted older [BLANK_1] Gauge and Narrow Gauge lines into standardized [BLANK_2] Gauge tracks.",
+      "inputs": ["Metre", "Broad"]
+    },
+    "pass3": {
+      "prompt": "Broad Gauge tracks maintain a standardized internal rail clearance width of exactly [BLANK_1] meters, dominating over [BLANK_2] percent of national routes.",
+      "inputs": ["1.676", "90"]
+    },
+    "pass4": {
+      "prompt": "The metric indicating the clear minimum distance between the inner faces of two parallel running rails on a track is the track [BLANK_1].",
+      "inputs": ["gauge"]
+    },
+    "pass5": {
+      "prompt": "Across an aggregate network of two kilometers, Indian Railways operates Broad Gauge measuring 100 meters, Metre Gauge measuring 50 meters, and Narrow Gauge measuring 25 meters.",
+      "corrections": [
+        {"wrong": "aggregate network of two kilometers", "right": "aggregate network of 67956 route kilometers"},
+        {"wrong": "Broad Gauge measuring 100 meters, Metre Gauge measuring 50 meters, and Narrow Gauge measuring 25", "right": "Broad Gauge measuring 1.676 meters, Metre Gauge at 1.000 meter, and Narrow Gauge spanning 0.762 and 0.610"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Across an aggregate network of 67956 route kilometers,",
+        "Indian Railways operates three standard track gauges,",
+        "led by Broad Gauge measuring 1.676 meters across 63950 kilometers,",
+        "Metre Gauge at 1.000 meter, and Narrow Gauge spanning 0.762 and 0.610 meters."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Totaling {1} km, India's rail network is dominated by {2} Gauge tracks measuring {3} meters wide.",
+      "keys": [
+        "67956",
+        "Broad",
+        "1.676"
+      ]
+    }
+  },
+  {
+    "id": "TRN_PIP_012",
+    "category": "Subterranean Energy Logistics",
+    "topic": "Pipeline Logistics for Hydrocarbons and Slurry Transport",
+    "anchor_sentence": "Eliminating trans-shipment delays and material handling losses, subterranean pipeline networks transport crude petroleum, refined oil, natural gas, and mineral slurry to inland refineries and fertilizer complexes despite high initial construction costs.",
+    "pass1": {
+      "prompt": "Subterranean pipeline networks eliminate transit delays and [BLANK_1] losses, transporting liquid hydrocarbons and mineral [BLANK_2] to inland plants.",
+      "inputs": ["trans-shipment", "slurry"]
+    },
+    "pass2": {
+      "prompt": "Inland industrial refineries rely on [BLANK_1] networks because subsequent operational costs remain [BLANK_2] once pipes are laid.",
+      "inputs": ["pipeline", "minimal"]
+    },
+    "pass3": {
+      "prompt": "Pipelines transport materials across [BLANK_1] distinct physical states: liquids like crude oil, gases like natural methane, and liquefied solids in slurry form.",
+      "inputs": ["three"]
+    },
+    "pass4": {
+      "prompt": "Pulverized solid minerals suspended in water and pumped through sealed conduits are technically classified as [BLANK_1].",
+      "inputs": ["slurry"]
+    },
+    "pass5": {
+      "prompt": "Multiplying trans-shipment delays and material handling losses, pipeline networks transport frozen granite blocks to coastal beaches with zero initial construction costs.",
+      "corrections": [
+        {"wrong": "Multiplying trans-shipment delays and material handling losses", "right": "Eliminating trans-shipment delays and material handling losses"},
+        {"wrong": "frozen granite blocks to coastal beaches with zero", "right": "crude petroleum, refined oil, natural gas, and mineral slurry to inland refineries despite high initial"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Eliminating trans-shipment delays and material handling losses,",
+        "subterranean pipeline networks transport crude petroleum, refined oil, natural gas, and mineral slurry",
+        "to inland refineries and fertilizer complexes",
+        "despite high initial construction costs."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Conduits convey {1} oil, gas, and mineral {2} directly to inland plants, completely avoiding {3} delays.",
+      "keys": [
+        "crude",
+        "slurry",
+        "trans-shipment"
+      ]
+    }
+  },
+  {
+    "id": "TRN_PIP_013",
+    "category": "Hydrocarbon Supply Corridors",
+    "topic": "The Three Major Arterial Pipeline Networks",
+    "anchor_sentence": "India's arterial pipeline infrastructure operates across three primary networks, connecting upper Assam oil fields to Kanpur, linking Salaya in Gujarat to Jalandhar in Punjab, and expanding cross-country gas grids via the 1700-kilometer Hazira-Vijaipur-Jagdishpur pipeline.",
+    "pass1": {
+      "prompt": "India's pipeline arteries include the Assam to [BLANK_1] line, the Salaya to Jalandhar conduit, and the [BLANK_2] gas pipeline.",
+      "inputs": ["Kanpur", "HVJ"]
+    },
+    "pass2": {
+      "prompt": "The Hazira-Vijaipur-Jagdishpur pipeline supplies natural gas from Mumbai High and [BLANK_1] fields to fertilizer and thermal power complexes in [BLANK_2] India.",
+      "inputs": ["Bassein", "northern"]
+    },
+    "pass3": {
+      "prompt": "The inaugural HVJ cross-country gas artery measured [BLANK_1] kilometers, paving the way for an aggregate national grid exceeding [BLANK_2] kilometers.",
+      "inputs": ["1700", "18500"]
+    },
+    "pass4": {
+      "prompt": "The landmark cross-country gas arterial conduit traversing Gujarat, Madhya Pradesh, and Uttar Pradesh is the [BLANK_1] pipeline.",
+      "inputs": ["Hazira-Vijaipur-Jagdishpur"]
+    },
+    "pass5": {
+      "prompt": "India's arterial pipeline infrastructure operates across three primary networks, connecting London to Paris, linking Tokyo to Beijing, and expanding via a two-meter garden hose in Goa.",
+      "corrections": [
+        {"wrong": "London to Paris, linking Tokyo to Beijing", "right": "upper Assam oil fields to Kanpur, linking Salaya in Gujarat to Jalandhar in Punjab"},
+        {"wrong": "two-meter garden hose in Goa", "right": "1700-kilometer Hazira-Vijaipur-Jagdishpur pipeline"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "India's arterial pipeline infrastructure operates across three primary networks,",
+        "connecting upper Assam oil fields to Kanpur,",
+        "linking Salaya in Gujarat to Jalandhar in Punjab,",
+        "and expanding cross-country gas grids via the 1700-kilometer Hazira-Vijaipur-Jagdishpur pipeline."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Gas infrastructure expanded from the {1} km {2} line linking offshore fields to fertilizer complexes into an {3} km grid.",
+      "keys": [
+        "1700",
+        "HVJ",
+        "18500"
+      ]
+    }
+  },
+  {
+    "id": "TRN_WAT_014",
+    "category": "Inland Fluvial Navigation",
+    "topic": "Inland Waterways Scale and the National Waterways Act of 2016",
+    "anchor_sentence": "Recognizing water transport as the cheapest, fuel-efficient, and eco-friendly mode for bulky cargo, India maintains 14500 kilometers of navigable inland waterways, formalizing 111 National Waterways under the National Waterways Act of 2016.",
+    "pass1": {
+      "prompt": "India maintains 14500 km of navigable waterways, formalizing [BLANK_1] National Waterways under the National Waterways Act of [BLANK_2].",
+      "inputs": ["111", "2016"]
+    },
+    "pass2": {
+      "prompt": "Because freight costs remain low, the central government promotes [BLANK_1] navigation to transport heavy and bulky goods along major [BLANK_2] basins.",
+      "inputs": ["inland", "river"]
+    },
+    "pass3": {
+      "prompt": "The National Waterways Act of 2016 designated a cumulative total of [BLANK_1] inland waterways as statutory National Waterways.",
+      "inputs": ["111"]
+    },
+    "pass4": {
+      "prompt": "The dedicated parliamentary legislation that designated 111 inland navigation corridors as strategic central waterways is the [BLANK_1].",
+      "inputs": ["National Waterways Act 2016"]
+    },
+    "pass5": {
+      "prompt": "Recognizing water transport as the most expensive and polluting mode for featherweight cargo, India maintains zero kilometers of waterways, repealing all waterways under the Air Act of 1901.",
+      "corrections": [
+        {"wrong": "most expensive and polluting mode for featherweight cargo", "right": "cheapest, fuel-efficient, and eco-friendly mode for bulky cargo"},
+        {"wrong": "maintains zero kilometers of waterways, repealing all waterways under the Air Act of 1901", "right": "maintains 14500 kilometers of navigable inland waterways, formalizing 111 National Waterways under the National Waterways Act of 2016"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Recognizing water transport as the cheapest, fuel-efficient, and eco-friendly mode for bulky cargo,",
+        "India maintains 14500 kilometers of navigable inland waterways,",
+        "formalizing 111 National Waterways",
+        "under the National Waterways Act of 2016."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Spanning {1} navigable kilometers, domestic rivers and canals include {2} routes enacted as {3} Waterways in 2016.",
+      "keys": [
+        "14500",
+        "111",
+        "National"
+      ]
+    }
+  },
+  {
+    "id": "TRN_WAT_015",
+    "category": "Inland Fluvial Navigation",
+    "topic": "The Five Primary National Waterways",
+    "anchor_sentence": "India's premier inland waterways comprise National Waterway Number 1 along the Ganga between Prayagraj and Haldia spanning 1620 kilometers, Number 2 on the Brahmaputra between Sadiya and Dhubri, Number 3 along Kerala's West Coast Canal, Number 4 on the Godavari-Krishna rivers, and Number 5 on the Brahmani river.",
+    "pass1": {
+      "prompt": "National Waterway 1 stretches 1620 km on the Ganga from Prayagraj to [BLANK_1], while National Waterway 2 spans the Brahmaputra from Sadiya to [BLANK_2].",
+      "inputs": ["Haldia", "Dhubri"]
+    },
+    "pass2": {
+      "prompt": "National Waterway Number 3 operates along the West Coast Canal in [BLANK_1], while Number 4 integrates canal reaches of the Godavari and [BLANK_2] rivers.",
+      "inputs": ["Kerala", "Krishna"]
+    },
+    "pass3": {
+      "prompt": "National Waterway Number 1 covers an official navigable length of [BLANK_1] kilometers along the Ganga river channel.",
+      "inputs": ["1620"]
+    },
+    "pass4": {
+      "prompt": "The 205-kilometer navigable canal system integrating Kottapuram, Kollam, Udyogamandal, and Champakkara channels in Kerala is designated as [BLANK_1].",
+      "inputs": ["National Waterway Number 3"]
+    },
+    "pass5": {
+      "prompt": "India's premier inland waterways comprise National Waterway Number 1 along the Thames river, Number 2 on the Amazon, and Number 3 along the Sahara canal.",
+      "corrections": [
+        {"wrong": "Thames river", "right": "Ganga between Prayagraj and Haldia"},
+        {"wrong": "Amazon, and Number 3 along the Sahara canal", "right": "Brahmaputra between Sadiya and Dhubri, and Number 3 along Kerala's West Coast Canal"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "India's premier inland waterways comprise National Waterway Number 1 along the Ganga between Prayagraj and Haldia spanning 1620 kilometers,",
+        "Number 2 on the Brahmaputra between Sadiya and Dhubri,",
+        "Number 3 along Kerala's West Coast Canal,",
+        "Number 4 on the Godavari-Krishna rivers, and Number 5 on the Brahmani river."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Spanning {1} km, {2} No 1 on the Ganga links Prayagraj to Haldia, while No 2 connects {3} to Dhubri on the Brahmaputra.",
+      "keys": [
+        "1620",
+        "National Waterway",
+        "Sadiya"
+      ]
+    }
+  },
+  {
+    "id": "TRN_MAR_016",
+    "category": "Maritime Commerce & Port Demographics",
+    "topic": "Maritime Trade Dependency and Port Network Scale",
+    "anchor_sentence": "Handling 95 percent of foreign trade volume and 68 percent of aggregate trade value, India's maritime commerce is channeled through 12 major ports and 200 notified non-major ports distributed along its expansive coastline.",
+    "pass1": {
+      "prompt": "India's maritime commerce handles [BLANK_1] percent of foreign trade volume through [BLANK_2] major ports and 200 non-major ports.",
+      "inputs": ["95", "12"]
+    },
+    "pass2": {
+      "prompt": "International bulk cargo is handled via maritime [BLANK_1], accounting for 68 percent of India's overseas trade [BLANK_2].",
+      "inputs": ["ports", "value"]
+    },
+    "pass3": {
+      "prompt": "Overseas shipping accounts for [BLANK_1] percent of the physical volume and [BLANK_2] percent of the total monetary valuation of India's international commerce.",
+      "inputs": ["95", "68"]
+    },
+    "pass4": {
+      "prompt": "The primary oceanic maritime hubs administered under central statutory port authorities are designated as [BLANK_1].",
+      "inputs": ["major ports"]
+    },
+    "pass5": {
+      "prompt": "Handling zero percent of foreign trade volume, India's maritime commerce has demolished all 12 major ports and sealed its coastline against merchant vessels.",
+      "corrections": [
+        {"wrong": "zero percent of foreign trade volume", "right": "95 percent of foreign trade volume and 68 percent of aggregate trade value"},
+        {"wrong": "demolished all 12 major ports and sealed its coastline", "right": "channeled through 12 major ports and 200 notified non-major ports"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Handling 95 percent of foreign trade volume",
+        "and 68 percent of aggregate trade value,",
+        "India's maritime commerce is channeled through 12 major ports",
+        "and 200 notified non-major ports distributed along its expansive coastline."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Moving {1} percent of trade volume, India operates {2} major and {3} intermediate ports along its maritime coast.",
+      "keys": [
+        "95",
+        "12",
+        "200"
+      ]
+    }
+  },
+  {
+    "id": "TRN_MAR_017",
+    "category": "Western Maritime Ports",
+    "topic": "Deendayal Port Inception and Northern Hinterland Support",
+    "anchor_sentence": "Developed in Kachchh soon after Independence to alleviate trade pressure on Mumbai following the loss of Karachi to Pakistan, Deendayal Port operates as a tidal port serving the agrarian granaries and industrial corridors of Jammu and Kashmir, Punjab, Haryana, Rajasthan, and Gujarat.",
+    "pass1": {
+      "prompt": "Built in Kachchh to replace Karachi port, [BLANK_1] Port operates as a [BLANK_2] port serving the northwestern states.",
+      "inputs": ["Deendayal", "tidal"]
+    },
+    "pass2": {
+      "prompt": "Constructed in Gujarat to decongest [BLANK_1] port, Kandla handles heavy imports of petroleum and grain exports from northern [BLANK_2].",
+      "inputs": ["Mumbai", "hinterlands"]
+    },
+    "pass3": {
+      "prompt": "Deendayal Port was the [BLANK_1] major maritime port developed by the Indian government following the 1947 Partition.",
+      "inputs": ["first"]
+    },
+    "pass4": {
+      "prompt": "A marine terminal that experiences deep water level fluctuations governed by sea tidal cycles is designated as a [BLANK_1].",
+      "inputs": ["tidal port"]
+    },
+    "pass5": {
+      "prompt": "Developed in Kachchh soon after Independence to increase congestion on Mumbai, Deendayal Port was gifted to Pakistan to eliminate granaries in Punjab and Haryana.",
+      "corrections": [
+        {"wrong": "increase congestion on Mumbai", "right": "alleviate trade pressure on Mumbai following the loss of Karachi"},
+        {"wrong": "gifted to Pakistan to eliminate granaries", "right": "operates as a tidal port serving the agrarian granaries and industrial corridors"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Developed in Kachchh soon after Independence",
+        "to alleviate trade pressure on Mumbai following the loss of Karachi to Pakistan,",
+        "Deendayal Port operates as a tidal port",
+        "serving the agrarian granaries and industrial corridors of Jammu and Kashmir, Punjab, Haryana, Rajasthan, and Gujarat."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Formerly known as Kandla, {1} Port in {2} was the first port built post-independence, functioning as a {3} gateway for northwestern states.",
+      "keys": [
+        "Deendayal",
+        "Kachchh",
+        "tidal"
+      ]
+    }
+  },
+  {
+    "id": "TRN_MAR_018",
+    "category": "Western Maritime Ports",
+    "topic": "Mumbai Harbor and Jawaharlal Nehru Port Decongestion",
+    "anchor_sentence": "Holding status as India's largest port endowed with a spacious natural harbor, Mumbai port is supported by the satellite Jawaharlal Nehru Port at Nhava Sheva, designed to decongest terminal docks and operate as a regional container hub.",
+    "pass1": {
+      "prompt": "Endowed with a natural harbor, [BLANK_1] is India's largest port, decongested by the adjacent [BLANK_2] Nehru Port.",
+      "inputs": ["Mumbai", "Jawaharlal"]
+    },
+    "pass2": {
+      "prompt": "Containerized cargo handling in Maharashtra is shared between the natural docks of Mumbai and the specialized hub at [BLANK_1] [BLANK_2].",
+      "inputs": ["Nhava", "Sheva"]
+    },
+    "pass3": {
+      "prompt": "Mumbai maintains the [BLANK_1] position among all Indian commercial harbors in total trade volume and physical facility expanse.",
+      "inputs": ["first"]
+    },
+    "pass4": {
+      "prompt": "A centrally positioned deep-water maritime facility structured to receive container vessels and distribute cargo across subsidiary feeders is a [BLANK_1].",
+      "inputs": ["hub port"]
+    },
+    "pass5": {
+      "prompt": "Holding status as India's smallest dried canal, Mumbai port was permanently closed by Jawaharlal Nehru Port to outlaw all container ships in Maharashtra.",
+      "corrections": [
+        {"wrong": "smallest dried canal", "right": "largest port endowed with a spacious natural harbor"},
+        {"wrong": "permanently closed by Jawaharlal Nehru Port to outlaw all container ships", "right": "supported by the satellite Jawaharlal Nehru Port, designed to decongest terminal docks"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Holding status as India's largest port endowed with a spacious natural harbor,",
+        "Mumbai port is supported by the satellite Jawaharlal Nehru Port at Nhava Sheva,",
+        "designed to decongest terminal docks",
+        "and operate as a regional container hub."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "India's biggest natural harbor at {1} is complemented by {2} Port, built to handle massive {3} container traffic.",
+      "keys": [
+        "Mumbai",
+        "Jawaharlal Nehru",
+        "hub"
+      ]
+    }
+  },
+  {
+    "id": "TRN_MAR_019",
+    "category": "Mineral Export Gateways",
+    "topic": "Iron Ore Shipping via Mormugao and New Mangalore Ports",
+    "anchor_sentence": "Accounting for approximately fifty percent of India's total iron ore exports, Mormugao port in Goa serves as the nation's premier mineral outlet, while New Mangalore port in Karnataka specializes in exporting Kudremukh iron ore concentrates.",
+    "pass1": {
+      "prompt": "Handling half of national iron ore shipments, [BLANK_1] port in Goa leads exports, while New Mangalore ships ore from the [BLANK_2] mines.",
+      "inputs": ["Mormugao", "Kudremukh"]
+    },
+    "pass2": {
+      "prompt": "Mining complexes in Goa and Karnataka depend on [BLANK_1] and [BLANK_2] ports to access international metallurgical markets.",
+      "inputs": ["Mormugao", "New Mangalore"]
+    },
+    "pass3": {
+      "prompt": "Mormugao port handles roughly [BLANK_1] percent of all iron ore shipments exported overseas from Indian mines.",
+      "inputs": ["fifty"]
+    },
+    "pass4": {
+      "prompt": "Beneficiated and pulverized iron ore transported in slurry pipelines and shipped as dense cakes is designated as [BLANK_1].",
+      "inputs": ["iron ore concentrates"]
+    },
+    "pass5": {
+      "prompt": "Accounting for zero percent of iron ore exports, Mormugao port in Goa exports only fresh flowers, while New Mangalore bans Kudremukh ore completely.",
+      "corrections": [
+        {"wrong": "zero percent of iron ore exports, Mormugao port in Goa exports only fresh flowers", "right": "approximately fifty percent of India's total iron ore exports, Mormugao port in Goa serves as the nation's premier mineral outlet"},
+        {"wrong": "bans Kudremukh ore completely", "right": "specializes in exporting Kudremukh iron ore concentrates"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Accounting for approximately fifty percent of India's total iron ore exports,",
+        "Mormugao port in Goa serves as the nation's premier mineral outlet,",
+        "while New Mangalore port in Karnataka",
+        "specializes in exporting Kudremukh iron ore concentrates."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Goa's {1} port accounts for {2} percent of Indian iron ore exports, while {3} handles slurry concentrates from Kudremukh.",
+      "keys": [
+        "Mormugao",
+        "50",
+        "New Mangalore"
+      ]
+    }
+  },
+  {
+    "id": "TRN_MAR_020",
+    "category": "Southern Coastal Outlets",
+    "topic": "Lagoon Entrance of Cochin and V.O. Chidambaranar Port",
+    "anchor_sentence": "Situated at the entrance of a coastal lagoon with a natural harbor, Cochin anchors the extreme southwest, while V.O. Chidambaranar port at Tuticorin in Tamil Nadu occupies the extreme southeast, managing diverse merchant cargo to Sri Lanka and the Maldives.",
+    "pass1": {
+      "prompt": "Located at a lagoon entrance, [BLANK_1] anchors the southwest coast, while V.O. Chidambaranar port at [BLANK_2] trades with Sri Lanka and Maldives.",
+      "inputs": ["Cochin", "Tuticorin"]
+    },
+    "pass2": {
+      "prompt": "Maritime traffic in Tamil Nadu is handled via [BLANK_1], which leverages a rich hinterland to trade across the [BLANK_2] islands.",
+      "inputs": ["Tuticorin", "Maldives"]
+    },
+    "pass3": {
+      "prompt": "Cochin and Tuticorin represent the [BLANK_1] terminal deep-water major port gateways located at the southernmost tip of the Indian peninsula.",
+      "inputs": ["two"]
+    },
+    "pass4": {
+      "prompt": "A shallow body of coastal water protected from the open ocean by sandbars or barrier reefs that hosts natural docks is a [BLANK_1].",
+      "inputs": ["lagoon"]
+    },
+    "pass5": {
+      "prompt": "Situated on a dry mountain peak in Nepal, Cochin anchors the desert, while Tuticorin port bans all ships to Sri Lanka and the Maldives.",
+      "corrections": [
+        {"wrong": "dry mountain peak in Nepal, Cochin anchors the desert", "right": "the entrance of a coastal lagoon with a natural harbor, Cochin anchors the extreme southwest"},
+        {"wrong": "bans all ships to Sri Lanka and the Maldives", "right": "managing diverse merchant cargo to Sri Lanka and the Maldives"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Situated at the entrance of a coastal lagoon with a natural harbor,",
+        "Cochin anchors the extreme southwest,",
+        "while V.O. Chidambaranar port at Tuticorin in Tamil Nadu occupies the extreme southeast,",
+        "managing diverse merchant cargo to Sri Lanka and the Maldives."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Natural lagoon port {1} commands southwestern approaches, while {2} port in Tamil Nadu services regional trade with {3}.",
+      "keys": [
+        "Cochin",
+        "Tuticorin",
+        "Sri Lanka"
+      ]
+    }
+  },
+  {
+    "id": "TRN_MAR_021",
+    "category": "Eastern Maritime Ports",
+    "topic": "Chennai, Vishakhapatnam, and Paradwip Maritime Infrastructure",
+    "anchor_sentence": "Along the eastern seaboard, Chennai ranks second to Mumbai in trade volume as an ancient artificial port, Vishakhapatnam functions as the deepest landlocked harbor, and Paradwip in Odisha specializes in high-volume iron ore shipments.",
+    "pass1": {
+      "prompt": "On the east coast, [BLANK_1] is the deepest landlocked port, while [BLANK_2] port in Odisha specializes in bulk iron ore exports.",
+      "inputs": ["Vishakhapatnam", "Paradwip"]
+    },
+    "pass2": {
+      "prompt": "Ranked directly behind Mumbai in cargo handling, the artificial port of [BLANK_1] provides extensive maritime berths on the [BLANK_2] of Bengal.",
+      "inputs": ["Chennai", "Bay"]
+    },
+    "pass3": {
+      "prompt": "Chennai holds the [BLANK_1] position nationally behind Mumbai in cumulative annual cargo tonnage handled among major ports.",
+      "inputs": ["second"]
+    },
+    "pass4": {
+      "prompt": "A marine terminal dredged within an enclosed coastal embayment protected from direct wave action by surrounding headlands is a [BLANK_1] harbor.",
+      "inputs": ["landlocked"]
+    },
+    "pass5": {
+      "prompt": "Along the eastern seaboard, Chennai is the smallest village well, Vishakhapatnam is a shallow dry ditch, and Paradwip outlaws all iron ore shipments.",
+      "corrections": [
+        {"wrong": "smallest village well", "right": "ranks second to Mumbai in trade volume as an ancient artificial port"},
+        {"wrong": "shallow dry ditch, and Paradwip outlaws all iron ore shipments", "right": "deepest landlocked harbor, and Paradwip in Odisha specializes in high-volume iron ore shipments"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Along the eastern seaboard, Chennai ranks second to Mumbai in trade volume as an ancient artificial port,",
+        "Vishakhapatnam functions as the deepest landlocked harbor,",
+        "and Paradwip in Odisha specializes in high-volume iron ore shipments."
+      ],
+      "correct_sequence": [0, 1, 2]
+    },
+    "pass7": {
+      "template": "Second to Mumbai in trade, {1} is a historic artificial harbor, while deep {2} and coastal {3} export rich mineral ores.",
+      "keys": [
+        "Chennai",
+        "Vishakhapatnam",
+        "Paradwip"
+      ]
+    }
+  },
+  {
+    "id": "TRN_MAR_022",
+    "category": "Riverine Ports & Subsidiary Outlets",
+    "topic": "Kolkata Riverine Port and the Haldia Subsidiary Dock",
+    "anchor_sentence": "Serving the vast Ganga-Brahmaputra hinterland as an inland riverine tidal facility requiring constant dredging of the Hoogly, Syama Prasad Mookerjee Port in Kolkata is complemented by the subsidiary deep-water port of Haldia to relieve congestion.",
+    "pass1": {
+      "prompt": "Kolkata is an inland [BLANK_1] tidal port requiring constant dredging of the Hoogly, supported by the subsidiary port of [BLANK_2].",
+      "inputs": ["riverine", "Haldia"]
+    },
+    "pass2": {
+      "prompt": "The port at [BLANK_1] serves the mineral and agricultural output of the [BLANK_2] basin.",
+      "inputs": ["Kolkata", "Ganga-Brahmaputra"]
+    },
+    "pass3": {
+      "prompt": "Kolkata represents the [BLANK_1] major inland riverine port installation operated along a deltaic channel on India's eastern seaboard.",
+      "inputs": ["sole"]
+    },
+    "pass4": {
+      "prompt": "The mechanical excavation of accumulating silt from river beds to keep navigational draft channels open for ships is termed [BLANK_1].",
+      "inputs": ["dredging"]
+    },
+    "pass5": {
+      "prompt": "Serving zero hinterland, Kolkata is an offshore oceanic coral reef requiring zero dredging, while Haldia port was demolished to congest river navigation.",
+      "corrections": [
+        {"wrong": "offshore oceanic coral reef requiring zero dredging", "right": "inland riverine tidal facility requiring constant dredging of the Hoogly"},
+        {"wrong": "demolished to congest river navigation", "right": "complemented by the subsidiary deep-water port of Haldia to relieve congestion"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Serving the vast Ganga-Brahmaputra hinterland as an inland riverine tidal facility",
+        "requiring constant dredging of the Hoogly,",
+        "Syama Prasad Mookerjee Port in Kolkata",
+        "is complemented by the subsidiary deep-water port of Haldia to relieve congestion."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Handling the Ganga-Brahmaputra trade, {1} is an inland {2} port reliant on silt dredging, assisted downstream by {3}.",
+      "keys": [
+        "Kolkata",
+        "riverine",
+        "Haldia"
+      ]
+    }
+  },
+  {
+    "id": "TRN_AIR_023",
+    "category": "Aviation Logistics & Strategic Access",
+    "topic": "Air Transport Advantages and North-Eastern Regional Imperatives",
+    "anchor_sentence": "Providing the fastest and most prestigious transit across extreme relief, air travel is essential in northeastern India to bypass dissected mountain topography, wide braided rivers, dense rainforests, frequent floods, and sensitive international borders.",
+    "pass1": {
+      "prompt": "Air travel provides rapid transit across difficult terrain, proving indispensable in the [BLANK_1] due to big rivers, dissected relief, and frequent [BLANK_2].",
+      "inputs": ["northeast", "floods"]
+    },
+    "pass2": {
+      "prompt": "Inaccessible northeastern frontiers rely on [BLANK_1] networks because surface road and rail lines are disrupted by monsoonal [BLANK_2].",
+      "inputs": ["air", "flooding"]
+    },
+    "pass3": {
+      "prompt": "Aviation represents the [BLANK_1] transit mode capable of traversing impassable Himalayan gorges and international frontiers without ground friction.",
+      "inputs": ["fastest"]
+    },
+    "pass4": {
+      "prompt": "Topography characterized by deeply eroded valleys, steep slopes, and fragmented ridges that impede surface locomotion is designated as [BLANK_1].",
+      "inputs": ["dissected relief"]
+    },
+    "pass5": {
+      "prompt": "Providing the slowest transit across flat lawns, air travel is completely banned in northeastern India because there are zero rivers, zero mountains, and zero rain.",
+      "corrections": [
+        {"wrong": "slowest transit across flat lawns, air travel is completely banned", "right": "fastest and most prestigious transit across extreme relief, air travel is essential"},
+        {"wrong": "zero rivers, zero mountains, and zero rain", "right": "dissected mountain topography, wide braided rivers, dense rainforests, frequent floods, and sensitive international borders"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Providing the fastest and most prestigious transit across extreme relief,",
+        "air travel is essential in northeastern India",
+        "to bypass dissected mountain topography, wide braided rivers,",
+        "dense rainforests, frequent floods, and sensitive international borders."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Aviation provides access to the {1} states, traversing {2} rivers, dissected hills, and foreign {3} where roads fail.",
+      "keys": [
+        "northeastern",
+        "braided",
+        "frontiers"
+      ]
+    }
+  },
+  {
+    "id": "TRN_AIR_024",
+    "category": "Aviation Public Services",
+    "topic": "Pawanhans Helicopters and the Regional UDAN Scheme",
+    "anchor_sentence": "While Pawanhans Helicopters provides offshore aviation services to ONGC and serves inaccessible tracts across Jammu and Kashmir, Himachal Pradesh, and Uttarakhand, the central government launched the UDAN scheme to jump-start regional connectivity with affordable airfares.",
+    "pass1": {
+      "prompt": "[BLANK_1] Helicopters serves offshore ONGC rigs and remote Himalayan states, while the [BLANK_2] scheme makes regional airfares affordable.",
+      "inputs": ["Pawanhans", "UDAN"]
+    },
+    "pass2": {
+      "prompt": "Helicopter connectivity facilitates deep-sea operations for [BLANK_1], while the Ministry of Civil Aviation subsidizes regional routes under [BLANK_2].",
+      "inputs": ["ONGC", "RCS-UDAN"]
+    },
+    "pass3": {
+      "prompt": "The civilian aviation initiative encapsulates its core mass affordability objective through the [BLANK_1] acronym.",
+      "inputs": ["UDAN"]
+    },
+    "pass4": {
+      "prompt": "The statutory scheme titled Ude Desh ka Aam Nagrik designed to open remote airstrips via targeted incentives is the [BLANK_1].",
+      "inputs": ["Regional Connectivity Scheme"]
+    },
+    "pass5": {
+      "prompt": "While Pawanhans Helicopters operates horse carts in desert villages, the government launched the UDAN scheme to ban all regional airports and quadruple airfares.",
+      "corrections": [
+        {"wrong": "operates horse carts in desert villages", "right": "provides offshore aviation services to ONGC and serves inaccessible tracts across Jammu and Kashmir, Himachal Pradesh, and Uttarakhand"},
+        {"wrong": "ban all regional airports and quadruple airfares", "right": "jump-start regional connectivity with affordable airfares"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "While Pawanhans Helicopters provides offshore aviation services to ONGC",
+        "and serves inaccessible tracts across Jammu and Kashmir, Himachal Pradesh, and Uttarakhand,",
+        "the central government launched the UDAN scheme",
+        "to jump-start regional connectivity with affordable airfares."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Transporting staff to {1} offshore platforms, {2} operates in rugged hills, while the {3} policy promotes low-cost regional flights.",
+      "keys": [
+        "ONGC",
+        "Pawanhans",
+        "UDAN"
+      ]
+    }
+  },
+  {
+    "id": "COM_POS_025",
+    "category": "Postal Communication Networks",
+    "topic": "Postal System Structure and the Six Dedicated Mail Channels",
+    "anchor_sentence": "Operating as the largest postal system globally, India Post delivers first-class mail including cards and envelopes via air transport, moves second-class periodicals through surface transit, and expedites urban deliveries using six specialized mail channels.",
+    "pass1": {
+      "prompt": "India Post airlifts first-class cards and envelopes, while moving urban parcels via six dedicated routes including the [BLANK_1] and [BLANK_2] Channels.",
+      "inputs": ["Rajdhani", "Metro"]
+    },
+    "pass2": {
+      "prompt": "The Department of Posts dispatches second-class [BLANK_1] via surface routes, operating channels like the [BLANK_2] Channel for corporate mail.",
+      "inputs": ["periodicals", "Business"]
+    },
+    "pass3": {
+      "prompt": "To facilitate swift sorting and transit in metropolitan cities, postal authorities instituted exactly [BLANK_1] dedicated mail channels.",
+      "inputs": ["six"]
+    },
+    "pass4": {
+      "prompt": "Written communications consisting of post cards and letter envelopes that receive automated airlifting between distribution stations are categorized as [BLANK_1].",
+      "inputs": ["first-class mail"]
+    },
+    "pass5": {
+      "prompt": "Operating as the smallest postal system globally, India Post burns all letters and envelopes, banning periodicals and closing every mail channel in urban cities.",
+      "corrections": [
+        {"wrong": "smallest postal system globally, India Post burns all letters", "right": "largest postal system globally, India Post delivers first-class mail including cards"},
+        {"wrong": "banning periodicals and closing every mail channel", "right": "moves second-class periodicals through surface transit, and expedites urban deliveries using six specialized mail channels"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Operating as the largest postal system globally,",
+        "India Post delivers first-class mail including cards and envelopes via air transport,",
+        "moves second-class periodicals through surface transit,",
+        "and expedites urban deliveries using six specialized mail channels."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "India's {1} network carries first-class mail by air, while city communications use {2} channels such as {3} and Green channels.",
+      "keys": [
+        "postal",
+        "six",
+        "Rajdhani"
+      ]
+    }
+  },
+  {
+    "id": "COM_TEL_026",
+    "category": "Telecommunications & Digital Architecture",
+    "topic": "Rural STD Telecom Network and the Digital India Vision",
+    "anchor_sentence": "Integrating satellite space technology with terrestrial communications, India developed Asia's largest telecom network with round-the-clock STD coverage across two-thirds of villages, driving the Digital India vision of transforming the nation through knowledge and technology.",
+    "pass1": {
+      "prompt": "India's telecom system links two-thirds of villages with [BLANK_1] dialing at uniform rates, reinforcing the [BLANK_2] India program.",
+      "inputs": ["STD", "Digital"]
+    },
+    "pass2": {
+      "prompt": "Technological convergence links space satellites with grassroots telecom, executing the formula Indian Talent plus [BLANK_1] Technology equals India [BLANK_2].",
+      "inputs": ["Information", "Tomorrow"]
+    },
+    "pass3": {
+      "prompt": "Excluding urban metropolitan areas, more than [BLANK_1] of all villages in India have been connected to national subscriber trunk dialing facilities.",
+      "inputs": ["two-thirds"]
+    },
+    "pass4": {
+      "prompt": "The unified telecommunication system providing direct subscriber long-distance calling across urban and rural telephone exchanges is [BLANK_1].",
+      "inputs": ["Subscriber Trunk Dialling"]
+    },
+    "pass5": {
+      "prompt": "Isolating satellite space technology from communications, India eliminated all telecom networks, banning STD calling across every village to eradicate computers.",
+      "corrections": [
+        {"wrong": "eliminated all telecom networks", "right": "developed Asia's largest telecom network"},
+        {"wrong": "banning STD calling across every village to eradicate computers", "right": "round-the-clock STD coverage across two-thirds of villages, driving the Digital India vision"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Integrating satellite space technology with terrestrial communications,",
+        "India developed Asia's largest telecom network",
+        "with round-the-clock STD coverage across two-thirds of villages,",
+        "driving the Digital India vision of transforming the nation through knowledge and technology."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Covering {1} of rural settlements, uniform {2} telecom services paved the way for the {3} mission.",
+      "keys": [
+        "two-thirds",
+        "STD",
+        "Digital India"
+      ]
+    }
+  },
+  {
+    "id": "COM_MAS_027",
+    "category": "Mass Media & Cultural Broadcasting",
+    "topic": "Public Broadcasting, Print Media Diversity, and Feature Film Production",
+    "anchor_sentence": "Mass communication in India operates via Akashwani radio in local languages, Doordarshan terrestrial television, newspapers published in roughly 100 languages led by Hindi, English, and Urdu, and the world's largest feature film industry regulated by the Central Board of Film Certification.",
+    "pass1": {
+      "prompt": "Mass broadcasting operates through Akashwani and [BLANK_1], while newspapers publish in about [BLANK_2] languages, led by Hindi.",
+      "inputs": ["Doordarshan", "100"]
+    },
+    "pass2": {
+      "prompt": "The terrestrial broadcasting network of [BLANK_1] educates citizens, while cinematic feature releases must receive certification from the [BLANK_2].",
+      "inputs": ["Doordarshan", "CBFC"]
+    },
+    "pass3": {
+      "prompt": "Domestic newspapers and registered periodicals are published in approximately [BLANK_1] languages and local dialects nationwide.",
+      "inputs": ["100"]
+    },
+    "pass4": {
+      "prompt": "The statutory regulatory body authorized by the central government to certify both domestic and foreign cinematic films for public screening is the [BLANK_1].",
+      "inputs": ["Central Board of Film Certification"]
+    },
+    "pass5": {
+      "prompt": "Mass communication in India outlaws all radio broadcasts, bans Doordarshan television, allows newspapers in only one dialect, and outlaws all cinema.",
+      "corrections": [
+        {"wrong": "outlaws all radio broadcasts, bans Doordarshan television", "right": "operates via Akashwani radio in local languages, Doordarshan terrestrial television"},
+        {"wrong": "allows newspapers in only one dialect, and outlaws all cinema", "right": "newspapers published in roughly 100 languages, and the world's largest feature film industry"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Mass communication in India operates via Akashwani radio in local languages,",
+        "Doordarshan terrestrial television,",
+        "newspapers published in roughly 100 languages led by Hindi, English, and Urdu,",
+        "and the world's largest feature film industry regulated by the Central Board of Film Certification."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Public channels {1} and Doordarshan broadcast nationwide, while the {2} certifies films for the world's largest {3} industry.",
+      "keys": [
+        "Akashwani",
+        "CBFC",
+        "feature film"
+      ]
+    }
+  },
+  {
+    "id": "TRD_INT_028",
+    "category": "Macroeconomics & Trade Dynamics",
+    "topic": "International Trade as Economic Barometer and Balance of Trade",
+    "anchor_sentence": "Functioning as an economic barometer of national prosperity, international trade entails the cross-border movement of commodities, where an excess of export value over import value generates a favorable balance of trade, reinforced by surging software exports.",
+    "pass1": {
+      "prompt": "International trade serves as an economic [BLANK_1], where export revenues exceeding imports produce a [BLANK_2] balance of trade.",
+      "inputs": ["barometer", "favorable"]
+    },
+    "pass2": {
+      "prompt": "When national expenditure on [BLANK_1] exceeds revenue from exports, a country encounters an [BLANK_2] balance of trade.",
+      "inputs": ["imports", "unfavorable"]
+    },
+    "pass3": {
+      "prompt": "A nation's commercial balance of trade is determined mathematically by the net difference between [BLANK_1] primary monetary variables: export value and import value.",
+      "inputs": ["two"]
+    },
+    "pass4": {
+      "prompt": "The net economic differential computed between the cumulative valuation of a nation's physical and service exports versus its imports is the [BLANK_1].",
+      "inputs": ["balance of trade"]
+    },
+    "pass5": {
+      "prompt": "Functioning as an economic curse, international trade entails zero movement of goods, where high imports over zero exports create a magnificent surplus.",
+      "corrections": [
+        {"wrong": "economic curse, international trade entails zero movement", "right": "economic barometer of national prosperity, international trade entails the cross-border movement"},
+        {"wrong": "high imports over zero exports create a magnificent surplus", "right": "excess of export value over import value generates a favorable balance of trade"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Functioning as an economic barometer of national prosperity,",
+        "international trade entails the cross-border movement of commodities,",
+        "where an excess of export value over import value",
+        "generates a favorable balance of trade, reinforced by surging software exports."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Trade acts as a nation's economic {1}, characterized by a {2} balance of trade when revenues from {3} exceed payments for imports.",
+      "keys": [
+        "barometer",
+        "favorable",
+        "exports"
+      ]
+    }
+  },
+  {
+    "id": "TRD_TOU_029",
+    "category": "Invisible Export Economics",
+    "topic": "Tourism as Invisible Trade and National Integration Driver",
+    "anchor_sentence": "Growing remarkably as an invisible commercial trade, Indian tourism generates substantial foreign exchange, preserves traditional cultural handicrafts, and fosters global heritage understanding, supported by developmental schemes like Swadesh Darshan 2.0, PRASHAD, and the Vibrant Village Programme.",
+    "pass1": {
+      "prompt": "Tourism functions as an invisible trade that earns foreign exchange, supported by welfare schemes like [BLANK_1] and [BLANK_2] Darshan 2.0.",
+      "inputs": ["PRASHAD", "Swadesh"]
+    },
+    "pass2": {
+      "prompt": "Foreign visitors arriving for heritage and [BLANK_1] treatments stimulate local [BLANK_2] and patronize regional artisans.",
+      "inputs": ["medical", "handicrafts"]
+    },
+    "pass3": {
+      "prompt": "International travelers patronize India across [BLANK_1] primary specialized genres: heritage, ecology, adventure, culture, medicine, and corporate business.",
+      "inputs": ["six"]
+    },
+    "pass4": {
+      "prompt": "The dedicated central government initiative designed to rejuvenate pilgrimage infrastructure and spiritual heritage destinations across India is [BLANK_1].",
+      "inputs": ["PRASHAD"]
+    },
+    "pass5": {
+      "prompt": "Collapsing completely as a forbidden activity, Indian tourism destroys foreign exchange, burns traditional cultural handicrafts, and was abolished by Swadesh Darshan.",
+      "corrections": [
+        {"wrong": "Collapsing completely as a forbidden activity", "right": "Growing remarkably as an invisible commercial trade"},
+        {"wrong": "destroys foreign exchange, burns traditional cultural handicrafts, and was abolished", "right": "generates substantial foreign exchange, preserves traditional cultural handicrafts, and fosters global heritage understanding"}
+      ]
+    },
+    "pass6": {
+      "tiles": [
+        "Growing remarkably as an invisible commercial trade,",
+        "Indian tourism generates substantial foreign exchange,",
+        "preserves traditional cultural handicrafts, and fosters global heritage understanding,",
+        "supported by developmental schemes like Swadesh Darshan 2.0, PRASHAD, and the Vibrant Village Programme."
+      ],
+      "correct_sequence": [0, 1, 2, 3]
+    },
+    "pass7": {
+      "template": "Functioning as an invisible export, {1} supports regional {2} and earns foreign revenue through initiatives like {3} and PRASHAD.",
+      "keys": [
+        "tourism",
+        "handicrafts",
+        "Swadesh Darshan"
+      ]
+    }
+  }
+]
